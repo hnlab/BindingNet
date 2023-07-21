@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <title>PLANet dataset welcome page</title>
+</head>
+
+<body>
+  <h1 align="center">PLANet dataset</h1>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="http://192.168.54.19:1282/">Home
+                <span class="visually-hidden">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/hnlab/Chembl-Scaffold-database">GitHub</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.huanglab.org.cn/">Niu Huang's Lab Homepage</a>
+          </li>
+        </ul>
+      </div>
+      
+      <form method="POST">
+        <select name="query_type">
+        <option value="target_chembl_id">Target ChEMBL ID</option>
+        <!-- <option value="target_name">Target Name</option> -->
+        <option value="target_uniprot_id">Target Uniprot ID</option>
+        <option value="pdbid">PDB ID</option>
+        </select>
+        <input type="text" name="query_txt">
+        <input type="submit">
+      </form>
+    </div>
+  </nav>
+
+  <br>
+  <div>
+    <p><b>Content of PLANet</b></p>
+    <ul>
+      <li>813 targets</li>
+      <li>65,924 compounds</li>
+      <li>69,826 complexes</li>
+      <li>105,920 activities</li>
+      <li>16,434 assays</li>
+      <li>5,908 pdbids</li>
+    </ul>
+  </div>
+  <div align='center'>
+    <img src="/static/img/Uw_for_SAR_classify.png" alt="Target classification of PLANet for SAR" width="300" height="300">
+    <img src="/static/img/distribution_of_activities_count_for_each_target.png" alt="Activities count for each target in PLANet for SAR" width="500" height="300">
+    <img src="/static/img/Binding_affinity_distribution_Uw.png" alt="Affinity distribution of PLANet for SAR" width="300" height="300">
+  </div>
+  <br>
+
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-4">
+        <img src="/static/img/Uw_target_classification_for_web_server.png" alt="Target classification of PLANet" width="400" height="250">
+      </div>
+
+      <div class="col-lg-4 col-md-4">
+        <img src="/static/img/compounds_count_for_each_target.png" alt="Compounds count for each target in PLANet" width="400" height="250">
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <img src="/static/img/Binding_affinity_distribution_Uw.png" alt="Affinity distribution of PLANet" width="250" height="250">
+      </div>
+    </div>
+  </div> -->
+
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col-lg-5 offset-lg-2">
+        <h3>Start Query!</h3>
+        <form action="/demo/demo_form.asp">
+          <select name="query_type">
+          <option value="target_chembl_id">Target ChEMBL ID</option>
+          <option value="target_name">Target Name</option>
+          <option value="target_uniprot_id">Target Uniprot ID</option>
+          <option value="pdbid">PDB ID</option>
+          </select>
+          <input type="text" name="query_txt" value="CHEMBL301">
+          <input type="submit">
+        </form>
+      </div>
+      <div class="col-lg-3">
+        <p><b>Content of PLANet</b></p>
+        <ul>
+          <li>813 targets</li>
+          <li>65,924 compounds</li>
+          <li>69,826 complexes</li>
+          <li>105,920 activities</li>
+          <li>16,434 assays</li>
+          <li>5,908 pdbids</li>
+        </ul>
+      </div>
+    </div>
+  </div> -->
+
+</body>
+</html>

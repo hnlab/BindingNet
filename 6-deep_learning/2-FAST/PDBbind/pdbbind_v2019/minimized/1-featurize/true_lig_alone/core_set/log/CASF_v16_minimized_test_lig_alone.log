@@ -1,0 +1,26 @@
+[2021-12-21 17:14:40] Start on k215.hn.org.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+dataset_name is PDBbind_v2019_minimized; process_type is raw; receptor is false_rec
+There are 285 compounds in PDBbind_v19_minimized_test.
+
+found 285 complexes in PDBbind_v19_minimized_test dataset
+  0%|          | 0/285 [00:00<?, ?it/s] 14%|█▍        | 40/285 [00:00<00:00, 396.36it/s] 28%|██▊       | 80/285 [00:00<00:00, 382.69it/s] 42%|████▏     | 119/285 [00:00<00:00, 382.89it/s] 55%|█████▌    | 158/285 [00:00<00:00, 385.46it/s] 69%|██████▉   | 198/285 [00:00<00:00, 390.27it/s] 84%|████████▎ | 238/285 [00:00<00:00, 387.34it/s] 97%|█████████▋| 277/285 [00:00<00:00, 383.88it/s]100%|██████████| 285/285 [00:00<00:00, 355.90it/s]
+[2021-12-21 17:14:42] End on k215.hn.org.

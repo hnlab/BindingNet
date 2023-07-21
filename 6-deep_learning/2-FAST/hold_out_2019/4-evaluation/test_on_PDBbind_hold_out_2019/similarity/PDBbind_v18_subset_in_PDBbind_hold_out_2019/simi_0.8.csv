@@ -1,0 +1,5 @@
+PDBbind_hold_out_2019_name	PDBbind_hold_out_2019_affi	PDBbind_hold_out_2019_smiles	PDBbind_v18_subset_cpnd_name	PDBbind_v18_subset_cpnd_affi	PDBbind_v18_subset_cpnd_smiles	similarity
+6eqv	6.62	CC(C)[C@H](NC(=O)[C@H](CCCNC(N)=O)NC(=O)Cc1ccccc1)C(=O)N[C@@H](CCCNC(N)N)C(=O)NCc1ccc(C(N)N)cc1	4omd	9.01	CC(C)[C@H](NC(=O)[C@H](CCCNC(N)N)NC(=O)Cc1ccccc1)C(=O)N[C@@H](CCCNC(N)N)C(=O)NCc1ccc(C(N)N)cc1	0.9206349206349206
+6fgy	7.15	C[C@@]1(c2cccc(NC(=O)c3ccc(Br)cn3)c2)COCC(N)=[NH+]1	5clm	7.36	C[C@@]1(c2cccc(NC(=O)c3ccc(Cl)cn3)c2)COCC(N)=[NH+]1	0.8103448275862069
+6b1o	8.51	N=C[C@@H]1C[C@@H]2C[C@@H]2N1C(=O)[C@@H]([NH3+])[C@@]12C[C@@H]3C[C@@](O)(C[C@@](O)(C3)C1)C2	3bjm	8.3	N=C[C@@H]1C[C@@H]2C[C@@H]2N1C(=O)[C@@H]([NH3+])[C@@]12C[C@@H]3C[C@@H](C[C@@](O)(C3)C1)C2	0.8297872340425532
+6eqw	10.65	CC(C)(C)[C@H](NC(=O)[C@H](CCCNC(N)N)NC(=O)Cc1ccc(C[NH3+])cc1)C(=O)N[C@@H](CCCNC(N)N)C(=O)NCc1ccc(C(N)N)cc1	4ryd	11.26	CC(C)(C)[C@H](NC(=O)[C@H](CCCNC(N)N)NC(=O)Cc1ccc(CNC(N)N)cc1)C(=O)N[C@@H](CCCNC(N)N)C(=O)NCc1ccc(C(N)N)cc1	0.8870967741935484

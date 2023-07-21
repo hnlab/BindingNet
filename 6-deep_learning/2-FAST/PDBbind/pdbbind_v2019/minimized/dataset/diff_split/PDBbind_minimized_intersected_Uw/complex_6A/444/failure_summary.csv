@@ -1,0 +1,6 @@
+name,partition,set,error
+6ceh,crystal,PDBbind_v19_minimized_train,invalid charges for the ligand 6ceh (PDBbind_v19_minimized_train set)
+4ehr,crystal,PDBbind_v19_minimized_train,invalid charges for the ligand 4ehr (PDBbind_v19_minimized_train set)
+6d1l,crystal,PDBbind_v19_minimized_train,invalid charges for the ligand 6d1l (PDBbind_v19_minimized_train set)
+6b30,crystal,PDBbind_v19_minimized_test,invalid charges for the ligand 6b30 (PDBbind_v19_minimized_test set)
+6d1m,crystal,PDBbind_v19_minimized_test,invalid charges for the ligand 6d1m (PDBbind_v19_minimized_test set)

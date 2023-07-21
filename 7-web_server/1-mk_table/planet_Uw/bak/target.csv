@@ -1,0 +1,814 @@
+target_chembl_id	uniprot_id	target_name_from_uniprot	target_name_from_pharos	target_family_from_pharos
+CHEMBL1075026	P22629	Streptavidin	None	Unclassified
+CHEMBL1075027	O85361	Beta-N-acetylhexosaminidase (EC 3.2.1.52)	None	Unclassified
+CHEMBL1075040	O67648	UDP-3-O-acyl-N-acetylglucosamine deacetylase (UDP-3-O-acyl-GlcNAc deacetylase) (EC 3.5.1.108) (UDP-3-O-[R-3-hydroxymyristoyl]-N-acetylglucosamine deacetylase)	None	Unclassified
+CHEMBL1075041	Q9FV53	Peptide deformylase 1A, chloroplastic/mitochondrial (AtDEF1) (AtPDF1A) (PDF 1A) (EC 3.5.1.88) (Polypeptide deformylase)	None	Unclassified
+CHEMBL1075045	Q81VW8	Dihydropteroate synthase (DHPS) (EC 2.5.1.15) (Dihydropteroate pyrophosphorylase)	None	Unclassified
+CHEMBL1075053	P02754	Beta-lactoglobulin (Beta-LG) (allergen Bos d 5)	None	Unclassified
+CHEMBL1075067	P11838	Endothiapepsin (EC 3.4.23.22) (Aspartate protease)	None	Unclassified
+CHEMBL1075088	P45040	Cysteine synthase (CSase) (EC 2.5.1.47) (O-acetylserine (thiol)-lyase) (OAS-TL) (O-acetylserine sulfhydrylase)	None	Unclassified
+CHEMBL1075097	P05089	Arginase-1 (EC 3.5.3.1) (Liver-type arginase) (Type I arginase)	Arginase-1	Enzyme
+CHEMBL1075127	Q96CA5	Baculoviral IAP repeat-containing protein 7 (EC 2.3.2.27) (Kidney inhibitor of apoptosis protein) (KIAP) (Livin) (Melanoma inhibitor of apoptosis protein) (ML-IAP) (RING finger protein 50) (RING-type E3 ubiquitin transferase BIRC7) [Cleaved into: Baculoviral IAP repeat-containing protein 7 30kDa subunit (Truncated livin) (p30-Livin) (tLivin)]	Baculoviral IAP repeat-containing protein 7	Other
+CHEMBL1075132	Q12931	Heat shock protein 75 kDa, mitochondrial (HSP 75) (TNFR-associated protein 1) (Tumor necrosis factor type 1 receptor-associated protein) (TRAP-1)	Heat shock protein 75 kDa, mitochondrial	Other
+CHEMBL1075152	Q14397	Glucokinase regulatory protein (GKRP) (Glucokinase regulator)	Glucokinase regulatory protein	Enzyme
+CHEMBL1075159	Q8RLA6	Beta-lactamase (Carbapenem-hydrolyzing beta-lactamase OXA-40) (Carbapenem-hydrolyzing class D beta-lactamase OXA-24) (Carbapenem-hydrolyzing oxacillinase) (Carbapenem-hydrolyzing oxacillinase OXA-40) (Carbapenemase OXA-24) (Class D beta-lactamase OXA-40) (OXA-24 class D beta-lactamase) (OXA24 B-lactamase) (Oxa40)	None	Unclassified
+CHEMBL1075165	Q8NEB9	Phosphatidylinositol 3-kinase catalytic subunit type 3 (PI3-kinase type 3) (PI3K type 3) (PtdIns-3-kinase type 3) (EC 2.7.1.137) (Phosphatidylinositol 3-kinase p100 subunit) (Phosphoinositide-3-kinase class 3) (hVps34)	Phosphatidylinositol 3-kinase catalytic subunit type 3	Kinase
+CHEMBL1075179	P00669	Seminal ribonuclease (S-RNase) (Seminal RNase) (EC 4.6.1.18) (Ribonuclease BS-1)	None	Unclassified
+CHEMBL1075181	O00764	Pyridoxal kinase (EC 2.7.1.35) (Pyridoxine kinase)	Pyridoxal kinase	Kinase
+CHEMBL1075256	O32449	Proline iminopeptidase (PIP) (EC 3.4.11.5) (Prolyl aminopeptidase) (PAP)	None	Unclassified
+CHEMBL1075317	P61964	WD repeat-containing protein 5 (BMP2-induced 3-kb gene protein)	WD repeat-containing protein 5	Other
+CHEMBL1075320	C3L5T6	Probable nicotinate-nucleotide adenylyltransferase (EC 2.7.7.18) (Deamido-NAD(+) diphosphorylase) (Deamido-NAD(+) pyrophosphorylase) (Nicotinate mononucleotide adenylyltransferase) (NaMN adenylyltransferase)	None	Unclassified
+CHEMBL1075323	P14625	Endoplasmin (94 kDa glucose-regulated protein) (GRP-94) (Heat shock protein 90 kDa beta member 1) (Tumor rejection antigen 1) (gp96 homolog)	Endoplasmin	Other
+CHEMBL1163101	O75460	Serine/threonine-protein kinase/endoribonuclease IRE1 (Endoplasmic reticulum-to-nucleus signaling 1) (Inositol-requiring protein 1) (hIRE1p) (Ire1-alpha) (IRE1a) [Includes: Serine/threonine-protein kinase (EC 2.7.11.1); Endoribonuclease (EC 3.1.26.-)]	Serine/threonine-protein kinase/endoribonuclease IRE1	Kinase
+CHEMBL1163125	O60885	Bromodomain-containing protein 4 (Protein HUNK1)	Bromodomain-containing protein 4	Epigenetic
+CHEMBL1169593	P26918	Metallo-beta-lactamase type 2 (EC 3.5.2.6) (B2 metallo-beta-lactamase) (Beta-lactamase II) (Carbapenem-hydrolyzing metallo-beta-lactamase) (Metallo-beta-lactamase type II)	None	Unclassified
+CHEMBL1169597	P00349	6-phosphogluconate dehydrogenase, decarboxylating (EC 1.1.1.44)	None	Unclassified
+CHEMBL1169598	P03433	Polymerase acidic protein (EC 3.1.-.-) (RNA-directed RNA polymerase subunit P2)	None	Unclassified
+CHEMBL1250374	Q9KPI8	5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase (MTA/SAH nucleosidase) (MTAN) (EC 3.2.2.9) (5'-deoxyadenosine nucleosidase) (DOA nucleosidase) (dAdo nucleosidase) (5'-methylthioadenosine nucleosidase) (MTA nucleosidase) (S-adenosylhomocysteine nucleosidase) (AdoHcy nucleosidase) (SAH nucleosidase) (SRH nucleosidase)	None	Unclassified
+CHEMBL1250378	Q15393	Splicing factor 3B subunit 3 (Pre-mRNA-splicing factor SF3b 130 kDa subunit) (SF3b130) (STAF130) (Spliceosome-associated protein 130) (SAP 130)	Splicing factor 3B subunit 3	Other
+CHEMBL1250408	O88703	Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 2 (Brain cyclic nucleotide-gated channel 2) (BCNG-2) (Hyperpolarization-activated cation channel 1) (HAC-1)	None	Unclassified
+CHEMBL1255126	O15151	Protein Mdm4 (Double minute 4 protein) (Mdm2-like p53-binding protein) (Protein Mdmx) (p53-binding protein Mdm4)	Protein Mdm4	Other
+CHEMBL1275212	P50053	Ketohexokinase (EC 2.7.1.3) (Hepatic fructokinase)	Ketohexokinase	Kinase
+CHEMBL1275221	Q96LA8	Protein arginine N-methyltransferase 6 (EC 2.1.1.319) (Heterogeneous nuclear ribonucleoprotein methyltransferase-like protein 6) (Histone-arginine N-methyltransferase PRMT6)	Protein arginine N-methyltransferase 6	Epigenetic
+CHEMBL1275223	P11142	Heat shock cognate 71 kDa protein (EC 3.6.4.10) (Heat shock 70 kDa protein 8) (Lipopolysaccharide-associated protein 1) (LAP-1) (LPS-associated protein 1)	Heat shock cognate 71 kDa protein	Other
+CHEMBL1287604	Q6XEC0	Beta-lactamase (EC 3.5.2.6)	None	Unclassified
+CHEMBL1287618	P56109	Fructose-bisphosphate aldolase (FBP aldolase) (FBPA) (EC 4.1.2.13) (Fructose-1,6-bisphosphate aldolase)	None	Unclassified
+CHEMBL1287620	P9WQA3	Fructose-bisphosphate aldolase (FBP aldolase) (FBPA) (EC 4.1.2.13) (Fructose-1,6-bisphosphate aldolase)	None	Unclassified
+CHEMBL1287622	Q9Y468	Lethal(3)malignant brain tumor-like protein 1 (H-l(3)mbt) (H-l(3)mbt protein) (L(3)mbt-like) (L(3)mbt protein homolog) (L3MBTL1)	Lethal(3)malignant brain tumor-like protein 1	TF-Epigenetic
+CHEMBL1293195	P29029	Endochitinase (EC 3.2.1.14) (Soluble cell wall protein 2)	None	Unclassified
+CHEMBL1293197	Q9BZP6	Acidic mammalian chitinase (AMCase) (EC 3.2.1.14) (Lung-specific protein TSA1902)	Acidic mammalian chitinase	Enzyme
+CHEMBL1293226	B2RXH2	Lysine-specific demethylase 4E (EC 1.14.11.66) (KDM4D-like protein) (Lysine-specific demethylase 4D-like) ([histone H3]-trimethyl-L-lysine(9) demethylase 4E)	Lysine-specific demethylase 4E	Epigenetic
+CHEMBL1293229	P22736	Nuclear receptor subfamily 4 group A member 1 (Early response protein NAK1) (Nuclear hormone receptor NUR/77) (Nur77) (Orphan nuclear receptor HMR) (Orphan nuclear receptor TR3) (ST-59) (Testicular receptor 3)	Nuclear receptor subfamily 4 group A member 1	Nuclear Receptor
+CHEMBL1293244	Q79MP6	Beta-lactamase (EC 3.5.2.6)	None	Unclassified
+CHEMBL1293287	P14735	Insulin-degrading enzyme (EC 3.4.24.56) (Abeta-degrading protease) (Insulin protease) (Insulinase) (Insulysin)	Insulin-degrading enzyme	Enzyme
+CHEMBL1293289	P25440	Bromodomain-containing protein 2 (O27.1.1) (Really interesting new gene 3 protein)	Bromodomain-containing protein 2	Epigenetic
+CHEMBL1293295	P54578	Ubiquitin carboxyl-terminal hydrolase 14 (EC 3.4.19.12) (Deubiquitinating enzyme 14) (Ubiquitin thioesterase 14) (Ubiquitin-specific-processing protease 14)	Ubiquitin carboxyl-terminal hydrolase 14	Enzyme
+CHEMBL1293313	Q8IL11	M17 leucyl aminopeptidase (EC 3.4.11.1)	None	Unclassified
+CHEMBL1615381	O00255	Menin	Menin	Other
+CHEMBL1667695	C7C422	Metallo-beta-lactamase type 2 (EC 3.5.2.6) (B2 metallo-beta-lactamase) (Beta-lactamase type II) (Metallo-beta-lactamase NDM-1) (Metallo-beta-lactamase type II) (New Delhi metallo-beta-lactamase-1) (NDM-1)	None	Unclassified
+CHEMBL1671608	P56470	Galectin-4 (Gal-4) (Antigen NY-CO-27) (L-36 lactose-binding protein) (L36LBP) (Lactose-binding lectin 4)	Galectin-4	Other
+CHEMBL1681620	P0A017	Dihydrofolate reductase (DHFR) (EC 1.5.1.3)	None	Unclassified
+CHEMBL1681631	O75608	Acyl-protein thioesterase 1 (APT-1) (hAPT1) (EC 3.1.2.-) (Lysophospholipase 1) (Lysophospholipase I) (LPL-I) (LysoPLA I)	Acyl-protein thioesterase 1	Enzyme
+CHEMBL1741186	P51449	Nuclear receptor ROR-gamma (Nuclear receptor RZR-gamma) (Nuclear receptor subfamily 1 group F member 3) (RAR-related orphan receptor C) (Retinoid-related orphan receptor-gamma)	Nuclear receptor ROR-gamma	Nuclear Receptor
+CHEMBL1741220	Q9UIF8	Bromodomain adjacent to zinc finger domain protein 2B (hWALp4)	Bromodomain adjacent to zinc finger domain protein 2B	TF-Epigenetic
+CHEMBL1744522	Q99814	Endothelial PAS domain-containing protein 1 (EPAS-1) (Basic-helix-loop-helix-PAS protein MOP2) (Class E basic helix-loop-helix protein 73) (bHLHe73) (HIF-1-alpha-like factor) (HLF) (Hypoxia-inducible factor 2-alpha) (HIF-2-alpha) (HIF2-alpha) (Member of PAS protein 2) (PAS domain-containing protein 2)	Endothelial PAS domain-containing protein 1	Other
+CHEMBL1744525	P43490	Nicotinamide phosphoribosyltransferase (NAmPRTase) (Nampt) (EC 2.4.2.12) (Pre-B-cell colony-enhancing factor 1) (Pre-B cell-enhancing factor) (Visfatin)	Nicotinamide phosphoribosyltransferase	Enzyme
+CHEMBL1764940	P27694	Replication protein A 70 kDa DNA-binding subunit (RP-A p70) (Replication factor A protein 1) (RF-A protein 1) (Single-stranded DNA-binding protein) [Cleaved into: Replication protein A 70 kDa DNA-binding subunit, N-terminally processed]	Replication protein A 70 kDa DNA-binding subunit	Other
+CHEMBL1764946	O95931	Chromobox protein homolog 7	Chromobox protein homolog 7	Epigenetic
+CHEMBL1770044	P9WKD7	Ribose-5-phosphate isomerase B (EC 5.3.1.6) (Phosphoriboisomerase B)	None	Unclassified
+CHEMBL1770045	Q9N1E2	Glucose-6-phosphate isomerase (GPI) (EC 5.3.1.9) (Autocrine motility factor) (AMF) (Neuroleukin) (NLK) (Phosphoglucose isomerase) (PGI) (Phosphohexose isomerase) (PHI)	None	Unclassified
+CHEMBL1772929	P9WMC1	HTH-type transcriptional regulator EthR	None	Unclassified
+CHEMBL1781862	Q9BJF5	Calmodulin-domain protein kinase 1	None	Unclassified
+CHEMBL1781865	P11021	Endoplasmic reticulum chaperone BiP (EC 3.6.4.10) (78 kDa glucose-regulated protein) (GRP-78) (Binding-immunoglobulin protein) (BiP) (Heat shock protein 70 family protein 5) (HSP70 family protein 5) (Heat shock protein family A member 5) (Immunoglobulin heavy chain-binding protein)	Endoplasmic reticulum chaperone BiP	Other
+CHEMBL1782	P14324	Farnesyl pyrophosphate synthase (FPP synthase) (FPS) (EC 2.5.1.10) ((2E,6E)-farnesyl diphosphate synthase) (Dimethylallyltranstransferase) (EC 2.5.1.1) (Farnesyl diphosphate synthase) (Geranyltranstransferase)	Farnesyl pyrophosphate synthase	Enzyme
+CHEMBL1795116	O14744	Protein arginine N-methyltransferase 5 (PRMT5) (EC 2.1.1.320) (72 kDa ICln-binding protein) (Histone-arginine N-methyltransferase PRMT5) (Jak-binding protein 1) (Shk1 kinase-binding protein 1 homolog) (SKB1 homolog) (SKB1Hs) [Cleaved into: Protein arginine N-methyltransferase 5, N-terminally processed]	Protein arginine N-methyltransferase 5	Epigenetic
+CHEMBL1795117	Q8TEK3	Histone-lysine N-methyltransferase, H3 lysine-79 specific (EC 2.1.1.360) (DOT1-like protein) (Histone H3-K79 methyltransferase) (H3-K79-HMTase) (Lysine N-methyltransferase 4)	Histone-lysine N-methyltransferase, H3 lysine-79 specific	Epigenetic
+CHEMBL1795155	P95276	Epoxide hydrolase B (EHB) (EC 3.3.2.10)	None	Unclassified
+CHEMBL1795176	Q9NQR1	N-lysine methyltransferase KMT5A (EC 2.1.1.-) (H4-K20-HMTase KMT5A) (Histone-lysine N-methyltransferase KMT5A) (EC 2.1.1.361) (Lysine N-methyltransferase 5A) (Lysine-specific methylase 5A) (PR/SET domain-containing protein 07) (PR-Set7) (PR/SET07) (SET domain-containing protein 8)	N-lysine methyltransferase KMT5A	Epigenetic
+CHEMBL1795184	Q86U86	Protein polybromo-1 (hPB1) (BRG1-associated factor 180) (BAF180) (Polybromo-1D)	Protein polybromo-1	TF-Epigenetic
+CHEMBL1795185	Q58F21	Bromodomain testis-specific protein (Cancer/testis antigen 9) (CT9) (RING3-like protein)	Bromodomain testis-specific protein	Epigenetic
+CHEMBL1795187	Q48935	Acetylpolyamine amidohydrolase (APAH) (EC 3.5.1.-) (Acetylcadaverine deacetylase) (Acetylpolyamine deacetylase) (Acetylputrescine deacetylase) (EC 3.5.1.62) (Acetylspermidine deacetylase) (EC 3.5.1.48)	None	Unclassified
+CHEMBL1800	P34998	Corticotropin-releasing factor receptor 1 (CRF-R-1) (CRF-R1) (CRFR-1) (Corticotropin-releasing hormone receptor 1) (CRH-R-1) (CRH-R1)	Corticotropin-releasing factor receptor 1	GPCR
+CHEMBL1801	P00747	Plasminogen (EC 3.4.21.7) [Cleaved into: Plasmin heavy chain A; Activation peptide; Angiostatin; Plasmin heavy chain A, short form; Plasmin light chain B]	Plasminogen	Enzyme
+CHEMBL1803	P20701	Integrin alpha-L (CD11 antigen-like family member A) (Leukocyte adhesion glycoprotein LFA-1 alpha chain) (LFA-1A) (Leukocyte function-associated molecule 1 alpha chain) (CD antigen CD11a)	Integrin alpha-L	Other
+CHEMBL1808	P12821	Angiotensin-converting enzyme (ACE) (EC 3.2.1.-) (EC 3.4.15.1) (Dipeptidyl carboxypeptidase I) (Kininase II) (CD antigen CD143) [Cleaved into: Angiotensin-converting enzyme, soluble form]	Angiotensin-converting enzyme	Enzyme
+CHEMBL1824	P04626	Receptor tyrosine-protein kinase erbB-2 (EC 2.7.10.1) (Metastatic lymph node gene 19 protein) (MLN 19) (Proto-oncogene Neu) (Proto-oncogene c-ErbB-2) (Tyrosine kinase-type cell surface receptor HER2) (p185erbB2) (CD antigen CD340)	Receptor tyrosine-protein kinase erbB-2	Kinase
+CHEMBL1825	P01375	Tumor necrosis factor (Cachectin) (TNF-alpha) (Tumor necrosis factor ligand superfamily member 2) (TNF-a) [Cleaved into: Tumor necrosis factor, membrane form (N-terminal fragment) (NTF); Intracellular domain 1 (ICD1); Intracellular domain 2 (ICD2); C-domain 1; C-domain 2; Tumor necrosis factor, soluble form]	Tumor necrosis factor	Other
+CHEMBL1826	P0AES6	DNA gyrase subunit B (EC 5.6.2.2) (Type IIA topoisomerase subunit GyrB)	None	Unclassified
+CHEMBL1827	O76074	cGMP-specific 3',5'-cyclic phosphodiesterase (EC 3.1.4.35) (cGMP-binding cGMP-specific phosphodiesterase) (CGB-PDE)	cGMP-specific 3',5'-cyclic phosphodiesterase	Enzyme
+CHEMBL1830	P23921	Ribonucleoside-diphosphate reductase large subunit (EC 1.17.4.1) (Ribonucleoside-diphosphate reductase subunit M1) (Ribonucleotide reductase large subunit)	Ribonucleoside-diphosphate reductase large subunit	Enzyme
+CHEMBL1833	P41595	5-hydroxytryptamine receptor 2B (5-HT-2B) (5-HT2B) (Serotonin receptor 2B)	5-hydroxytryptamine receptor 2B	GPCR
+CHEMBL1841	P06241	Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene Syn) (Proto-oncogene c-Fyn) (Src-like kinase) (SLK) (p59-Fyn)	Tyrosine-protein kinase Fyn	Kinase
+CHEMBL1844	P07333	Macrophage colony-stimulating factor 1 receptor (CSF-1 receptor) (CSF-1-R) (CSF-1R) (M-CSF-R) (EC 2.7.10.1) (Proto-oncogene c-Fms) (CD antigen CD115)	Macrophage colony-stimulating factor 1 receptor	Kinase
+CHEMBL1860	P10827	Thyroid hormone receptor alpha (Nuclear receptor subfamily 1 group A member 1) (V-erbA-related protein 7) (EAR-7) (c-erbA-1) (c-erbA-alpha)	Thyroid hormone receptor alpha	Nuclear Receptor
+CHEMBL1862	P00519	Tyrosine-protein kinase ABL1 (EC 2.7.10.2) (Abelson murine leukemia viral oncogene homolog 1) (Abelson tyrosine-protein kinase 1) (Proto-oncogene c-Abl) (p150)	Tyrosine-protein kinase ABL1	Kinase
+CHEMBL1865	Q9UBN7	Histone deacetylase 6 (HD6) (EC 3.5.1.98) (Tubulin-lysine deacetylase HDAC6) (EC 3.5.1.-)	Histone deacetylase 6	Epigenetic
+CHEMBL1868	P17948	Vascular endothelial growth factor receptor 1 (VEGFR-1) (EC 2.7.10.1) (Fms-like tyrosine kinase 1) (FLT-1) (Tyrosine-protein kinase FRT) (Tyrosine-protein kinase receptor FLT) (FLT) (Vascular permeability factor receptor)	Vascular endothelial growth factor receptor 1	Kinase
+CHEMBL1871	P10275	Androgen receptor (Dihydrotestosterone receptor) (Nuclear receptor subfamily 3 group C member 4)	Androgen receptor	Nuclear Receptor
+CHEMBL1892	Q04609	Glutamate carboxypeptidase 2 (EC 3.4.17.21) (Cell growth-inhibiting gene 27 protein) (Folate hydrolase 1) (Folylpoly-gamma-glutamate carboxypeptidase) (FGCP) (Glutamate carboxypeptidase II) (GCPII) (Membrane glutamate carboxypeptidase) (mGCP) (N-acetylated-alpha-linked acidic dipeptidase I) (NAALADase I) (Prostate-specific membrane antigen) (PSM) (PSMA) (Pteroylpoly-gamma-glutamate carboxypeptidase)	Glutamate carboxypeptidase 2	Enzyme
+CHEMBL1902	P62942	Peptidyl-prolyl cis-trans isomerase FKBP1A (PPIase FKBP1A) (EC 5.2.1.8) (12 kDa FK506-binding protein) (12 kDa FKBP) (FKBP-12) (Calstabin-1) (FK506-binding protein 1A) (FKBP-1A) (Immunophilin FKBP12) (Rotamase)	Peptidyl-prolyl cis-trans isomerase FKBP1A	Enzyme
+CHEMBL1904	Q13224	Glutamate receptor ionotropic, NMDA 2B (GluN2B) (Glutamate [NMDA] receptor subunit epsilon-2) (N-methyl D-aspartate receptor subtype 2B) (NMDAR2B) (NR2B) (N-methyl-D-aspartate receptor subunit 3) (NR3) (hNR3)	Glutamate receptor ionotropic, NMDA 2B	Ion Channel
+CHEMBL1905	P05556	Integrin beta-1 (Fibronectin receptor subunit beta) (Glycoprotein IIa) (GPIIA) (VLA-4 subunit beta) (CD antigen CD29)	Integrin beta-1	Other
+CHEMBL1907598	P05106	Integrin beta-3 (Platelet membrane glycoprotein IIIa) (GPIIIa) (CD antigen CD61)	Integrin beta-3	Other
+CHEMBL1907608	Q8VHN2	Glutamate receptor ionotropic, NMDA 3B (GluN3B) (N-methyl-D-aspartate receptor subtype 3B) (NMDAR3B) (NR3B)	None	Unclassified
+CHEMBL1907	P15144	Aminopeptidase N (AP-N) (hAPN) (EC 3.4.11.2) (Alanyl aminopeptidase) (Aminopeptidase M) (AP-M) (Microsomal aminopeptidase) (Myeloid plasma membrane glycoprotein CD13) (gp150) (CD antigen CD13)	Aminopeptidase N	Enzyme
+CHEMBL1908385	P9WI81	Serine/threonine-protein kinase PknB (EC 2.7.11.1)	None	Unclassified
+CHEMBL1908389	Q12852	Mitogen-activated protein kinase kinase kinase 12 (EC 2.7.11.25) (Dual leucine zipper bearing kinase) (DLK) (Leucine-zipper protein kinase) (ZPK) (MAPK-upstream kinase) (MUK) (Mixed lineage kinase)	Mitogen-activated protein kinase kinase kinase 12	Kinase
+CHEMBL1909482	P31947	14-3-3 protein sigma (Epithelial cell marker protein 1) (Stratifin)	14-3-3 protein sigma	Other
+CHEMBL1914	P06276	Cholinesterase (EC 3.1.1.8) (Acylcholine acylhydrolase) (Butyrylcholine esterase) (Choline esterase II) (Pseudocholinesterase)	Cholinesterase	Enzyme
+CHEMBL1918	P39086	Glutamate receptor ionotropic, kainate 1 (GluK1) (Excitatory amino acid receptor 3) (EAA3) (Glutamate receptor 5) (GluR-5) (GluR5)	Glutamate receptor ionotropic, kainate 1	Ion Channel
+CHEMBL1921666	P0A0K8	DNA gyrase subunit B (EC 5.6.2.2)	None	Unclassified
+CHEMBL1926492	Q5TCY1	Tau-tubulin kinase 1 (EC 2.7.11.1) (Brain-derived tau kinase)	Tau-tubulin kinase 1	Kinase
+CHEMBL1926	P16184	Dihydrofolate reductase (EC 1.5.1.3)	None	Unclassified
+CHEMBL1932891	O95372	Acyl-protein thioesterase 2 (APT-2) (EC 3.1.2.-) (Lysophospholipase II) (LPL-II) (LysoPLA II)	Acyl-protein thioesterase 2	Enzyme
+CHEMBL1935	P05091	Aldehyde dehydrogenase, mitochondrial (EC 1.2.1.3) (ALDH class 2) (ALDH-E2) (ALDHI)	Aldehyde dehydrogenase, mitochondrial	Enzyme
+CHEMBL1936	P10721	Mast/stem cell growth factor receptor Kit (SCFR) (EC 2.7.10.1) (Piebald trait protein) (PBT) (Proto-oncogene c-Kit) (Tyrosine-protein kinase Kit) (p145 c-kit) (v-kit Hardy-Zuckerman 4 feline sarcoma viral oncogene homolog) (CD antigen CD117)	Mast/stem cell growth factor receptor Kit	Kinase
+CHEMBL1937	Q92769	Histone deacetylase 2 (HD2) (EC 3.5.1.98)	Histone deacetylase 2	Epigenetic
+CHEMBL1938211	O15054	Lysine-specific demethylase 6B (EC 1.14.11.68) (JmjC domain-containing protein 3) (Jumonji domain-containing protein 3) (Lysine demethylase 6B) ([histone H3]-trimethyl-L-lysine(27) demethylase 6B)	Lysine-specific demethylase 6B	Epigenetic
+CHEMBL1938217	Q8NB16	Mixed lineage kinase domain-like protein (hMLKL)	Mixed lineage kinase domain-like protein	Kinase
+CHEMBL1944497	Q8WSF8	Soluble acetylcholine receptor	None	Unclassified
+CHEMBL1944	P08473	Neprilysin (EC 3.4.24.11) (Atriopeptidase) (Common acute lymphocytic leukemia antigen) (CALLA) (Enkephalinase) (Neutral endopeptidase 24.11) (NEP) (Neutral endopeptidase) (Skin fibroblast elastase) (SFE) (CD antigen CD10)	Neprilysin	Enzyme
+CHEMBL1947	P10828	Thyroid hormone receptor beta (Nuclear receptor subfamily 1 group A member 2) (c-erbA-2) (c-erbA-beta)	Thyroid hormone receptor beta	Nuclear Receptor
+CHEMBL1949488	Q96C86	m7GpppX diphosphatase (EC 3.6.1.59) (DCS-1) (Decapping scavenger enzyme) (Hint-related 7meGMP-directed hydrolase) (Histidine triad nucleotide-binding protein 5) (Histidine triad protein member 5) (HINT-5) (Scavenger mRNA-decapping enzyme DcpS)	m7GpppX diphosphatase	Enzyme
+CHEMBL1949	P62937	Peptidyl-prolyl cis-trans isomerase A (PPIase A) (EC 5.2.1.8) (Cyclophilin A) (Cyclosporin A-binding protein) (Rotamase A) [Cleaved into: Peptidyl-prolyl cis-trans isomerase A, N-terminally processed]	Peptidyl-prolyl cis-trans isomerase A	Enzyme
+CHEMBL1952	P04818	Thymidylate synthase (TS) (TSase) (EC 2.1.1.45)	Thymidylate synthase	Enzyme
+CHEMBL1957	P08069	Insulin-like growth factor 1 receptor (EC 2.7.10.1) (Insulin-like growth factor I receptor) (IGF-I receptor) (CD antigen CD221) [Cleaved into: Insulin-like growth factor 1 receptor alpha chain; Insulin-like growth factor 1 receptor beta chain]	Insulin-like growth factor 1 receptor	Kinase
+CHEMBL1962	P14867	Gamma-aminobutyric acid receptor subunit alpha-1 (GABA(A) receptor subunit alpha-1)	Gamma-aminobutyric acid receptor subunit alpha-1	Ion Channel
+CHEMBL1977	P11473	Vitamin D3 receptor (VDR) (1,25-dihydroxyvitamin D3 receptor) (Nuclear receptor subfamily 1 group I member 1)	Vitamin D3 receptor	Nuclear Receptor
+CHEMBL1981	P06213	Insulin receptor (IR) (EC 2.7.10.1) (CD antigen CD220) [Cleaved into: Insulin receptor subunit alpha; Insulin receptor subunit beta]	Insulin receptor	Kinase
+CHEMBL1985	P47871	Glucagon receptor (GL-R)	Glucagon receptor	GPCR
+CHEMBL1994	P08235	Mineralocorticoid receptor (MR) (Nuclear receptor subfamily 3 group C member 2)	Mineralocorticoid receptor	Nuclear Receptor
+CHEMBL2000	P03952	Plasma kallikrein (EC 3.4.21.34) (Fletcher factor) (Kininogenin) (Plasma prekallikrein) (PKK) [Cleaved into: Plasma kallikrein heavy chain; Plasma kallikrein light chain]	Plasma kallikrein	Enzyme
+CHEMBL2001	Q9H244	P2Y purinoceptor 12 (P2Y12) (ADP-glucose receptor) (ADPG-R) (P2T(AC)) (P2Y(AC)) (P2Y(cyc)) (P2Y12 platelet ADP receptor) (P2Y(ADP)) (SP1999)	P2Y purinoceptor 12	GPCR
+CHEMBL2003	P13631	Retinoic acid receptor gamma (RAR-gamma) (Nuclear receptor subfamily 1 group B member 3)	Retinoic acid receptor gamma	Nuclear Receptor
+CHEMBL2007625	O75874	Isocitrate dehydrogenase [NADP] cytoplasmic (IDH) (EC 1.1.1.42) (Cytosolic NADP-isocitrate dehydrogenase) (IDP) (NADP(+)-specific ICDH) (Oxalosuccinate decarboxylase)	Isocitrate dehydrogenase [NADP] cytoplasmic	Enzyme
+CHEMBL2007628	P54829	Tyrosine-protein phosphatase non-receptor type 5 (EC 3.1.3.48) (Neural-specific protein-tyrosine phosphatase) (Striatum-enriched protein-tyrosine phosphatase) (STEP)	Tyrosine-protein phosphatase non-receptor type 5	Enzyme
+CHEMBL2008	P10826	Retinoic acid receptor beta (RAR-beta) (HBV-activated protein) (Nuclear receptor subfamily 1 group B member 2) (RAR-epsilon)	Retinoic acid receptor beta	Nuclear Receptor
+CHEMBL2010627	O00625	Pirin (EC 1.13.11.24) (Probable quercetin 2,3-dioxygenase PIR) (Probable quercetinase)	Pirin	Other
+CHEMBL2010635	P68826	Peptide deformylase (PDF) (EC 3.5.1.88) (Polypeptide deformylase)	None	Unclassified
+CHEMBL2010636	Q8WQX9	Phosphodiesterase (EC 3.1.4.-)	None	Unclassified
+CHEMBL2014	P41146	Nociceptin receptor (Kappa-type 3 opioid receptor) (KOR-3) (Orphanin FQ receptor)	Nociceptin receptor	GPCR
+CHEMBL2016430	Q8TBC4	NEDD8-activating enzyme E1 catalytic subunit (EC 6.2.1.64) (NEDD8-activating enzyme E1C) (Ubiquitin-activating enzyme E1C) (Ubiquitin-like modifier-activating enzyme 3) (Ubiquitin-activating enzyme 3)	NEDD8-activating enzyme E1 catalytic subunit	Other
+CHEMBL2016	P00740	Coagulation factor IX (EC 3.4.21.22) (Christmas factor) (Plasma thromboplastin component) (PTC) [Cleaved into: Coagulation factor IXa light chain; Coagulation factor IXa heavy chain]	Coagulation factor IX	Enzyme
+CHEMBL2026	P00811	Beta-lactamase (EC 3.5.2.6) (Cephalosporinase)	None	Unclassified
+CHEMBL202	P00374	Dihydrofolate reductase (EC 1.5.1.3)	Dihydrofolate reductase	Enzyme
+CHEMBL2034	P04150	Glucocorticoid receptor (GR) (Nuclear receptor subfamily 3 group C member 1)	Glucocorticoid receptor	Nuclear Receptor
+CHEMBL2039	P27338	Amine oxidase [flavin-containing] B (EC 1.4.3.4) (Monoamine oxidase type B) (MAO-B)	Amine oxidase [flavin-containing] B	Enzyme
+CHEMBL203	P00533	Epidermal growth factor receptor (EC 2.7.10.1) (Proto-oncogene c-ErbB-1) (Receptor tyrosine-protein kinase erbB-1)	Epidermal growth factor receptor	Kinase
+CHEMBL2041	P07949	Proto-oncogene tyrosine-protein kinase receptor Ret (EC 2.7.10.1) (Cadherin family member 12) (Proto-oncogene c-Ret) [Cleaved into: Soluble RET kinase fragment; Extracellular cell-membrane anchored RET cadherin 120 kDa fragment]	Proto-oncogene tyrosine-protein kinase receptor Ret	Kinase
+CHEMBL2045	P04746	Pancreatic alpha-amylase (PA) (EC 3.2.1.1) (1,4-alpha-D-glucan glucanohydrolase)	Pancreatic alpha-amylase	Enzyme
+CHEMBL2046266	Q869C3	Acetylcholinesterase (AChE) (EC 3.1.1.7)	None	Unclassified
+CHEMBL2047	Q96RI1	Bile acid receptor (Farnesoid X-activated receptor) (Farnesol receptor HRR-1) (Nuclear receptor subfamily 1 group H member 4) (Retinoid X receptor-interacting protein 14) (RXR-interacting protein 14)	Bile acid receptor	Nuclear Receptor
+CHEMBL204	P00734	Prothrombin (EC 3.4.21.5) (Coagulation factor II) [Cleaved into: Activation peptide fragment 1; Activation peptide fragment 2; Thrombin light chain; Thrombin heavy chain]	Prothrombin	Enzyme
+CHEMBL2052030	Q6T755	Phosphoethanolamine N-methyltransferase	None	Unclassified
+CHEMBL2052031	Q13451	Peptidyl-prolyl cis-trans isomerase FKBP5 (PPIase FKBP5) (EC 5.2.1.8) (51 kDa FK506-binding protein) (51 kDa FKBP) (FKBP-51) (54 kDa progesterone receptor-associated immunophilin) (Androgen-regulated protein 6) (FF1 antigen) (FK506-binding protein 5) (FKBP-5) (FKBP54) (p54) (HSP90-binding immunophilin) (Rotamase)	Peptidyl-prolyl cis-trans isomerase FKBP5	Enzyme
+CHEMBL205	P00918	Carbonic anhydrase 2 (EC 4.2.1.1) (Carbonate dehydratase II) (Carbonic anhydrase C) (CAC) (Carbonic anhydrase II) (CA-II)	Carbonic anhydrase 2	Enzyme
+CHEMBL2061	P19793	Retinoic acid receptor RXR-alpha (Nuclear receptor subfamily 2 group B member 1) (Retinoid X receptor alpha)	Retinoic acid receptor RXR-alpha	Nuclear Receptor
+CHEMBL2068	P29317	Ephrin type-A receptor 2 (EC 2.7.10.1) (Epithelial cell kinase) (Tyrosine-protein kinase receptor ECK)	Ephrin type-A receptor 2	Kinase
+CHEMBL2069156	Q14145	Kelch-like ECH-associated protein 1 (Cytosolic inhibitor of Nrf2) (INrf2) (Kelch-like protein 19)	Kelch-like ECH-associated protein 1	Other
+CHEMBL206	P03372	Estrogen receptor (ER) (ER-alpha) (Estradiol receptor) (Nuclear receptor subfamily 3 group A member 1)	Estrogen receptor	Nuclear Receptor
+CHEMBL2074	O43451	Maltase-glucoamylase, intestinal [Includes: Maltase (EC 3.2.1.20) (Alpha-glucosidase); Glucoamylase (EC 3.2.1.3) (Glucan 1,4-alpha-glucosidase)]	Maltase-glucoamylase, intestinal	Enzyme
+CHEMBL2079846	Q07889	Son of sevenless homolog 1 (SOS-1)	Son of sevenless homolog 1	Other
+CHEMBL2079849	P05981	Serine protease hepsin (EC 3.4.21.106) (Transmembrane protease serine 1) [Cleaved into: Serine protease hepsin non-catalytic chain; Serine protease hepsin catalytic chain]	Serine protease hepsin	Enzyme
+CHEMBL2083	P15090	Fatty acid-binding protein, adipocyte (Adipocyte lipid-binding protein) (ALBP) (Adipocyte-type fatty acid-binding protein) (A-FABP) (AFABP) (Fatty acid-binding protein 4)	Fatty acid-binding protein, adipocyte	Other
+CHEMBL2085	P14174	Macrophage migration inhibitory factor (MIF) (EC 5.3.2.1) (Glycosylation-inhibiting factor) (GIF) (L-dopachrome isomerase) (L-dopachrome tautomerase) (EC 5.3.3.12) (Phenylpyruvate tautomerase)	Macrophage migration inhibitory factor	Other
+CHEMBL2088	P15085	Carboxypeptidase A1 (EC 3.4.17.1)	Carboxypeptidase A1	Enzyme
+CHEMBL208	P06401	Progesterone receptor (PR) (Nuclear receptor subfamily 3 group C member 3)	Progesterone receptor	Nuclear Receptor
+CHEMBL2093869	P05106	Integrin beta-3 (Platelet membrane glycoprotein IIIa) (GPIIIa) (CD antigen CD61)	Integrin beta-3	Other
+CHEMBL2094120	P18507	Gamma-aminobutyric acid receptor subunit gamma-2 (GABA(A) receptor subunit gamma-2)	Gamma-aminobutyric acid receptor subunit gamma-2	Ion Channel
+CHEMBL2094121	P18507	Gamma-aminobutyric acid receptor subunit gamma-2 (GABA(A) receptor subunit gamma-2)	Gamma-aminobutyric acid receptor subunit gamma-2	Ion Channel
+CHEMBL2094122	P18507	Gamma-aminobutyric acid receptor subunit gamma-2 (GABA(A) receptor subunit gamma-2)	Gamma-aminobutyric acid receptor subunit gamma-2	Ion Channel
+CHEMBL2094130	P18507	Gamma-aminobutyric acid receptor subunit gamma-2 (GABA(A) receptor subunit gamma-2)	Gamma-aminobutyric acid receptor subunit gamma-2	Ion Channel
+CHEMBL2095172	P18507	Gamma-aminobutyric acid receptor subunit gamma-2 (GABA(A) receptor subunit gamma-2)	Gamma-aminobutyric acid receptor subunit gamma-2	Ion Channel
+CHEMBL2095190	P18507	Gamma-aminobutyric acid receptor subunit gamma-2 (GABA(A) receptor subunit gamma-2)	Gamma-aminobutyric acid receptor subunit gamma-2	Ion Channel
+CHEMBL2095197	Q02293	Protein farnesyltransferase subunit beta (FTase-beta) (EC 2.5.1.58) (CAAX farnesyltransferase subunit beta) (Ras proteins prenyltransferase subunit beta)	None	Unclassified
+CHEMBL2095197	Q04631	Protein farnesyltransferase/geranylgeranyltransferase type-1 subunit alpha (EC 2.5.1.58) (EC 2.5.1.59) (CAAX farnesyltransferase subunit alpha) (FTase-alpha) (Ras proteins prenyltransferase subunit alpha) (Type I protein geranyl-geranyltransferase subunit alpha) (GGTase-I-alpha)	None	Unclassified
+CHEMBL2107838	O60894	Receptor activity-modifying protein 1 (Calcitonin-receptor-like receptor activity-modifying protein 1) (CRLR activity-modifying protein 1)	Receptor activity-modifying protein 1	Other
+CHEMBL210	P07550	Beta-2 adrenergic receptor (Beta-2 adrenoreceptor) (Beta-2 adrenoceptor)	Beta-2 adrenergic receptor	GPCR
+CHEMBL2111339	P18507	Gamma-aminobutyric acid receptor subunit gamma-2 (GABA(A) receptor subunit gamma-2)	Gamma-aminobutyric acid receptor subunit gamma-2	Ion Channel
+CHEMBL2111366	P18507	Gamma-aminobutyric acid receptor subunit gamma-2 (GABA(A) receptor subunit gamma-2)	Gamma-aminobutyric acid receptor subunit gamma-2	Ion Channel
+CHEMBL2111370	P18507	Gamma-aminobutyric acid receptor subunit gamma-2 (GABA(A) receptor subunit gamma-2)	Gamma-aminobutyric acid receptor subunit gamma-2	Ion Channel
+CHEMBL2111413	P18507	Gamma-aminobutyric acid receptor subunit gamma-2 (GABA(A) receptor subunit gamma-2)	Gamma-aminobutyric acid receptor subunit gamma-2	Ion Channel
+CHEMBL2111461	P05106	Integrin beta-3 (Platelet membrane glycoprotein IIIa) (GPIIIa) (CD antigen CD61)	Integrin beta-3	Other
+CHEMBL2118	P19801	Amiloride-sensitive amine oxidase [copper-containing] (DAO) (Diamine oxidase) (EC 1.4.3.22) (Amiloride-binding protein 1) (Amine oxidase copper domain-containing protein 1) (Histaminase) (Kidney amine oxidase) (KAO)	Amiloride-sensitive amine oxidase [copper-containing]	Enzyme
+CHEMBL211	P08172	Muscarinic acetylcholine receptor M2	Muscarinic acetylcholine receptor M2	GPCR
+CHEMBL2121	P15328	Folate receptor alpha (FR-alpha) (Adult folate-binding protein) (FBP) (Folate receptor 1) (Folate receptor, adult) (KB cells FBP) (Ovarian tumor-associated antigen MOv18)	Folate receptor alpha	Other
+CHEMBL2131	O95050	Indolethylamine N-methyltransferase (Indolamine N-methyltransferase) (EC 2.1.1.49) (EC 2.1.1.96) (Aromatic alkylamine N-methyltransferase) (Amine N-methyltransferase) (Arylamine N-methyltransferase) (Thioether S-methyltransferase) (TEMT)	Indolethylamine N-methyltransferase	Enzyme
+CHEMBL2146302	O94925	Glutaminase kidney isoform, mitochondrial (GLS) (EC 3.5.1.2) (K-glutaminase) (L-glutamine amidohydrolase) [Cleaved into: Glutaminase kidney isoform, mitochondrial 68 kDa chain; Glutaminase kidney isoform, mitochondrial 65 kDa chain]	Glutaminase kidney isoform, mitochondrial	Enzyme
+CHEMBL2147	P11309	Serine/threonine-protein kinase pim-1 (EC 2.7.11.1)	Serine/threonine-protein kinase pim-1	Kinase
+CHEMBL2148	P52333	Tyrosine-protein kinase JAK3 (EC 2.7.10.2) (Janus kinase 3) (JAK-3) (Leukocyte janus kinase) (L-JAK)	Tyrosine-protein kinase JAK3	Kinase
+CHEMBL2150837	Q6PL18	ATPase family AAA domain-containing protein 2 (EC 3.6.1.-) (AAA nuclear coregulator cancer-associated protein) (ANCCA)	ATPase family AAA domain-containing protein 2	Epigenetic
+CHEMBL2154	Q9NZK7	Group IIE secretory phospholipase A2 (GIIE sPLA2) (sPLA2-IIE) (EC 3.1.1.4) (Phosphatidylcholine 2-acylhydrolase 2E)	Group IIE secretory phospholipase A2	Enzyme
+CHEMBL2157850	Q93009	Ubiquitin carboxyl-terminal hydrolase 7 (EC 3.4.19.12) (Deubiquitinating enzyme 7) (Herpesvirus-associated ubiquitin-specific protease) (Ubiquitin thioesterase 7) (Ubiquitin-specific-processing protease 7)	Ubiquitin carboxyl-terminal hydrolase 7	Enzyme
+CHEMBL2163175	O75936	Gamma-butyrobetaine dioxygenase (EC 1.14.11.1) (Gamma-butyrobetaine hydroxylase) (Gamma-BBH) (Gamma-butyrobetaine,2-oxoglutarate dioxygenase)	Gamma-butyrobetaine dioxygenase	Enzyme
+CHEMBL2163176	P41229	Lysine-specific demethylase 5C (EC 1.14.11.67) (Histone demethylase JARID1C) (Jumonji/ARID domain-containing protein 1C) (Protein SmcX) (Protein Xe169) ([histone H3]-trimethyl-L-lysine(4) demethylase 5C)	Lysine-specific demethylase 5C	TF-Epigenetic
+CHEMBL2163181	Q9AIU7	DNA ligase (EC 6.5.1.2) (Polydeoxyribonucleotide synthase [NAD(+)])	None	Unclassified
+CHEMBL2163182	Q8N6T7	NAD-dependent protein deacetylase sirtuin-6 (EC 2.3.1.286) (Regulatory protein SIR2 homolog 6) (SIR2-like protein 6)	NAD-dependent protein deacetylase sirtuin-6	Epigenetic
+CHEMBL2169716	Q9NRG4	N-lysine methyltransferase SMYD2 (EC 2.1.1.-) (HSKM-B) (Histone methyltransferase SMYD2) (EC 2.1.1.354) (Lysine N-methyltransferase 3C) (SET and MYND domain-containing protein 2)	N-lysine methyltransferase SMYD2	Epigenetic
+CHEMBL2169733	Q6S996	Phosphodiesterase (EC 3.1.4.-)	None	Unclassified
+CHEMBL2169736	O95551	Tyrosyl-DNA phosphodiesterase 2 (Tyr-DNA phosphodiesterase 2) (hTDP2) (EC 3.1.4.-) (5'-tyrosyl-DNA phosphodiesterase) (5'-Tyr-DNA phosphodiesterase) (ETS1-associated protein 2) (ETS1-associated protein II) (EAPII) (TRAF and TNF receptor-associated protein) (Tyrosyl-RNA phosphodiesterase) (VPg unlinkase)	Tyrosyl-DNA phosphodiesterase 2	Enzyme
+CHEMBL2175	Q9CPU0	Lactoylglutathione lyase (EC 4.4.1.5) (Aldoketomutase) (Glyoxalase I) (Glx I) (Ketone-aldehyde mutase) (Methylglyoxalase) (S-D-lactoylglutathione methylglyoxal lyase)	None	Unclassified
+CHEMBL2176771	P00746	Complement factor D (EC 3.4.21.46) (Adipsin) (C3 convertase activator) (Properdin factor D)	Complement factor D	Enzyme
+CHEMBL2176774	O95696	Bromodomain-containing protein 1 (BR140-like protein) (Bromodomain and PHD finger-containing protein 2)	Bromodomain-containing protein 1	Epigenetic
+CHEMBL2176777	Q460N5	Protein mono-ADP-ribosyltransferase PARP14 (EC 2.4.2.-) (ADP-ribosyltransferase diphtheria toxin-like 8) (ARTD8) (B aggressive lymphoma protein 2) (Poly [ADP-ribose] polymerase 14) (PARP-14)	Poly [ADP-ribose] polymerase 14	Enzyme
+CHEMBL2176778	Q460N3	Protein mono-ADP-ribosyltransferase PARP15 (EC 2.4.2.-) (ADP-ribosyltransferase diphtheria toxin-like 7) (ARTD7) (B-aggressive lymphoma protein 3) (Poly [ADP-ribose] polymerase 15) (PARP-15)	Poly [ADP-ribose] polymerase 15	Enzyme
+CHEMBL2176838	Q6DE08	Aurora kinase B-A (EC 2.7.11.1) (Aurora/IPL1-related kinase 2-A) (AIRK2-A) (XAIRK2-A) (Serine/threonine-protein kinase 12-A) (Serine/threonine-protein kinase aurora-B-A) (xAurora-B)	None	Unclassified
+CHEMBL2176852	Q8I4S1	dTMP kinase (EC 2.7.4.9)	None	Unclassified
+CHEMBL2179	P04062	Lysosomal acid glucosylceramidase (Lysosomal acid GCase) (EC 3.2.1.45) (Acid beta-glucosidase) (Alglucerase) (Beta-glucocerebrosidase) (Beta-GC) (Cholesterol glucosyltransferase) (SGTase) (EC 2.4.1.-) (Cholesteryl-beta-glucosidase) (EC 3.2.1.-) (D-glucosyl-N-acylsphingosine glucohydrolase) (Imiglucerase)	Glucosylceramidase	Enzyme
+CHEMBL2185	Q96GD4	Aurora kinase B (EC 2.7.11.1) (Aurora 1) (Aurora- and IPL1-like midbody-associated protein 1) (AIM-1) (Aurora/IPL1-related kinase 2) (ARK-2) (Aurora-related kinase 2) (STK-1) (Serine/threonine-protein kinase 12) (Serine/threonine-protein kinase 5) (Serine/threonine-protein kinase aurora-B)	Aurora kinase B	Kinase
+CHEMBL2189110	Q15910	Histone-lysine N-methyltransferase EZH2 (EC 2.1.1.356) (ENX-1) (Enhancer of zeste homolog 2) (Lysine N-methyltransferase 6)	Histone-lysine N-methyltransferase EZH2	Epigenetic
+CHEMBL2189117	O75530	Polycomb protein EED (hEED) (Embryonic ectoderm development protein) (WD protein associating with integrin cytoplasmic tails 1) (WAIT-1)	Polycomb protein EED	Other
+CHEMBL2189121	P01116	GTPase KRas (EC 3.6.5.2) (K-Ras 2) (Ki-Ras) (c-K-ras) (c-Ki-ras) [Cleaved into: GTPase KRas, N-terminally processed]	GTPase KRas	Enzyme
+CHEMBL2189156	P02701	Avidin	None	Unclassified
+CHEMBL2190	P50135	Histamine N-methyltransferase (HMT) (EC 2.1.1.8)	Histamine N-methyltransferase	Enzyme
+CHEMBL2195	P13444	S-adenosylmethionine synthase isoform type-1 (AdoMet synthase 1) (EC 2.5.1.6) (Methionine adenosyltransferase 1) (MAT 1) (Methionine adenosyltransferase I/III) (MAT-I/III)	None	Unclassified
+CHEMBL2208	P49137	MAP kinase-activated protein kinase 2 (MAPK-activated protein kinase 2) (MAPKAP kinase 2) (MAPKAP-K2) (MAPKAPK-2) (MK-2) (MK2) (EC 2.7.11.1)	MAP kinase-activated protein kinase 2	Kinase
+CHEMBL220	P22303	Acetylcholinesterase (AChE) (EC 3.1.1.7)	Acetylcholinesterase	Enzyme
+CHEMBL2216745	O35904	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform (PI3-kinase subunit delta) (PI3K-delta) (PI3Kdelta) (PtdIns-3-kinase subunit delta) (EC 2.7.1.137) (EC 2.7.1.153) (Phosphatidylinositol 4,5-bisphosphate 3-kinase 110 kDa catalytic subunit delta) (PtdIns-3-kinase subunit p110-delta) (p110delta)	None	Unclassified
+CHEMBL2222	P00480	Ornithine transcarbamylase, mitochondrial (OTCase) (EC 2.1.3.3) (Ornithine carbamoyltransferase, mitochondrial)	Ornithine carbamoyltransferase, mitochondrial	Enzyme
+CHEMBL225	P28335	5-hydroxytryptamine receptor 2C (5-HT-2C) (5-HT2C) (5-HTR2C) (5-hydroxytryptamine receptor 1C) (5-HT-1C) (5-HT1C) (Serotonin receptor 2C)	5-hydroxytryptamine receptor 2C	GPCR
+CHEMBL2263	P00636	Fructose-1,6-bisphosphatase 1 (FBPase 1) (EC 3.1.3.11) (D-fructose-1,6-bisphosphate 1-phosphohydrolase 1) (Liver FBPase)	None	Unclassified
+CHEMBL2276	P45983	Mitogen-activated protein kinase 8 (MAP kinase 8) (MAPK 8) (EC 2.7.11.24) (JNK-46) (Stress-activated protein kinase 1c) (SAPK1c) (Stress-activated protein kinase JNK1) (c-Jun N-terminal kinase 1)	Mitogen-activated protein kinase 8	Kinase
+CHEMBL227	P30556	Type-1 angiotensin II receptor (AT1AR) (AT1BR) (Angiotensin II type-1 receptor) (AT1)	Type-1 angiotensin II receptor	GPCR
+CHEMBL2285353	P69834	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase, chloroplastic (EC 2.7.7.60) (4-diphosphocytidyl-2C-methyl-D-erythritol synthase) (MEP cytidylyltransferase) (AtMECT) (AtMEPCT)	None	Unclassified
+CHEMBL2285	Q9UNA0	A disintegrin and metalloproteinase with thrombospondin motifs 5 (ADAM-TS 5) (ADAM-TS5) (ADAMTS-5) (EC 3.4.24.-) (A disintegrin and metalloproteinase with thrombospondin motifs 11) (ADAM-TS 11) (ADAMTS-11) (ADMP-2) (Aggrecanase-2)	A disintegrin and metalloproteinase with thrombospondin motifs 5	Enzyme
+CHEMBL2288	Q13526	Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1 (EC 5.2.1.8) (Peptidyl-prolyl cis-trans isomerase Pin1) (PPIase Pin1) (Rotamase Pin1)	Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1	Enzyme
+CHEMBL228	P31645	Sodium-dependent serotonin transporter (SERT) (5HT transporter) (5HTT) (Solute carrier family 6 member 4)	Sodium-dependent serotonin transporter	Transporter
+CHEMBL2292	Q13627	Dual specificity tyrosine-phosphorylation-regulated kinase 1A (EC 2.7.12.1) (Dual specificity YAK1-related kinase) (HP86) (Protein kinase minibrain homolog) (MNBH) (hMNB)	Dual specificity tyrosine-phosphorylation-regulated kinase 1A	Kinase
+CHEMBL2311239	B4EB35	D-beta-D-heptose 7-phosphate kinase	None	Unclassified
+CHEMBL2311243	O43175	D-3-phosphoglycerate dehydrogenase (3-PGDH) (EC 1.1.1.95) (2-oxoglutarate reductase) (EC 1.1.1.399) (Malate dehydrogenase) (EC 1.1.1.37)	D-3-phosphoglycerate dehydrogenase	Enzyme
+CHEMBL2316	P10144	Granzyme B (EC 3.4.21.79) (C11) (CTLA-1) (Cathepsin G-like 1) (CTSGL1) (Cytotoxic T-lymphocyte proteinase 2) (Lymphocyte protease) (Fragmentin-2) (Granzyme-2) (Human lymphocyte protein) (HLP) (SECT) (T-cell serine protease 1-3E)	Granzyme B	Enzyme
+CHEMBL2318	O75173	A disintegrin and metalloproteinase with thrombospondin motifs 4 (ADAM-TS 4) (ADAM-TS4) (ADAMTS-4) (EC 3.4.24.82) (ADMP-1) (Aggrecanase-1)	A disintegrin and metalloproteinase with thrombospondin motifs 4	Enzyme
+CHEMBL2321641	P07445	Steroid Delta-isomerase (EC 5.3.3.1) (Delta(5)-3-ketosteroid isomerase)	None	Unclassified
+CHEMBL2321643	Q9H7B4	Histone-lysine N-methyltransferase SMYD3 (EC 2.1.1.354) (SET and MYND domain-containing protein 3) (Zinc finger MYND domain-containing protein 1)	Histone-lysine N-methyltransferase SMYD3	Epigenetic
+CHEMBL2326	P43166	Carbonic anhydrase 7 (EC 4.2.1.1) (Carbonate dehydratase VII) (Carbonic anhydrase VII) (CA-VII)	Carbonic anhydrase 7	Enzyme
+CHEMBL2331053	Q16875	6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase 3 (6PF-2-K/Fru-2,6-P2ase 3) (PFK/FBPase 3) (6PF-2-K/Fru-2,6-P2ase brain/placenta-type isozyme) (Renal carcinoma antigen NY-REN-56) (iPFK-2) [Includes: 6-phosphofructo-2-kinase (EC 2.7.1.105); Fructose-2,6-bisphosphatase (EC 3.1.3.46)]	6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase 3	Kinase
+CHEMBL2331065	Q9C0B1	Alpha-ketoglutarate-dependent dioxygenase FTO (Fat mass and obesity-associated protein) (U6 small nuclear RNA (2'-O-methyladenosine-N(6)-)-demethylase FTO) (EC 1.14.11.-) (U6 small nuclear RNA N(6)-methyladenosine-demethylase FTO) (EC 1.14.11.-) (mRNA (2'-O-methyladenosine-N(6)-)-demethylase FTO) (m6A(m)-demethylase FTO) (EC 1.14.11.-) (mRNA N(6)-methyladenosine demethylase FTO) (EC 1.14.11.53) (tRNA N1-methyl adenine demethylase FTO) (EC 1.14.11.-)	Alpha-ketoglutarate-dependent dioxygenase FTO	Enzyme
+CHEMBL2334	P42574	Caspase-3 (CASP-3) (EC 3.4.22.56) (Apopain) (Cysteine protease CPP32) (CPP-32) (Protein Yama) (SREBP cleavage activity 1) (SCA-1) [Cleaved into: Caspase-3 subunit p17; Caspase-3 subunit p12]	Caspase-3	Enzyme
+CHEMBL2336	P47811	Mitogen-activated protein kinase 14 (MAP kinase 14) (MAPK 14) (EC 2.7.11.24) (CRK1) (Mitogen-activated protein kinase p38 alpha) (MAP kinase p38 alpha)	None	Unclassified
+CHEMBL2343	O00141	Serine/threonine-protein kinase Sgk1 (EC 2.7.11.1) (Serum/glucocorticoid-regulated kinase 1)	Serine/threonine-protein kinase Sgk1	Kinase
+CHEMBL2345	P51812	Ribosomal protein S6 kinase alpha-3 (S6K-alpha-3) (EC 2.7.11.1) (90 kDa ribosomal protein S6 kinase 3) (p90-RSK 3) (p90RSK3) (Insulin-stimulated protein kinase 1) (ISPK-1) (MAP kinase-activated protein kinase 1b) (MAPK-activated protein kinase 1b) (MAPKAP kinase 1b) (MAPKAPK-1b) (Ribosomal S6 kinase 2) (RSK-2) (pp90RSK2)	Ribosomal protein S6 kinase alpha-3	Kinase
+CHEMBL2346486	P40261	Nicotinamide N-methyltransferase (EC 2.1.1.1)	Nicotinamide N-methyltransferase	Enzyme
+CHEMBL2346488	P12004	Proliferating cell nuclear antigen (PCNA) (Cyclin)	Proliferating cell nuclear antigen	Other
+CHEMBL235	P37231	Peroxisome proliferator-activated receptor gamma (PPAR-gamma) (Nuclear receptor subfamily 1 group C member 3)	Peroxisome proliferator-activated receptor gamma	Nuclear Receptor
+CHEMBL2360	P00492	Hypoxanthine-guanine phosphoribosyltransferase (HGPRT) (HGPRTase) (EC 2.4.2.8)	Hypoxanthine-guanine phosphoribosyltransferase	Enzyme
+CHEMBL2361	P9WKE1	Thymidylate kinase (EC 2.7.4.9) (Thymidine monophosphate kinase) (dTMP kinase) (TMPK)	None	Unclassified
+CHEMBL236	P41143	Delta-type opioid receptor (D-OR-1) (DOR-1)	Delta-type opioid receptor	GPCR
+CHEMBL2372	P22734	Catechol O-methyltransferase (EC 2.1.1.6)	None	Unclassified
+CHEMBL237	P41145	Kappa-type opioid receptor (K-OR-1) (KOR-1)	Kappa-type opioid receptor	GPCR
+CHEMBL2381	P16469	Polyunsaturated fatty acid lipoxygenase ALOX15 (12/15-lipoxygenase) (Arachidonate 12-lipoxygenase, leukocyte-type) (12-LOX) (EC 1.13.11.31) (Arachidonate 15-lipoxygenase) (15-LOX) (EC 1.13.11.33) (Arachidonate omega-6 lipoxygenase) (Erythroid cell-specific 15-lipoxygenase) (Hepoxilin A3 synthase Alox15) (EC 1.13.11.-) (Linoleate 13S-lipoxygenase) (EC 1.13.11.12)	None	Unclassified
+CHEMBL2396505	P03313	Genome polyprotein [Cleaved into: P1; Capsid protein VP0 (VP4-VP2); Capsid protein VP4 (P1A) (Virion protein 4); Capsid protein VP2 (P1B) (Virion protein 2); Capsid protein VP3 (P1C) (Virion protein 3); Capsid protein VP1 (P1D) (Virion protein 1); P2; Protease 2A (P2A) (EC 3.4.22.29) (Picornain 2A) (Protein 2A); Protein 2B (P2B); Protein 2C (P2C) (EC 3.6.1.15); P3; Protein 3AB; Protein 3A (P3A); Viral protein genome-linked (VPg) (Protein 3B) (P3B); Protein 3CD (EC 3.4.22.28); Protease 3C (EC 3.4.22.28) (Picornain 3C) (P3C); RNA-directed RNA polymerase (RdRp) (EC 2.7.7.48) (3D polymerase) (3Dpol) (Protein 3D) (3D)]	None	Unclassified
+CHEMBL239	Q07869	Peroxisome proliferator-activated receptor alpha (PPAR-alpha) (Nuclear receptor subfamily 1 group C member 1)	Peroxisome proliferator-activated receptor alpha	Nuclear Receptor
+CHEMBL2409	P34913	Bifunctional epoxide hydrolase 2 [Includes: Cytosolic epoxide hydrolase 2 (CEH) (EC 3.3.2.10) (Epoxide hydratase) (Soluble epoxide hydrolase) (SEH); Lipid-phosphate phosphatase (EC 3.1.3.76)]	Bifunctional epoxide hydrolase 2	Enzyme
+CHEMBL2412	P14635	G2/mitotic-specific cyclin-B1	G2/mitotic-specific cyclin-B1	Other
+CHEMBL2421	P08185	Corticosteroid-binding globulin (CBG) (Serpin A6) (Transcortin)	Corticosteroid-binding globulin	Other
+CHEMBL2424504	P29375	Lysine-specific demethylase 5A (EC 1.14.11.67) (Histone demethylase JARID1A) (Jumonji/ARID domain-containing protein 1A) (Retinoblastoma-binding protein 2) (RBBP-2) ([histone H3]-trimethyl-L-lysine(4) demethylase 5A)	Lysine-specific demethylase 5A	TF-Epigenetic
+CHEMBL2424	Q04760	Lactoylglutathione lyase (EC 4.4.1.5) (Aldoketomutase) (Glyoxalase I) (Glx I) (Ketone-aldehyde mutase) (Methylglyoxalase) (S-D-lactoylglutathione methylglyoxal lyase)	Lactoylglutathione lyase	Enzyme
+CHEMBL2429708	Q53GL7	Protein mono-ADP-ribosyltransferase PARP10 (EC 2.4.2.-) (ADP-ribosyltransferase diphtheria toxin-like 10) (ARTD10) (Poly [ADP-ribose] polymerase 10) (PARP-10)	Poly [ADP-ribose] polymerase 10	Enzyme
+CHEMBL242	Q92731	Estrogen receptor beta (ER-beta) (Nuclear receptor subfamily 3 group A member 2)	Estrogen receptor beta	Nuclear Receptor
+CHEMBL2431	P31751	RAC-beta serine/threonine-protein kinase (EC 2.7.11.1) (Protein kinase Akt-2) (Protein kinase B beta) (PKB beta) (RAC-PK-beta)	RAC-beta serine/threonine-protein kinase	Kinase
+CHEMBL2443	P49862	Kallikrein-7 (hK7) (EC 3.4.21.117) (Serine protease 6) (Stratum corneum chymotryptic enzyme) (hSCCE)	Kallikrein-7	Enzyme
+CHEMBL2447	P27707	Deoxycytidine kinase (dCK) (EC 2.7.1.74) (Deoxyadenosine kinase) (EC 2.7.1.76) (Deoxyguanosine kinase) (EC 2.7.1.113)	Deoxycytidine kinase	Kinase
+CHEMBL244	P00742	Coagulation factor X (EC 3.4.21.6) (Stuart factor) (Stuart-Prower factor) [Cleaved into: Factor X light chain; Factor X heavy chain; Activated factor Xa heavy chain]	Coagulation factor X	Enzyme
+CHEMBL2461	P23687	Prolyl endopeptidase (PE) (EC 3.4.21.26) (Post-proline cleaving enzyme)	None	Unclassified
+CHEMBL2474	P53582	Methionine aminopeptidase 1 (MAP 1) (MetAP 1) (EC 3.4.11.18) (Peptidase M 1)	Methionine aminopeptidase 1	Enzyme
+CHEMBL248	P08246	Neutrophil elastase (EC 3.4.21.37) (Bone marrow serine protease) (Elastase-2) (Human leukocyte elastase) (HLE) (Medullasin) (PMN elastase)	Neutrophil elastase	Enzyme
+CHEMBL249	P25103	Substance-P receptor (SPR) (NK-1 receptor) (NK-1R) (Tachykinin receptor 1)	Substance-P receptor	GPCR
+CHEMBL2508	Q00534	Cyclin-dependent kinase 6 (EC 2.7.11.22) (Cell division protein kinase 6) (Serine/threonine-protein kinase PLSTIRE)	Cyclin-dependent kinase 6	Kinase
+CHEMBL2518	P31939	Bifunctional purine biosynthesis protein ATIC (AICAR transformylase/inosine monophosphate cyclohydrolase) (ATIC) [Cleaved into: Bifunctional purine biosynthesis protein ATIC, N-terminally processed] [Includes: Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3) (5-aminoimidazole-4-carboxamide ribonucleotide formyltransferase) (AICAR formyltransferase) (AICAR transformylase); Inosine 5'-monophosphate cyclohydrolase (IMP cyclohydrolase) (EC 3.5.4.10) (IMP synthase) (Inosinicase)]	Bifunctional purine biosynthesis protein PURH	Other
+CHEMBL251	P29274	Adenosine receptor A2a	Adenosine receptor A2a	GPCR
+CHEMBL2522	P16278	Beta-galactosidase (EC 3.2.1.23) (Acid beta-galactosidase) (Lactase) (Elastin receptor 1)	Beta-galactosidase	Enzyme
+CHEMBL2524	P06280	Alpha-galactosidase A (EC 3.2.1.22) (Alpha-D-galactosidase A) (Alpha-D-galactoside galactohydrolase) (Galactosylgalactosylglucosylceramidase GLA) (EC 3.2.1.47) (Melibiase) (Agalsidase)	Alpha-galactosidase A	Enzyme
+CHEMBL2525	Q9Y5Z0	Beta-secretase 2 (EC 3.4.23.45) (Aspartic-like protease 56 kDa) (Aspartyl protease 1) (ASP1) (Asp 1) (Beta-site amyloid precursor protein cleaving enzyme 2) (Beta-site APP cleaving enzyme 2) (Down region aspartic protease) (DRAP) (Memapsin-1) (Membrane-associated aspartic protease 1) (Theta-secretase)	Beta-secretase 2	Enzyme
+CHEMBL2527	O96017	Serine/threonine-protein kinase Chk2 (EC 2.7.11.1) (CHK2 checkpoint homolog) (Cds1 homolog) (Hucds1) (hCds1) (Checkpoint kinase 2)	Serine/threonine-protein kinase Chk2	Kinase
+CHEMBL2534	O15530	3-phosphoinositide-dependent protein kinase 1 (hPDK1) (EC 2.7.11.1)	3-phosphoinositide-dependent protein kinase 1	Kinase
+CHEMBL254	P27815	cAMP-specific 3',5'-cyclic phosphodiesterase 4A (EC 3.1.4.53) (DPDE2) (PDE46)	cAMP-specific 3',5'-cyclic phosphodiesterase 4A	Enzyme
+CHEMBL2553	Q15418	Ribosomal protein S6 kinase alpha-1 (S6K-alpha-1) (EC 2.7.11.1) (90 kDa ribosomal protein S6 kinase 1) (p90-RSK 1) (p90RSK1) (p90S6K) (MAP kinase-activated protein kinase 1a) (MAPK-activated protein kinase 1a) (MAPKAP kinase 1a) (MAPKAPK-1a) (Ribosomal S6 kinase 1) (RSK-1)	Ribosomal protein S6 kinase alpha-1	Kinase
+CHEMBL2555	P0A884	Thymidylate synthase (TS) (TSase) (EC 2.1.1.45)	None	Unclassified
+CHEMBL2558	P53355	Death-associated protein kinase 1 (DAP kinase 1) (EC 2.7.11.1)	Death-associated protein kinase 1	Kinase
+CHEMBL2568	P06737	Glycogen phosphorylase, liver form (EC 2.4.1.1)	Glycogen phosphorylase, liver form	Enzyme
+CHEMBL2578	P56221	Scytalone dehydratase (SD) (SDH) (EC 4.2.1.94)	None	Unclassified
+CHEMBL2581	P07339	Cathepsin D (EC 3.4.23.5) [Cleaved into: Cathepsin D light chain; Cathepsin D heavy chain]	Cathepsin D	Enzyme
+CHEMBL2582	P20248	Cyclin-A2 (Cyclin-A) (Cyclin A)	Cyclin-A2	Other
+CHEMBL258	P06239	Tyrosine-protein kinase Lck (EC 2.7.10.2) (Leukocyte C-terminal Src kinase) (LSK) (Lymphocyte cell-specific protein-tyrosine kinase) (Protein YT16) (Proto-oncogene Lck) (T cell-specific protein-tyrosine kinase) (p56-LCK)	Tyrosine-protein kinase Lck	Kinase
+CHEMBL2590	P15145	Aminopeptidase N (AP-N) (pAPN) (EC 3.4.11.2) (Alanyl aminopeptidase) (Aminopeptidase M) (AP-M) (Microsomal aminopeptidase) (gp130) (CD antigen CD13)	None	Unclassified
+CHEMBL2598	P41743	Protein kinase C iota type (EC 2.7.11.13) (Atypical protein kinase C-lambda/iota) (PRKC-lambda/iota) (aPKC-lambda/iota) (nPKC-iota)	Protein kinase C iota type	Kinase
+CHEMBL2599	P43405	Tyrosine-protein kinase SYK (EC 2.7.10.2) (Spleen tyrosine kinase) (p72-Syk)	Tyrosine-protein kinase SYK	Kinase
+CHEMBL2608	P10253	Lysosomal alpha-glucosidase (EC 3.2.1.20) (Acid maltase) (Aglucosidase alfa) [Cleaved into: 76 kDa lysosomal alpha-glucosidase; 70 kDa lysosomal alpha-glucosidase]	Lysosomal alpha-glucosidase	Enzyme
+CHEMBL260	Q16539	Mitogen-activated protein kinase 14 (MAP kinase 14) (MAPK 14) (EC 2.7.11.24) (Cytokine suppressive anti-inflammatory drug-binding protein) (CSAID-binding protein) (CSBP) (MAP kinase MXI2) (MAX-interacting protein 2) (Mitogen-activated protein kinase p38 alpha) (MAP kinase p38 alpha) (Stress-activated protein kinase 2a) (SAPK2a)	Mitogen-activated protein kinase 14	Kinase
+CHEMBL2611	P09958	Furin (EC 3.4.21.75) (Dibasic-processing enzyme) (Paired basic amino acid residue-cleaving enzyme) (PACE)	Furin	Enzyme
+CHEMBL261	P00915	Carbonic anhydrase 1 (EC 4.2.1.1) (Carbonate dehydratase I) (Carbonic anhydrase B) (CAB) (Carbonic anhydrase I) (CA-I)	Carbonic anhydrase 1	Enzyme
+CHEMBL262	P49841	Glycogen synthase kinase-3 beta (GSK-3 beta) (EC 2.7.11.26) (Serine/threonine-protein kinase GSK3B) (EC 2.7.11.1)	Glycogen synthase kinase-3 beta	Kinase
+CHEMBL2632	P04439	HLA class I histocompatibility antigen, A alpha chain (Human leukocyte antigen A) (HLA-A)	HLA class I histocompatibility antigen, A-3 alpha chain	Other
+CHEMBL2633	P15309	Prostatic acid phosphatase (PAP) (EC 3.1.3.2) (5'-nucleotidase) (5'-NT) (EC 3.1.3.5) (Acid phosphatase 3) (Ecto-5'-nucleotidase) (Protein tyrosine phosphatase ACP3) (EC 3.1.3.48) (Thiamine monophosphatase) (TMPase) [Cleaved into: PAPf39]	Prostatic acid phosphatase	Enzyme
+CHEMBL2637	P53779	Mitogen-activated protein kinase 10 (MAP kinase 10) (MAPK 10) (EC 2.7.11.24) (MAP kinase p49 3F12) (Stress-activated protein kinase 1b) (SAPK1b) (Stress-activated protein kinase JNK3) (c-Jun N-terminal kinase 3)	Mitogen-activated protein kinase 10	Kinase
+CHEMBL2640	P52789	Hexokinase-2 (EC 2.7.1.1) (Hexokinase type II) (HK II) (Hexokinase-B) (Muscle form hexokinase)	Hexokinase-2	Kinase
+CHEMBL2652	O00408	cGMP-dependent 3',5'-cyclic phosphodiesterase (EC 3.1.4.17) (Cyclic GMP-stimulated phosphodiesterase) (CGS-PDE) (cGSPDE)	cGMP-dependent 3',5'-cyclic phosphodiesterase	Enzyme
+CHEMBL2654	P00517	cAMP-dependent protein kinase catalytic subunit alpha (PKA C-alpha) (EC 2.7.11.11)	None	Unclassified
+CHEMBL267	P12931	Proto-oncogene tyrosine-protein kinase Src (EC 2.7.10.2) (Proto-oncogene c-Src) (pp60c-src) (p60-Src)	Proto-oncogene tyrosine-protein kinase Src	Kinase
+CHEMBL268	P43235	Cathepsin K (EC 3.4.22.38) (Cathepsin O) (Cathepsin O2) (Cathepsin X)	Cathepsin K	Enzyme
+CHEMBL2695	Q05397	Focal adhesion kinase 1 (FADK 1) (EC 2.7.10.2) (Focal adhesion kinase-related nonkinase) (FRNK) (Protein phosphatase 1 regulatory subunit 71) (PPP1R71) (Protein-tyrosine kinase 2) (p125FAK) (pp125FAK)	Focal adhesion kinase 1	Kinase
+CHEMBL2706	P23467	Receptor-type tyrosine-protein phosphatase beta (Protein-tyrosine phosphatase beta) (R-PTP-beta) (EC 3.1.3.48) (Vascular endothelial protein tyrosine phosphatase) (VE-PTP)	Receptor-type tyrosine-protein phosphatase beta	Enzyme
+CHEMBL2716	Q8WUI4	Histone deacetylase 7 (HD7) (EC 3.5.1.98) (Histone deacetylase 7A) (HD7a)	Histone deacetylase 7	Epigenetic
+CHEMBL2730	P21980	Protein-glutamine gamma-glutamyltransferase 2 (EC 2.3.2.13) (Erythrocyte transglutaminase) (Heart G alpha(h)) (hhG alpha(h)) (Isopeptidase TGM2) (EC 3.4.-.-) (Protein G alpha(h)) (G(h)) (Protein-glutamine deamidase TGM2) (EC 3.5.1.44) (Protein-glutamine dopaminyltransferase TGM2) (EC 2.3.1.-) (Protein-glutamine histaminyltransferase TGM2) (EC 2.3.1.-) (Protein-glutamine noradrenalinyltransferase TGM2) (EC 2.3.1.-) (Protein-glutamine serotonyltransferase TGM2) (EC 2.3.1.-) (Tissue transglutaminase) (tTG) (tTgase) (Transglutaminase C) (TG(C)) (TGC) (TGase C) (Transglutaminase H) (TGase H) (Transglutaminase II) (TGase II) (Transglutaminase-2) (TG2) (TGase-2) (hTG2)	Protein-glutamine gamma-glutamyltransferase 2	Enzyme
+CHEMBL275	Q07343	cAMP-specific 3',5'-cyclic phosphodiesterase 4B (EC 3.1.4.53) (DPDE4) (PDE32)	cAMP-specific 3',5'-cyclic phosphodiesterase 4B	Enzyme
+CHEMBL278	P13612	Integrin alpha-4 (CD49 antigen-like family member D) (Integrin alpha-IV) (VLA-4 subunit alpha) (CD antigen CD49d)	Integrin alpha-4	Other
+CHEMBL279	P35968	Vascular endothelial growth factor receptor 2 (VEGFR-2) (EC 2.7.10.1) (Fetal liver kinase 1) (FLK-1) (Kinase insert domain receptor) (KDR) (Protein-tyrosine kinase receptor flk-1) (CD antigen CD309)	Vascular endothelial growth factor receptor 2	Kinase
+CHEMBL2803	P43403	Tyrosine-protein kinase ZAP-70 (EC 2.7.10.2) (70 kDa zeta-chain associated protein) (Syk-related tyrosine kinase)	Tyrosine-protein kinase ZAP-70	Kinase
+CHEMBL2804	P29994	Inositol 1,4,5-trisphosphate receptor type 1 (IP3 receptor isoform 1) (IP-3-R) (IP3R 1) (InsP3R1) (Type 1 inositol 1,4,5-trisphosphate receptor) (Type 1 InsP3 receptor)	None	Unclassified
+CHEMBL2808	Q13133	Oxysterols receptor LXR-alpha (Liver X receptor alpha) (Nuclear receptor subfamily 1 group H member 3)	Oxysterols receptor LXR-alpha	Nuclear Receptor
+CHEMBL280	P45452	Collagenase 3 (EC 3.4.24.-) (Matrix metalloproteinase-13) (MMP-13)	Collagenase 3	Enzyme
+CHEMBL2815	P04629	High affinity nerve growth factor receptor (EC 2.7.10.1) (Neurotrophic tyrosine kinase receptor type 1) (TRK1-transforming tyrosine kinase protein) (Tropomyosin-related kinase A) (Tyrosine kinase receptor) (Tyrosine kinase receptor A) (Trk-A) (gp140trk) (p140-TrkA)	High affinity nerve growth factor receptor	Kinase
+CHEMBL2820	P03951	Coagulation factor XI (FXI) (EC 3.4.21.27) (Plasma thromboplastin antecedent) (PTA) [Cleaved into: Coagulation factor XIa heavy chain; Coagulation factor XIa light chain]	Coagulation factor XI	Enzyme
+CHEMBL2828	P48730	Casein kinase I isoform delta (CKI-delta) (CKId) (EC 2.7.11.1) (Tau-protein kinase CSNK1D) (EC 2.7.11.26)	Casein kinase I isoform delta	Kinase
+CHEMBL2835	P23458	Tyrosine-protein kinase JAK1 (EC 2.7.10.2) (Janus kinase 1) (JAK-1)	Tyrosine-protein kinase JAK1	Kinase
+CHEMBL283	P08254	Stromelysin-1 (SL-1) (EC 3.4.24.17) (Matrix metalloproteinase-3) (MMP-3) (Transin-1)	Stromelysin-1	Other
+CHEMBL284	P27487	Dipeptidyl peptidase 4 (EC 3.4.14.5) (ADABP) (Adenosine deaminase complexing protein 2) (ADCP-2) (Dipeptidyl peptidase IV) (DPP IV) (T-cell activation antigen CD26) (TP103) (CD antigen CD26) [Cleaved into: Dipeptidyl peptidase 4 membrane form (Dipeptidyl peptidase IV membrane form); Dipeptidyl peptidase 4 soluble form (Dipeptidyl peptidase IV soluble form)]	Dipeptidyl peptidase 4	Enzyme
+CHEMBL2858	P42866	Mu-type opioid receptor (M-OR-1) (MOR-1)	None	Unclassified
+CHEMBL286	P00797	Renin (EC 3.4.23.15) (Angiotensinogenase)	Renin	Enzyme
+CHEMBL287	Q99720	Sigma non-opioid intracellular receptor 1 (Aging-associated gene 8 protein) (SR31747-binding protein) (SR-BP) (Sigma 1-type opioid receptor) (SIG-1R) (Sigma1-receptor) (Sigma1R) (hSigmaR1)	Sigma non-opioid intracellular receptor 1	Other
+CHEMBL2888	Q14832	Metabotropic glutamate receptor 3 (mGluR3)	Metabotropic glutamate receptor 3	GPCR
+CHEMBL2889	Q9Y2R2	Tyrosine-protein phosphatase non-receptor type 22 (EC 3.1.3.48) (Hematopoietic cell protein-tyrosine phosphatase 70Z-PEP) (Lymphoid phosphatase) (LyP) (PEST-domain phosphatase) (PEP)	Tyrosine-protein phosphatase non-receptor type 22	Enzyme
+CHEMBL288	Q08499	cAMP-specific 3',5'-cyclic phosphodiesterase 4D (EC 3.1.4.53) (DPDE3) (PDE43)	cAMP-specific 3',5'-cyclic phosphodiesterase 4D	Enzyme
+CHEMBL2902	P00381	Dihydrofolate reductase (EC 1.5.1.3)	None	Unclassified
+CHEMBL290	Q13370	cGMP-inhibited 3',5'-cyclic phosphodiesterase B (EC 3.1.4.17) (CGIPDE1) (CGIP1) (Cyclic GMP-inhibited phosphodiesterase B) (CGI-PDE B)	cGMP-inhibited 3',5'-cyclic phosphodiesterase B	Enzyme
+CHEMBL2911	P35558	Phosphoenolpyruvate carboxykinase, cytosolic [GTP] (PEPCK-C) (EC 4.1.1.32) (Serine-protein kinase PCK1) (EC 2.7.11.-)	Phosphoenolpyruvate carboxykinase, cytosolic [GTP]	Kinase
+CHEMBL2919	P22756	Glutamate receptor ionotropic, kainate 1 (GluK1) (Glutamate receptor 5) (GluR-5) (GluR5)	None	Unclassified
+CHEMBL2935	P55859	Purine nucleoside phosphorylase (PNP) (EC 2.4.2.1) (Inosine phosphorylase) (Inosine-guanosine phosphorylase)	None	Unclassified
+CHEMBL2939	O15264	Mitogen-activated protein kinase 13 (MAP kinase 13) (MAPK 13) (EC 2.7.11.24) (Mitogen-activated protein kinase p38 delta) (MAP kinase p38 delta) (Stress-activated protein kinase 4)	Mitogen-activated protein kinase 13	Kinase
+CHEMBL2954	P25774	Cathepsin S (EC 3.4.22.27)	Cathepsin S	Enzyme
+CHEMBL2958	P26769	Adenylate cyclase type 2 (EC 4.6.1.1) (ATP pyrophosphate-lyase 2) (Adenylate cyclase type II) (Adenylyl cyclase 2) (AC2)	None	Unclassified
+CHEMBL2959	Q08881	Tyrosine-protein kinase ITK/TSK (EC 2.7.10.2) (Interleukin-2-inducible T-cell kinase) (IL-2-inducible T-cell kinase) (Kinase EMT) (T-cell-specific kinase) (Tyrosine-protein kinase Lyk)	Tyrosine-protein kinase ITK/TSK	Kinase
+CHEMBL2966	P56658	Adenosine deaminase (EC 3.5.4.4) (Adenosine aminohydrolase)	None	Unclassified
+CHEMBL2971	O60674	Tyrosine-protein kinase JAK2 (EC 2.7.10.2) (Janus kinase 2) (JAK-2)	Tyrosine-protein kinase JAK2	Kinase
+CHEMBL2973	O75116	Rho-associated protein kinase 2 (EC 2.7.11.1) (Rho kinase 2) (Rho-associated, coiled-coil-containing protein kinase 2) (Rho-associated, coiled-coil-containing protein kinase II) (ROCK-II) (p164 ROCK-2)	Rho-associated protein kinase 2	Kinase
+CHEMBL2982	Q9TVW2	Adenosine kinase (AK) (EC 2.7.1.20) (Adenosine 5'-phosphotransferase)	None	Unclassified
+CHEMBL2987	P28720	Queuine tRNA-ribosyltransferase (EC 2.4.2.29) (Guanine insertion enzyme) (tRNA-guanine transglycosylase)	None	Unclassified
+CHEMBL2998	P56373	P2X purinoceptor 3 (P2X3) (ATP receptor) (Purinergic receptor)	P2X purinoceptor 3	Ion Channel
+CHEMBL299	P17252	Protein kinase C alpha type (PKC-A) (PKC-alpha) (EC 2.7.11.13)	Protein kinase C alpha type	Kinase
+CHEMBL3009	Q15303	Receptor tyrosine-protein kinase erbB-4 (EC 2.7.10.1) (Proto-oncogene-like protein c-ErbB-4) (Tyrosine kinase-type cell surface receptor HER4) (p180erbB4) [Cleaved into: ERBB4 intracellular domain (4ICD) (E4ICD) (s80HER4)]	Receptor tyrosine-protein kinase erbB-4	Kinase
+CHEMBL3012	Q13946	High affinity cAMP-specific 3',5'-cyclic phosphodiesterase 7A (EC 3.1.4.53) (HCP1) (TM22)	High affinity cAMP-specific 3',5'-cyclic phosphodiesterase 7A	Enzyme
+CHEMBL3018	Q9Y5Y6	Suppressor of tumorigenicity 14 protein (EC 3.4.21.109) (Matriptase) (Membrane-type serine protease 1) (MT-SP1) (Prostamin) (Serine protease 14) (Serine protease TADG-15) (Tumor-associated differentially-expressed gene 15 protein)	Suppressor of tumorigenicity 14 protein	Other
+CHEMBL301	P24941	Cyclin-dependent kinase 2 (EC 2.7.11.22) (Cell division protein kinase 2) (p33 protein kinase)	Cyclin-dependent kinase 2	Kinase
+CHEMBL3021	Q62986	Estrogen receptor beta (ER-beta) (Nuclear receptor subfamily 3 group A member 2)	None	Unclassified
+CHEMBL3024	P53350	Serine/threonine-protein kinase PLK1 (EC 2.7.11.21) (Polo-like kinase 1) (PLK-1) (Serine/threonine-protein kinase 13) (STPK13)	Serine/threonine-protein kinase PLK1	Kinase
+CHEMBL3028	Q96KS0	Prolyl hydroxylase EGLN2 (EC 1.14.11.-) (Egl nine homolog 2) (EC 1.14.11.29) (Estrogen-induced tag 6) (EIT-6) (HPH-3) (Hypoxia-inducible factor prolyl hydroxylase 1) (HIF-PH1) (HIF-prolyl hydroxylase 1) (HPH-1) (Prolyl hydroxylase domain-containing protein 1) (PHD1)	Egl nine homolog 2	Other
+CHEMBL3038474	P24863	Cyclin-C (SRB11 homolog) (hSRB11)	Cyclin-C	Other
+CHEMBL3044	Q01812	Glutamate receptor ionotropic, kainate 4 (GluK4) (Glutamate receptor KA-1) (KA1)	None	Unclassified
+CHEMBL3045	P05771	Protein kinase C beta type (PKC-B) (PKC-beta) (EC 2.7.11.13)	Protein kinase C beta type	Kinase
+CHEMBL3069	O35627	Nuclear receptor subfamily 1 group I member 3 (Constitutive androstane receptor) (CAR) (Orphan nuclear receptor MB67)	None	Unclassified
+CHEMBL3072	P15207	Androgen receptor (Dihydrotestosterone receptor) (Nuclear receptor subfamily 3 group C member 4)	None	Unclassified
+CHEMBL3080	Q13231	Chitotriosidase-1 (EC 3.2.1.14) (Chitinase-1)	Chitotriosidase-1	Enzyme
+CHEMBL3085	P43003	Excitatory amino acid transporter 1 (Sodium-dependent glutamate/aspartate transporter 1) (GLAST-1) (Solute carrier family 1 member 3)	Excitatory amino acid transporter 1	Transporter
+CHEMBL308	P06493	Cyclin-dependent kinase 1 (CDK1) (EC 2.7.11.22) (EC 2.7.11.23) (Cell division control protein 2 homolog) (Cell division protein kinase 1) (p34 protein kinase)	Cyclin-dependent kinase 1	Kinase
+CHEMBL3091270	Q63T71	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (MECDP-synthase) (MECPP-synthase) (MECPS) (EC 4.6.1.12)	None	Unclassified
+CHEMBL3091	Q99523	Sortilin (100 kDa NT receptor) (Glycoprotein 95) (Gp95) (Neurotensin receptor 3) (NT3) (NTR3)	Sortilin	Other
+CHEMBL3099	P00520	Tyrosine-protein kinase ABL1 (EC 2.7.10.2) (Abelson murine leukemia viral oncogene homolog 1) (Abelson tyrosine-protein kinase 1) (Proto-oncogene c-Abl) (p150)	None	Unclassified
+CHEMBL3100	P02753	Retinol-binding protein 4 (Plasma retinol-binding protein) (PRBP) (RBP) [Cleaved into: Plasma retinol-binding protein(1-182); Plasma retinol-binding protein(1-181); Plasma retinol-binding protein(1-179); Plasma retinol-binding protein(1-176)]	Retinol-binding protein 4	Other
+CHEMBL3105	P09874	Poly [ADP-ribose] polymerase 1 (PARP-1) (EC 2.4.2.30) (ADP-ribosyltransferase diphtheria toxin-like 1) (ARTD1) (DNA ADP-ribosyltransferase PARP1) (EC 2.4.2.-) (NAD(+) ADP-ribosyltransferase 1) (ADPRT 1) (Poly[ADP-ribose] synthase 1) (Protein poly-ADP-ribosyltransferase PARP1) (EC 2.4.2.-)	Poly [ADP-ribose] polymerase 1	Enzyme
+CHEMBL3106	P19971	Thymidine phosphorylase (TP) (EC 2.4.2.4) (Gliostatin) (Platelet-derived endothelial cell growth factor) (PD-ECGF) (TdRPase)	Thymidine phosphorylase	Enzyme
+CHEMBL3108634	Q00610	Clathrin heavy chain 1 (Clathrin heavy chain on chromosome 17) (CLH-17)	Clathrin heavy chain 1	Other
+CHEMBL3108638	O15164	Transcription intermediary factor 1-alpha (TIF1-alpha) (EC 2.3.2.27) (E3 ubiquitin-protein ligase TRIM24) (RING finger protein 82) (RING-type E3 ubiquitin transferase TIF1-alpha) (Tripartite motif-containing protein 24)	Transcription intermediary factor 1-alpha	Epigenetic
+CHEMBL3108639	Q9BXF3	Cat eye syndrome critical region protein 2	Cat eye syndrome critical region protein 2	Epigenetic
+CHEMBL3108640	Q9H8M2	Bromodomain-containing protein 9 (Rhabdomyosarcoma antigen MU-RMS-40.8)	Bromodomain-containing protein 9	Epigenetic
+CHEMBL3108647	Q9BYW2	Histone-lysine N-methyltransferase SETD2 (EC 2.1.1.359) (HIF-1) (Huntingtin yeast partner B) (Huntingtin-interacting protein 1) (HIP-1) (Huntingtin-interacting protein B) (Lysine N-methyltransferase 3A) (Protein-lysine N-methyltransferase SETD2) (EC 2.1.1.-) (SET domain-containing protein 2) (hSET2) (p231HBP)	Histone-lysine N-methyltransferase SETD2	Epigenetic
+CHEMBL3108660	P40337	von Hippel-Lindau disease tumor suppressor (Protein G7) (pVHL)	von Hippel-Lindau disease tumor suppressor	Enzyme
+CHEMBL3116	P50750	Cyclin-dependent kinase 9 (EC 2.7.11.22) (EC 2.7.11.23) (C-2K) (Cell division cycle 2-like protein kinase 4) (Cell division protein kinase 9) (Serine/threonine-protein kinase PITALRE) (Tat-associated kinase complex catalytic subunit)	Cyclin-dependent kinase 9	Kinase
+CHEMBL3117	P35790	Choline kinase alpha (CK) (EC 2.7.1.32) (CHETK-alpha) (Ethanolamine kinase) (EK) (EC 2.7.1.82)	Choline kinase alpha	Kinase
+CHEMBL311	Q00960	Glutamate receptor ionotropic, NMDA 2B (GluN2B) (Glutamate [NMDA] receptor subunit epsilon-2) (N-methyl D-aspartate receptor subtype 2B) (NMDAR2B) (NR2B)	None	Unclassified
+CHEMBL3129	Q9Y2T3	Guanine deaminase (Guanase) (Guanine aminase) (EC 3.5.4.3) (Guanine aminohydrolase) (GAH) (p51-nedasin)	Guanine deaminase	Enzyme
+CHEMBL3130	O00329	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform (PI3-kinase subunit delta) (PI3K-delta) (PI3Kdelta) (PtdIns-3-kinase subunit delta) (EC 2.7.1.137) (EC 2.7.1.153) (Phosphatidylinositol 4,5-bisphosphate 3-kinase 110 kDa catalytic subunit delta) (PtdIns-3-kinase subunit p110-delta) (p110delta)	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform	Kinase
+CHEMBL3132741	P55201	Peregrin (Bromodomain and PHD finger-containing protein 1) (Protein Br140)	Peregrin	Epigenetic
+CHEMBL3137262	Q9UKL0	REST corepressor 1 (Protein CoREST)	REST corepressor 1	Transcription Factor
+CHEMBL3137286	Q15022	Polycomb protein SUZ12 (Chromatin precipitated E2F target 9 protein) (ChET 9 protein) (Joined to JAZF1 protein) (Suppressor of zeste 12 protein homolog)	Polycomb protein SUZ12	Other
+CHEMBL3137287	Q6ZN18	Zinc finger protein AEBP2 (Adipocyte enhancer-binding protein 2) (AE-binding protein 2)	Zinc finger protein AEBP2	Other
+CHEMBL3137287	Q09028	Histone-binding protein RBBP4 (Chromatin assembly factor 1 subunit C) (CAF-1 subunit C) (Chromatin assembly factor I p48 subunit) (CAF-I 48 kDa subunit) (CAF-I p48) (Nucleosome-remodeling factor subunit RBAP48) (Retinoblastoma-binding protein 4) (RBBP-4) (Retinoblastoma-binding protein p48)	Histone-binding protein RBBP4	Other
+CHEMBL3137287	Q15022	Polycomb protein SUZ12 (Chromatin precipitated E2F target 9 protein) (ChET 9 protein) (Joined to JAZF1 protein) (Suppressor of zeste 12 protein homolog)	Polycomb protein SUZ12	Other
+CHEMBL3150	P13053	Vitamin D3 receptor (VDR) (1,25-dihydroxyvitamin D3 receptor) (Nuclear receptor subfamily 1 group I member 1)	None	Unclassified
+CHEMBL3174	P78417	Glutathione S-transferase omega-1 (GSTO-1) (EC 2.5.1.18) (Glutathione S-transferase omega 1-1) (GSTO 1-1) (Glutathione-dependent dehydroascorbate reductase) (EC 1.8.5.1) (Monomethylarsonic acid reductase) (MMA(V) reductase) (EC 1.20.4.2) (S-(Phenacyl)glutathione reductase) (SPG-R)	Glutathione S-transferase omega-1	Enzyme
+CHEMBL3181	P14061	17-beta-hydroxysteroid dehydrogenase type 1 (17-beta-HSD 1) (EC 1.1.1.51) (20 alpha-hydroxysteroid dehydrogenase) (20-alpha-HSD) (E2DH) (Estradiol 17-beta-dehydrogenase 1) (EC 1.1.1.62) (Placental 17-beta-hydroxysteroid dehydrogenase) (Short chain dehydrogenase/reductase family 28C member 1)	Estradiol 17-beta-dehydrogenase 1	Enzyme
+CHEMBL3192	Q9BY41	Histone deacetylase 8 (HD8) (EC 3.5.1.98)	Histone deacetylase 8	Epigenetic
+CHEMBL3194	P02766	Transthyretin (ATTR) (Prealbumin) (TBPA)	Transthyretin	Other
+CHEMBL3198	P21836	Acetylcholinesterase (AChE) (EC 3.1.1.7)	None	Unclassified
+CHEMBL3200	Q9Y3R4	Sialidase-2 (EC 3.2.1.18) (Cytosolic sialidase) (N-acetyl-alpha-neuraminidase 2)	Sialidase-2	Enzyme
+CHEMBL3208	P62965	Cellular retinoic acid-binding protein 1 (Cellular retinoic acid-binding protein I) (CRABP-I)	None	Unclassified
+CHEMBL3217375	P62617	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (MECDP-synthase) (MECPP-synthase) (MECPS) (EC 4.6.1.12)	None	Unclassified
+CHEMBL3217378	P56740	Dihydroneopterin aldolase (DHNA) (EC 4.1.2.25) (7,8-dihydroneopterin 2'-epimerase) (7,8-dihydroneopterin aldolase) (7,8-dihydroneopterin epimerase) (EC 5.1.99.8) (Dihydroneopterin epimerase)	None	Unclassified
+CHEMBL3217379	P26281	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase (EC 2.7.6.3) (6-hydroxymethyl-7,8-dihydropterin pyrophosphokinase) (PPPK) (7,8-dihydro-6-hydroxymethylpterin-pyrophosphokinase) (HPPK)	None	Unclassified
+CHEMBL3217380	P05804	Beta-glucuronidase (GUS) (EC 3.2.1.31) (Beta-D-glucuronoside glucuronosohydrolase)	None	Unclassified
+CHEMBL3217390	P21675	Transcription initiation factor TFIID subunit 1 (EC 2.3.1.48) (EC 2.7.11.1) (Cell cycle gene 1 protein) (TBP-associated factor 250 kDa) (p250) (Transcription initiation factor TFIID 250 kDa subunit) (TAF(II)250) (TAFII-250) (TAFII250)	Transcription initiation factor TFIID subunit 1	Kinase
+CHEMBL3218	P20273	B-cell receptor CD22 (B-lymphocyte cell adhesion molecule) (BL-CAM) (Sialic acid-binding Ig-like lectin 2) (Siglec-2) (T-cell surface antigen Leu-14) (CD antigen CD22)	B-cell receptor CD22	Other
+CHEMBL321	P14780	Matrix metalloproteinase-9 (MMP-9) (EC 3.4.24.35) (92 kDa gelatinase) (92 kDa type IV collagenase) (Gelatinase B) (GELB) [Cleaved into: 67 kDa matrix metalloproteinase-9; 82 kDa matrix metalloproteinase-9]	Matrix metalloproteinase-9	Enzyme
+CHEMBL3227	P41594	Metabotropic glutamate receptor 5 (mGluR5)	Metabotropic glutamate receptor 5	GPCR
+CHEMBL3229	P97612	Fatty-acid amide hydrolase 1 (EC 3.5.1.99) (Anandamide amidase) (Anandamide amidohydrolase 1) (Fatty acid ester hydrolase) (EC 3.1.1.-) (Oleamide hydrolase 1)	None	Unclassified
+CHEMBL3231	Q13464	Rho-associated protein kinase 1 (EC 2.7.11.1) (Renal carcinoma antigen NY-REN-35) (Rho-associated, coiled-coil-containing protein kinase 1) (Rho-associated, coiled-coil-containing protein kinase I) (ROCK-I) (p160 ROCK-1) (p160ROCK)	Rho-associated protein kinase 1	Kinase
+CHEMBL3232684	Q9HC52	Chromobox protein homolog 8 (Polycomb 3 homolog) (Pc3) (hPc3) (Rectachrome 1)	Chromobox protein homolog 8	Epigenetic
+CHEMBL3232685	O00257	E3 SUMO-protein ligase CBX4 (EC 2.3.2.-) (Chromobox protein homolog 4) (Polycomb 2 homolog) (Pc2) (hPc2)	E3 SUMO-protein ligase CBX4	Epigenetic
+CHEMBL3232693	P15379	CD44 antigen (Extracellular matrix receptor III) (ECMR-III) (GP90 lymphocyte homing/adhesion receptor) (HUTCH-I) (Hermes antigen) (Hyaluronate receptor) (Lymphocyte antigen 24) (Ly-24) (Phagocytic glycoprotein 1) (PGP-1) (Phagocytic glycoprotein I) (PGP-I) (CD antigen CD44)	None	Unclassified
+CHEMBL3233	P25054	Adenomatous polyposis coli protein (Protein APC) (Deleted in polyposis 2.5)	Adenomatous polyposis coli protein	Other
+CHEMBL3234	P08631	Tyrosine-protein kinase HCK (EC 2.7.10.2) (Hematopoietic cell kinase) (Hemopoietic cell kinase) (p59-HCK/p60-HCK) (p59Hck) (p61Hck)	Tyrosine-protein kinase HCK	Kinase
+CHEMBL3242	O43570	Carbonic anhydrase 12 (EC 4.2.1.1) (Carbonate dehydratase XII) (Carbonic anhydrase XII) (CA-XII) (Tumor antigen HOM-RCC-3.1.3)	Carbonic anhydrase 12	Enzyme
+CHEMBL3253	P02768	Albumin	Serum albumin	Other
+CHEMBL3259512	Q07806	Penicillin-binding protein 1A (PBP-1a) (PBP1a) [Includes: Penicillin-insensitive transglycosylase (EC 2.4.1.129) (Peptidoglycan TGase); Penicillin-sensitive transpeptidase (EC 3.4.16.4) (DD-transpeptidase)]	None	Unclassified
+CHEMBL3267	P48736	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform (PI3-kinase subunit gamma) (PI3K-gamma) (PI3Kgamma) (PtdIns-3-kinase subunit gamma) (EC 2.7.1.137) (EC 2.7.1.153) (EC 2.7.1.154) (Phosphatidylinositol 4,5-bisphosphate 3-kinase 110 kDa catalytic subunit gamma) (PtdIns-3-kinase subunit p110-gamma) (p110gamma) (Phosphoinositide-3-kinase catalytic gamma polypeptide) (Serine/threonine protein kinase PIK3CG) (EC 2.7.11.1) (p120-PI3K)	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform	Kinase
+CHEMBL3268	Q9UBF8	Phosphatidylinositol 4-kinase beta (PI4K-beta) (PI4Kbeta) (PtdIns 4-kinase beta) (EC 2.7.1.67) (NPIK) (PI4K92) (PI4KIII)	Phosphatidylinositol 4-kinase beta	Kinase
+CHEMBL3277	P13051	Uracil-DNA glycosylase (UDG) (EC 3.2.2.27)	Uracil-DNA glycosylase	Enzyme
+CHEMBL3286061	O95470	Sphingosine-1-phosphate lyase 1 (S1PL) (SP-lyase 1) (SPL 1) (hSPL) (EC 4.1.2.27) (Sphingosine-1-phosphate aldolase)	Sphingosine-1-phosphate lyase 1	Enzyme
+CHEMBL3286068	O88587	Catechol O-methyltransferase (EC 2.1.1.6)	None	Unclassified
+CHEMBL3286	P00749	Urokinase-type plasminogen activator (U-plasminogen activator) (uPA) (EC 3.4.21.73) [Cleaved into: Urokinase-type plasminogen activator long chain A; Urokinase-type plasminogen activator short chain A; Urokinase-type plasminogen activator chain B]	Urokinase-type plasminogen activator	Enzyme
+CHEMBL3300	O35795	Ectonucleoside triphosphate diphosphohydrolase 2 (NTPDase 2) (EC 3.6.1.-) (CD39 antigen-like 1) (Ecto-ATP diphosphohydrolase 2) (Ecto-ATPDase 2) (Ecto-ATPase 2)	None	Unclassified
+CHEMBL3301388	Q09028	Histone-binding protein RBBP4 (Chromatin assembly factor 1 subunit C) (CAF-1 subunit C) (Chromatin assembly factor I p48 subunit) (CAF-I 48 kDa subunit) (CAF-I p48) (Nucleosome-remodeling factor subunit RBAP48) (Retinoblastoma-binding protein 4) (RBBP-4) (Retinoblastoma-binding protein p48)	Histone-binding protein RBBP4	Other
+CHEMBL3301388	Q16576	Histone-binding protein RBBP7 (Histone acetyltransferase type B subunit 2) (Nucleosome-remodeling factor subunit RBAP46) (Retinoblastoma-binding protein 7) (RBBP-7) (Retinoblastoma-binding protein p46)	Histone-binding protein RBBP7	Other
+CHEMBL3301388	Q15022	Polycomb protein SUZ12 (Chromatin precipitated E2F target 9 protein) (ChET 9 protein) (Joined to JAZF1 protein) (Suppressor of zeste 12 protein homolog)	Polycomb protein SUZ12	Other
+CHEMBL3301400	Q15369	Elongin-C (EloC) (Elongin 15 kDa subunit) (RNA polymerase II transcription factor SIII subunit C) (SIII p15) (Transcription elongation factor B polypeptide 1)	Elongin-C	Other
+CHEMBL3301400	Q15370	Elongin-B (EloB) (Elongin 18 kDa subunit) (RNA polymerase II transcription factor SIII subunit B) (SIII p18) (Transcription elongation factor B polypeptide 2)	Elongin-B	Other
+CHEMBL3301561	Q8IDJ8	Lysine--tRNA ligase (EC 6.1.1.6) (Lysyl-tRNA synthetase)	None	Unclassified
+CHEMBL3305	P04278	Sex hormone-binding globulin (SHBG) (Sex steroid-binding protein) (SBP) (Testis-specific androgen-binding protein) (ABP) (Testosterone-estradiol-binding globulin) (TeBG) (Testosterone-estrogen-binding globulin)	Sex hormone-binding globulin	Other
+CHEMBL3308	P55212	Caspase-6 (CASP-6) (EC 3.4.22.59) (Apoptotic protease Mch-2) [Cleaved into: Caspase-6 subunit p18; Caspase-6 subunit p11]	Caspase-6	Enzyme
+CHEMBL3309037	P15319	Chaperone protein PapD	None	Unclassified
+CHEMBL330	P35439	Glutamate receptor ionotropic, NMDA 1 (GluN1) (Glutamate [NMDA] receptor subunit zeta-1) (N-methyl-D-aspartate receptor subunit NR1) (NMD-R1)	None	Unclassified
+CHEMBL3313837	O54050	Xanthine dehydrogenase (EC 1.1.1.204)	None	Unclassified
+CHEMBL3329079	O35820	2'-deoxynucleoside 5'-phosphate N-hydrolase 1 (EC 3.2.2.-) (Deoxyribonucleoside 5'-monophosphate N-glycosidase) (c-Myc-responsive protein Rcl)	None	Unclassified
+CHEMBL332	P03956	Interstitial collagenase (EC 3.4.24.7) (Fibroblast collagenase) (Matrix metalloproteinase-1) (MMP-1) [Cleaved into: 22 kDa interstitial collagenase; 27 kDa interstitial collagenase]	Interstitial collagenase	Enzyme
+CHEMBL3338	P37268	Squalene synthase (SQS) (SS) (EC 2.5.1.21) (FPP:FPP farnesyltransferase) (Farnesyl-diphosphate farnesyltransferase) (Farnesyl-diphosphate farnesyltransferase 1)	Squalene synthase	Enzyme
+CHEMBL3344	P05413	Fatty acid-binding protein, heart (Fatty acid-binding protein 3) (Heart-type fatty acid-binding protein) (H-FABP) (Mammary-derived growth inhibitor) (MDGI) (Muscle fatty acid-binding protein) (M-FABP)	Fatty acid-binding protein, heart	Other
+CHEMBL3345	P9WPX7	3-dehydroquinate dehydratase (3-dehydroquinase) (EC 4.2.1.10) (Type II DHQase)	None	Unclassified
+CHEMBL3351196	Q05097	PA-I galactophilic lectin (PA-IL) (Galactose-binding lectin)	None	Unclassified
+CHEMBL3351218	O43598	2'-deoxynucleoside 5'-phosphate N-hydrolase 1 (EC 3.2.2.-) (c-Myc-responsive protein RCL)	2'-deoxynucleoside 5'-phosphate N-hydrolase 1	Enzyme
+CHEMBL335	P18031	Tyrosine-protein phosphatase non-receptor type 1 (EC 3.1.3.48) (Protein-tyrosine phosphatase 1B) (PTP-1B)	Tyrosine-protein phosphatase non-receptor type 1	Enzyme
+CHEMBL3367	P00959	Methionine--tRNA ligase (EC 6.1.1.10) (Methionyl-tRNA synthetase) (MetRS)	None	Unclassified
+CHEMBL3384	Q16512	Serine/threonine-protein kinase N1 (EC 2.7.11.13) (Protease-activated kinase 1) (PAK-1) (Protein kinase C-like 1) (Protein kinase C-like PKN) (Protein kinase PKN-alpha) (Protein-kinase C-related kinase 1) (Serine-threonine protein kinase N)	Serine/threonine-protein kinase N1	Kinase
+CHEMBL3385	P27361	Mitogen-activated protein kinase 3 (MAP kinase 3) (MAPK 3) (EC 2.7.11.24) (ERT2) (Extracellular signal-regulated kinase 1) (ERK-1) (Insulin-stimulated MAP2 kinase) (MAP kinase isoform p44) (p44-MAPK) (Microtubule-associated protein 2 kinase) (p44-ERK1)	Mitogen-activated protein kinase 3	Kinase
+CHEMBL3391	P26639	Threonine--tRNA ligase 1, cytoplasmic (EC 6.1.1.3) (Threonyl-tRNA synthetase) (ThrRS) (Threonyl-tRNA synthetase 1)	Threonine--tRNA ligase, cytoplasmic	Enzyme
+CHEMBL3392	P00800	Thermolysin (EC 3.4.24.27) (Thermostable neutral proteinase)	None	Unclassified
+CHEMBL3394	Q6B856	Tubulin beta-2B chain	None	Unclassified
+CHEMBL3401	O75469	Nuclear receptor subfamily 1 group I member 2 (Orphan nuclear receptor PAR1) (Orphan nuclear receptor PXR) (Pregnane X receptor) (Steroid and xenobiotic receptor) (SXR)	Nuclear receptor subfamily 1 group I member 2	Nuclear Receptor
+CHEMBL3409	P08263	Glutathione S-transferase A1 (EC 2.5.1.18) (13-hydroperoxyoctadecadienoate peroxidase) (EC 1.11.1.-) (Androst-5-ene-3,17-dione isomerase) (EC 5.3.3.-) (GST HA subunit 1) (GST class-alpha member 1) (GST-epsilon) (GSTA1-1) (GTH1) [Cleaved into: Glutathione S-transferase A1, N-terminally processed]	Glutathione S-transferase A1	Enzyme
+CHEMBL3412	Q02853	Stromelysin-3 (SL-3) (ST3) (EC 3.4.24.-) (Matrix metalloproteinase-11) (MMP-11)	None	Unclassified
+CHEMBL3414415	P0ACC7	Bifunctional protein GlmU [Includes: UDP-N-acetylglucosamine pyrophosphorylase (EC 2.7.7.23) (N-acetylglucosamine-1-phosphate uridyltransferase); Glucosamine-1-phosphate N-acetyltransferase (EC 2.3.1.157)]	None	Unclassified
+CHEMBL3419	Q96IY4	Carboxypeptidase B2 (EC 3.4.17.20) (Carboxypeptidase U) (CPU) (Plasma carboxypeptidase B) (pCPB) (Thrombin-activable fibrinolysis inhibitor) (TAFI)	Carboxypeptidase B2	Enzyme
+CHEMBL3423	P0AE18	Methionine aminopeptidase (MAP) (MetAP) (EC 3.4.11.18) (Peptidase M)	None	Unclassified
+CHEMBL3425392	P60487	Pyridoxal phosphate phosphatase (PLP phosphatase) (EC 3.1.3.3) (EC 3.1.3.74) (Chronophin)	None	Unclassified
+CHEMBL3429	P11474	Steroid hormone receptor ERR1 (Estrogen receptor-like 1) (Estrogen-related receptor alpha) (ERR-alpha) (Nuclear receptor subfamily 3 group B member 1)	Steroid hormone receptor ERR1	Nuclear Receptor
+CHEMBL3437	Q16853	Membrane primary amine oxidase (EC 1.4.3.21) (Copper amine oxidase) (HPAO) (Semicarbazide-sensitive amine oxidase) (SSAO) (Vascular adhesion protein 1) (VAP-1)	Membrane primary amine oxidase	Enzyme
+CHEMBL3439	Q07075	Glutamyl aminopeptidase (EAP) (EC 3.4.11.7) (Aminopeptidase A) (AP-A) (Differentiation antigen gp160) (CD antigen CD249)	Glutamyl aminopeptidase	Enzyme
+CHEMBL3468	P55210	Caspase-7 (CASP-7) (EC 3.4.22.60) (Apoptotic protease Mch-3) (CMH-1) (ICE-like apoptotic protease 3) (ICE-LAP3) [Cleaved into: Caspase-7 subunit p20; Caspase-7 subunit p11]	Caspase-7	Enzyme
+CHEMBL3474	P14555	Phospholipase A2, membrane associated (EC 3.1.1.4) (GIIC sPLA2) (Group IIA phospholipase A2) (Non-pancreatic secretory phospholipase A2) (NPS-PLA2) (Phosphatidylcholine 2-acylhydrolase 2A)	Phospholipase A2, membrane associated	Enzyme
+CHEMBL3475	P05121	Plasminogen activator inhibitor 1 (PAI) (PAI-1) (Endothelial plasminogen activator inhibitor) (Serpin E1)	Plasminogen activator inhibitor 1	Other
+CHEMBL3481	P00730	Carboxypeptidase A1 (EC 3.4.17.1)	None	Unclassified
+CHEMBL3503	P19491	Glutamate receptor 2 (GluR-2) (AMPA-selective glutamate receptor 2) (GluR-B) (GluR-K2) (Glutamate receptor ionotropic, AMPA 2) (GluA2)	None	Unclassified
+CHEMBL3504	P19492	Glutamate receptor 3 (GluR-3) (AMPA-selective glutamate receptor 3) (GluR-C) (GluR-K3) (Glutamate receptor ionotropic, AMPA 3) (GluA3)	None	Unclassified
+CHEMBL3505	P19493	Glutamate receptor 4 (GluR-4) (GluR4) (AMPA-selective glutamate receptor 4) (GluR-D) (Glutamate receptor ionotropic, AMPA 4) (GluA4)	None	Unclassified
+CHEMBL3510	Q9ULX7	Carbonic anhydrase 14 (EC 4.2.1.1) (Carbonate dehydratase XIV) (Carbonic anhydrase XIV) (CA-XIV)	Carbonic anhydrase 14	Enzyme
+CHEMBL3514	Q13093	Platelet-activating factor acetylhydrolase (PAF acetylhydrolase) (EC 3.1.1.47) (1-alkyl-2-acetylglycerophosphocholine esterase) (2-acetyl-1-alkylglycerophosphocholine esterase) (Group-VIIA phospholipase A2) (gVIIA-PLA2) (LDL-associated phospholipase A2) (LDL-PLA(2)) (PAF 2-acylhydrolase)	Platelet-activating factor acetylhydrolase	Enzyme
+CHEMBL3524	P56524	Histone deacetylase 4 (HD4) (EC 3.5.1.98)	Histone deacetylase 4	Epigenetic
+CHEMBL3530	O14733	Dual specificity mitogen-activated protein kinase kinase 7 (MAP kinase kinase 7) (MAPKK 7) (EC 2.7.12.2) (JNK-activating kinase 2) (MAPK/ERK kinase 7) (MEK 7) (Stress-activated protein kinase kinase 4) (SAPK kinase 4) (SAPKK-4) (SAPKK4) (c-Jun N-terminal kinase kinase 2) (JNK kinase 2) (JNKK 2)	Dual specificity mitogen-activated protein kinase kinase 7	Kinase
+CHEMBL3535	O76083	High affinity cGMP-specific 3',5'-cyclic phosphodiesterase 9A (EC 3.1.4.35)	High affinity cGMP-specific 3',5'-cyclic phosphodiesterase 9A	Enzyme
+CHEMBL3536	P02829	ATP-dependent molecular chaperone HSP82 (82 kDa heat shock protein) (Heat shock protein Hsp90 heat-inducible isoform)	None	Unclassified
+CHEMBL3548	P30418	Glycylpeptide N-tetradecanoyltransferase (EC 2.3.1.97) (Myristoyl-CoA:protein N-myristoyltransferase) (NMT) (Peptide N-myristoyltransferase)	None	Unclassified
+CHEMBL3553	P29597	Non-receptor tyrosine-protein kinase TYK2 (EC 2.7.10.2)	Non-receptor tyrosine-protein kinase TYK2	Kinase
+CHEMBL3559644	P06709	Bifunctional ligase/repressor BirA (Biotin operon repressor) (Biotin--[acetyl-CoA-carboxylase] ligase) (EC 6.3.4.15) (Biotin--protein ligase) (Biotin-[acetyl-CoA carboxylase] synthetase)	None	Unclassified
+CHEMBL3559645	P0AEG4	Thiol:disulfide interchange protein DsbA	None	Unclassified
+CHEMBL3562164	Q9Z2X8	Kelch-like ECH-associated protein 1 (Cytosolic inhibitor of Nrf2) (INrf2)	None	Unclassified
+CHEMBL3563	P25779	Cruzipain (EC 3.4.22.51) (Cruzaine) (Major cysteine proteinase)	None	Unclassified
+CHEMBL3569	P33247	Squalene--hopene cyclase (EC 4.2.1.129) (EC 5.4.99.17) (Squalene--hopanol cyclase)	None	Unclassified
+CHEMBL3577	P00352	Retinal dehydrogenase 1 (RALDH 1) (RalDH1) (EC 1.2.1.-) (EC 1.2.1.36) (ALDH-E1) (ALHDII) (Aldehyde dehydrogenase family 1 member A1) (Aldehyde dehydrogenase, cytosolic)	Retinal dehydrogenase 1	Enzyme
+CHEMBL3580522	Q9NZQ7	Programmed cell death 1 ligand 1 (PD-L1) (PDCD1 ligand 1) (Programmed death ligand 1) (hPD-L1) (B7 homolog 1) (B7-H1) (CD antigen CD274)	Programmed cell death 1 ligand 1	Other
+CHEMBL3587	Q02750	Dual specificity mitogen-activated protein kinase kinase 1 (MAP kinase kinase 1) (MAPKK 1) (MKK1) (EC 2.7.12.2) (ERK activator kinase 1) (MAPK/ERK kinase 1) (MEK 1)	Dual specificity mitogen-activated protein kinase kinase 1	Kinase
+CHEMBL3589	P55263	Adenosine kinase (AK) (EC 2.7.1.20) (Adenosine 5'-phosphotransferase)	Adenosine kinase	Kinase
+CHEMBL3593	P48449	Lanosterol synthase (EC 5.4.99.7) (2,3-epoxysqualene--lanosterol cyclase) (Oxidosqualene--lanosterol cyclase) (OSC) (hOSC)	Lanosterol synthase	Enzyme
+CHEMBL3594	Q16790	Carbonic anhydrase 9 (EC 4.2.1.1) (Carbonate dehydratase IX) (Carbonic anhydrase IX) (CA-IX) (CAIX) (Membrane antigen MN) (P54/58N) (Renal cell carcinoma-associated antigen G250) (RCC-associated antigen G250) (pMW1)	Carbonic anhydrase 9	Enzyme
+CHEMBL3607	P42260	Glutamate receptor ionotropic, kainate 2 (GluK2) (Glutamate receptor 6) (GluR-6) (GluR6)	None	Unclassified
+CHEMBL3611962	I6YFP0	Biotin--[acetyl-CoA-carboxylase] ligase (EC 6.3.4.15) (Biotin--[biotin carboxyl-carrier protein] ligase) (Biotin--protein ligase) (BPL) (Biotin-[acetyl-CoA carboxylase] synthetase)	None	Unclassified
+CHEMBL3616354	O15382	Branched-chain-amino-acid aminotransferase, mitochondrial (BCAT(m)) (EC 2.6.1.42) (Placental protein 18) (PP18)	Branched-chain-amino-acid aminotransferase, mitochondrial	Enzyme
+CHEMBL3616	P24723	Protein kinase C eta type (EC 2.7.11.13) (PKC-L) (nPKC-eta)	Protein kinase C eta type	Kinase
+CHEMBL3629	P68400	Casein kinase II subunit alpha (CK II alpha) (EC 2.7.11.1)	Casein kinase II subunit alpha	Kinase
+CHEMBL3632452	Q9UDY8	Mucosa-associated lymphoid tissue lymphoma translocation protein 1 (EC 3.4.22.-) (MALT lymphoma-associated translocation) (Paracaspase)	Mucosa-associated lymphoid tissue lymphoma translocation protein 1	Other
+CHEMBL3638326	P03367	Gag-Pol polyprotein (Pr160Gag-Pol) [Cleaved into: Matrix protein p17 (MA); Capsid protein p24 (CA); Spacer peptide 1 (SP1) (p2); Nucleocapsid protein p7 (NC); Transframe peptide (TF); p6-pol (p6*); Protease (EC 3.4.23.16) (PR) (Retropepsin); Reverse transcriptase/ribonuclease H (EC 2.7.7.49) (EC 2.7.7.7) (EC 3.1.26.13) (Exoribonuclease H) (EC 3.1.13.2) (p66 RT); p51 RT; p15; Integrase (IN) (EC 2.7.7.-) (EC 3.1.-.-)]	None	Unclassified
+CHEMBL3638331	P03369	Gag-Pol polyprotein (Pr160Gag-Pol) [Cleaved into: Matrix protein p17 (MA); Capsid protein p24 (CA); Spacer peptide 1 (SP1) (p2); Nucleocapsid protein p7 (NC); Transframe peptide (TF); p6-pol (p6*); Protease (EC 3.4.23.16) (PR) (Retropepsin); Reverse transcriptase/ribonuclease H (EC 2.7.7.49) (EC 2.7.7.7) (EC 3.1.26.13) (Exoribonuclease H) (EC 3.1.13.2) (p66 RT); p51 RT; p15; Integrase (IN) (EC 2.7.7.-) (EC 3.1.-.-)]	None	Unclassified
+CHEMBL3638332	O92972	Genome polyprotein [Cleaved into: Core protein precursor (Capsid protein C) (p23); Mature core protein (p21); Envelope glycoprotein E1 (gp32) (gp35); Envelope glycoprotein E2 (NS1) (gp68) (gp70); Viroporin p7; Protease NS2 (p23) (EC 3.4.22.-) (Non-structural protein 2) (NS2); Serine protease/helicase NS3 (EC 3.4.21.98) (EC 3.6.1.15) (EC 3.6.4.13) (Hepacivirin) (NS3 helicase) (NS3 protease) (NS3P) (Viroporin p70); Non-structural protein 4A (NS4A) (p8); Non-structural protein 4B (NS4B) (p27); Non-structural protein 5A (NS5A) (p56/58); RNA-directed RNA polymerase (EC 2.7.7.48) (NS5B) (p68)]	None	Unclassified
+CHEMBL3638349	Q9NXS2	Glutaminyl-peptide cyclotransferase-like protein (EC 2.3.2.5) (Golgi-resident glutaminyl-peptide cyclotransferase) (isoQC) (gQC)	Glutaminyl-peptide cyclotransferase-like protein	Enzyme
+CHEMBL3650	P11362	Fibroblast growth factor receptor 1 (FGFR-1) (EC 2.7.10.1) (Basic fibroblast growth factor receptor 1) (BFGFR) (bFGF-R-1) (Fms-like tyrosine kinase 2) (FLT-2) (N-sam) (Proto-oncogene c-Fgr) (CD antigen CD331)	Fibroblast growth factor receptor 1	Kinase
+CHEMBL3655	P00523	Proto-oncogene tyrosine-protein kinase Src (EC 2.7.10.2) (Proto-oncogene c-Src) (pp60c-src) (p60-Src)	None	Unclassified
+CHEMBL3663	P62993	Growth factor receptor-bound protein 2 (Adapter protein GRB2) (Protein Ash) (SH2/SH3 adapter GRB2)	Growth factor receptor-bound protein 2	Other
+CHEMBL3674	Q01469	Fatty acid-binding protein 5 (Epidermal-type fatty acid-binding protein) (E-FABP) (Fatty acid-binding protein, epidermal) (Psoriasis-associated fatty acid-binding protein homolog) (PA-FABP)	Fatty acid-binding protein 5	Other
+CHEMBL3683	Q13002	Glutamate receptor ionotropic, kainate 2 (GluK2) (Excitatory amino acid receptor 4) (EAA4) (Glutamate receptor 6) (GluR-6) (GluR6)	Glutamate receptor ionotropic, kainate 2	Ion Channel
+CHEMBL3691	Q13822	Ectonucleotide pyrophosphatase/phosphodiesterase family member 2 (E-NPP 2) (EC 3.1.4.39) (Autotaxin) (Extracellular lysophospholipase D) (LysoPLD)	Ectonucleotide pyrophosphatase/phosphodiesterase family member 2	Enzyme
+CHEMBL3706	P78536	Disintegrin and metalloproteinase domain-containing protein 17 (ADAM 17) (EC 3.4.24.86) (Snake venom-like protease) (TNF-alpha convertase) (TNF-alpha-converting enzyme) (CD antigen CD156b)	Disintegrin and metalloproteinase domain-containing protein 17	Enzyme
+CHEMBL3708197	P49902	Cytosolic purine 5'-nucleotidase (EC 3.1.3.5) (Cytosolic 5'-nucleotidase II)	Cytosolic purine 5'-nucleotidase	Enzyme
+CHEMBL3708265	P36639	7,8-dihydro-8-oxoguanine triphosphatase (EC 3.6.1.55) (2-hydroxy-dATP diphosphatase) (EC 3.6.1.56) (8-oxo-dGTPase) (Nucleoside diphosphate-linked moiety X motif 1) (Nudix motif 1)	7,8-dihydro-8-oxoguanine triphosphatase	Enzyme
+CHEMBL3710	P43115	Prostaglandin E2 receptor EP3 subtype (PGE receptor EP3 subtype) (PGE2 receptor EP3 subtype) (PGE2-R) (Prostanoid EP3 receptor)	Prostaglandin E2 receptor EP3 subtype	GPCR
+CHEMBL3711550	P21146	Beta-adrenergic receptor kinase 1 (Beta-ARK-1) (EC 2.7.11.15) (G-protein-coupled receptor kinase 2)	None	Unclassified
+CHEMBL3717	P08581	Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met)	Hepatocyte growth factor receptor	Kinase
+CHEMBL3729	P22748	Carbonic anhydrase 4 (EC 4.2.1.1) (Carbonate dehydratase IV) (Carbonic anhydrase IV) (CA-IV)	Carbonic anhydrase 4	Enzyme
+CHEMBL3744	P42264	Glutamate receptor ionotropic, kainate 3 (GluK3) (Glutamate receptor 7) (GluR-7) (GluR7)	None	Unclassified
+CHEMBL3750	Q01693	Bacterial leucyl aminopeptidase (EC 3.4.11.10)	None	Unclassified
+CHEMBL3751653	Q8TCD5	5'(3')-deoxyribonucleotidase, cytosolic type (EC 3.1.3.-) (Cytosolic 5',3'-pyrimidine nucleotidase) (Deoxy-5'-nucleotidase 1) (dNT-1)	5'(3')-deoxyribonucleotidase, cytosolic type	Enzyme
+CHEMBL3751654	Q9NPB1	5'(3')-deoxyribonucleotidase, mitochondrial (5',3'-nucleotidase, mitochondrial) (EC 3.1.3.-) (Deoxy-5'-nucleotidase 2) (dNT-2)	5'(3')-deoxyribonucleotidase, mitochondrial	Enzyme
+CHEMBL3763007	A4TVL0	Cereblon isoform 4	None	Unclassified
+CHEMBL3763008	Q96SW2	Protein cereblon	Protein cereblon	Other
+CHEMBL3769	P00760	Cationic trypsin (EC 3.4.21.4) (Beta-trypsin) [Cleaved into: Alpha-trypsin chain 1; Alpha-trypsin chain 2]	None	Unclassified
+CHEMBL3774295	Q9UGL1	Lysine-specific demethylase 5B (EC 1.14.11.67) (Cancer/testis antigen 31) (CT31) (Histone demethylase JARID1B) (Jumonji/ARID domain-containing protein 1B) (PLU-1) (Retinoblastoma-binding protein 2 homolog 1) (RBP2-H1) ([histone H3]-trimethyl-L-lysine(4) demethylase 5B)	Lysine-specific demethylase 5B	TF-Epigenetic
+CHEMBL3776	Q14790	Caspase-8 (CASP-8) (EC 3.4.22.61) (Apoptotic cysteine protease) (Apoptotic protease Mch-5) (CAP4) (FADD-homologous ICE/ced-3-like protease) (FADD-like ICE) (FLICE) (ICE-like apoptotic protease 5) (MORT1-associated ced-3 homolog) (MACH) [Cleaved into: Caspase-8 subunit p18; Caspase-8 subunit p10]	Caspase-8	Enzyme
+CHEMBL3778	Q9NWZ3	Interleukin-1 receptor-associated kinase 4 (IRAK-4) (EC 2.7.11.1) (Renal carcinoma antigen NY-REN-64)	Interleukin-1 receptor-associated kinase 4	Kinase
+CHEMBL3779761	Q14781	Chromobox protein homolog 2	Chromobox protein homolog 2	Epigenetic
+CHEMBL3797017	A5H660	Histone deacetylase 8	None	Unclassified
+CHEMBL3798	Q16602	Calcitonin gene-related peptide type 1 receptor (CGRP type 1 receptor) (Calcitonin receptor-like receptor)	Calcitonin gene-related peptide type 1 receptor	GPCR
+CHEMBL3813	P22411	Dipeptidyl peptidase 4 (EC 3.4.14.5) (Dipeptidyl peptidase IV) (DPP IV) (T-cell activation antigen CD26) (CD antigen CD26) [Cleaved into: Dipeptidyl peptidase 4 membrane form (Dipeptidyl peptidase IV membrane form); Dipeptidyl peptidase 4 soluble form (Dipeptidyl peptidase IV soluble form)]	None	Unclassified
+CHEMBL3826863	O15540	Fatty acid-binding protein, brain (Brain lipid-binding protein) (BLBP) (Brain-type fatty acid-binding protein) (B-FABP) (Fatty acid-binding protein 7) (Mammary-derived growth inhibitor related)	Fatty acid-binding protein, brain	Other
+CHEMBL3826871	Q9R1E6	Ectonucleotide pyrophosphatase/phosphodiesterase family member 2 (E-NPP 2) (EC 3.1.4.39) (Autotaxin) (Extracellular lysophospholipase D) (LysoPLD)	None	Unclassified
+CHEMBL3835	P51955	Serine/threonine-protein kinase Nek2 (EC 2.7.11.1) (HSPK 21) (Never in mitosis A-related kinase 2) (NimA-related protein kinase 2) (NimA-like protein kinase 1)	Serine/threonine-protein kinase Nek2	Kinase
+CHEMBL3837	P07711	Procathepsin L (EC 3.4.22.15) (Cathepsin L1) (Major excreted protein) (MEP) [Cleaved into: Cathepsin L; Cathepsin L heavy chain; Cathepsin L light chain]	Cathepsin L1	Enzyme
+CHEMBL3855	P47205	UDP-3-O-acyl-N-acetylglucosamine deacetylase (UDP-3-O-acyl-GlcNAc deacetylase) (EC 3.5.1.108) (UDP-3-O-[R-3-hydroxymyristoyl]-N-acetylglucosamine deacetylase)	None	Unclassified
+CHEMBL3860	O43924	Retinal rod rhodopsin-sensitive cGMP 3',5'-cyclic phosphodiesterase subunit delta (GMP-PDE delta) (Protein p17)	Retinal rod rhodopsin-sensitive cGMP 3',5'-cyclic phosphodiesterase subunit delta	Enzyme
+CHEMBL3861	Q15119	[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 2, mitochondrial (EC 2.7.11.2) (Pyruvate dehydrogenase kinase isoform 2) (PDH kinase 2) (PDKII)	[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 2, mitochondrial	Kinase
+CHEMBL3864	Q06124	Tyrosine-protein phosphatase non-receptor type 11 (EC 3.1.3.48) (Protein-tyrosine phosphatase 1D) (PTP-1D) (Protein-tyrosine phosphatase 2C) (PTP-2C) (SH-PTP2) (SHP-2) (Shp2) (SH-PTP3)	Tyrosine-protein phosphatase non-receptor type 11	Enzyme
+CHEMBL3879830	P43249	G protein-coupled receptor kinase 5 (EC 2.7.11.16) (G protein-coupled receptor kinase GRK5)	None	Unclassified
+CHEMBL3879837	P56690	Isoleucine--tRNA ligase (EC 6.1.1.5) (Isoleucyl-tRNA synthetase) (IleRS)	None	Unclassified
+CHEMBL3879860	P28327	Rhodopsin kinase GRK1 (RK) (EC 2.7.11.14) (G protein-coupled receptor kinase 1)	None	Unclassified
+CHEMBL3880	P07900	Heat shock protein HSP 90-alpha (EC 3.6.4.10) (Heat shock 86 kDa) (HSP 86) (HSP86) (Lipopolysaccharide-associated protein 2) (LAP-2) (LPS-associated protein 2) (Renal carcinoma antigen NY-REN-38)	Heat shock protein HSP 90-alpha	Other
+CHEMBL3883284	P05106	Integrin beta-3 (Platelet membrane glycoprotein IIIa) (GPIIIa) (CD antigen CD61)	Integrin beta-3	Other
+CHEMBL3883323	P24863	Cyclin-C (SRB11 homolog) (hSRB11)	Cyclin-C	Other
+CHEMBL3885801	Q8A5N9	Alpha-1,2-mannosidase	None	Unclassified
+CHEMBL3885801	Q8A0N1	Putative alpha-1,2-mannosidase	None	Unclassified
+CHEMBL3885801	Q8A325	Alpha-1,2-mannosidase, putative	None	Unclassified
+CHEMBL3885801	Q8A0Q6	Putative alpha-1,2-mannosidase	None	Unclassified
+CHEMBL3886	Q9NYL2	Mitogen-activated protein kinase kinase kinase 20 (EC 2.7.11.25) (Human cervical cancer suppressor gene 4 protein) (HCCS-4) (Leucine zipper- and sterile alpha motif-containing kinase) (MLK-like mitogen-activated protein triple kinase) (Mitogen-activated protein kinase kinase kinase MLT) (Mixed lineage kinase-related kinase) (MLK-related kinase) (MRK) (Sterile alpha motif- and leucine zipper-containing kinase AZK)	Mitogen-activated protein kinase kinase kinase 20	Kinase
+CHEMBL3890	P16581	E-selectin (CD62 antigen-like family member E) (Endothelial leukocyte adhesion molecule 1) (ELAM-1) (Leukocyte-endothelial cell adhesion molecule 2) (LECAM2) (CD antigen CD62E)	E-selectin	Other
+CHEMBL3898	P13497	Bone morphogenetic protein 1 (BMP-1) (EC 3.4.24.19) (Mammalian tolloid protein) (mTld) (Procollagen C-proteinase) (PCP)	Bone morphogenetic protein 1	Other
+CHEMBL3902	P09211	Glutathione S-transferase P (EC 2.5.1.18) (GST class-pi) (GSTP1-1)	Glutathione S-transferase P	Enzyme
+CHEMBL3905	P07948	Tyrosine-protein kinase Lyn (EC 2.7.10.2) (Lck/Yes-related novel protein tyrosine kinase) (V-yes-1 Yamaguchi sarcoma viral related oncogene homolog) (p53Lyn) (p56Lyn)	Tyrosine-protein kinase Lyn	Kinase
+CHEMBL3912	Q8N1Q1	Carbonic anhydrase 13 (EC 4.2.1.1) (Carbonate dehydratase XIII) (Carbonic anhydrase XIII) (CA-XIII)	Carbonic anhydrase 13	Enzyme
+CHEMBL3919	P19156	Potassium-transporting ATPase alpha chain 1 (EC 7.2.2.19) (Gastric H(+)/K(+) ATPase subunit alpha) (Proton pump)	None	Unclassified
+CHEMBL3920	Q04759	Protein kinase C theta type (EC 2.7.11.13) (nPKC-theta)	Protein kinase C theta type	Kinase
+CHEMBL3922	P50579	Methionine aminopeptidase 2 (MAP 2) (MetAP 2) (EC 3.4.11.18) (Initiation factor 2-associated 67 kDa glycoprotein) (p67) (p67eIF2) (Peptidase M)	Methionine aminopeptidase 2	Enzyme
+CHEMBL3927	P0C6U8	Replicase polyprotein 1a (pp1a) (ORF1a polyprotein) [Cleaved into: Non-structural protein 1 (nsp1) (Leader protein); Non-structural protein 2 (nsp2) (p65 homolog); Non-structural protein 3 (nsp3) (EC 3.4.19.12) (EC 3.4.22.-) (PL2-PRO) (Papain-like proteinase) (PL-PRO); Non-structural protein 4 (nsp4); 3C-like proteinase (3CL-PRO) (3CLp) (EC 3.4.22.69) (Main protease) (Mpro) (Non-structural protein 5) (nsp5) (SARS coronavirus main proteinase); Non-structural protein 6 (nsp6); Non-structural protein 7 (nsp7); Non-structural protein 8 (nsp8); Non-structural protein 9 (nsp9); Non-structural protein 10 (nsp10) (Growth factor-like peptide) (GFL); Non-structural protein 11 (nsp11)]	None	Unclassified
+CHEMBL3954	P77173	Cell division protein ZipA (FtsZ interacting protein A)	None	Unclassified
+CHEMBL3961	Q15759	Mitogen-activated protein kinase 11 (MAP kinase 11) (MAPK 11) (EC 2.7.11.24) (Mitogen-activated protein kinase p38 beta) (MAP kinase p38 beta) (p38b) (Stress-activated protein kinase 2b) (SAPK2b) (p38-2)	Mitogen-activated protein kinase 11	Kinase
+CHEMBL3972	P22102	Trifunctional purine biosynthetic protein adenosine-3 [Includes: Phosphoribosylamine--glycine ligase (EC 6.3.4.13) (Glycinamide ribonucleotide synthetase) (GARS) (Phosphoribosylglycinamide synthetase); Phosphoribosylformylglycinamidine cyclo-ligase (EC 6.3.3.1) (AIR synthase) (AIRS) (Phosphoribosyl-aminoimidazole synthetase); Phosphoribosylglycinamide formyltransferase (EC 2.1.2.2) (5'-phosphoribosylglycinamide transformylase) (GAR transformylase) (GART)]	Trifunctional purine biosynthetic protein adenosine-3	Other
+CHEMBL3973	P22455	Fibroblast growth factor receptor 4 (FGFR-4) (EC 2.7.10.1) (CD antigen CD334)	Fibroblast growth factor receptor 4	Kinase
+CHEMBL3974	P25116	Proteinase-activated receptor 1 (PAR-1) (Coagulation factor II receptor) (Thrombin receptor)	Proteinase-activated receptor 1	GPCR
+CHEMBL3975	P09467	Fructose-1,6-bisphosphatase 1 (FBPase 1) (EC 3.1.3.11) (D-fructose-1,6-bisphosphate 1-phosphohydrolase 1) (Liver FBPase)	Fructose-1,6-bisphosphatase 1	Enzyme
+CHEMBL3977	P51160	Cone cGMP-specific 3',5'-cyclic phosphodiesterase subunit alpha' (EC 3.1.4.35) (cGMP phosphodiesterase 6C)	Cone cGMP-specific 3',5'-cyclic phosphodiesterase subunit alpha'	Enzyme
+CHEMBL3979	Q03181	Peroxisome proliferator-activated receptor delta (PPAR-delta) (NUCI) (Nuclear hormone receptor 1) (NUC1) (Nuclear receptor subfamily 1 group C member 2) (Peroxisome proliferator-activated receptor beta) (PPAR-beta)	Peroxisome proliferator-activated receptor delta	Nuclear Receptor
+CHEMBL3983	P33981	Dual specificity protein kinase TTK (EC 2.7.12.1) (Phosphotyrosine picked threonine-protein kinase) (PYT)	Dual specificity protein kinase TTK	Kinase
+CHEMBL3984	Q99640	Membrane-associated tyrosine- and threonine-specific cdc2-inhibitory kinase (EC 2.7.11.1) (Myt1 kinase)	Membrane-associated tyrosine- and threonine-specific cdc2-inhibitory kinase	Kinase
+CHEMBL3988588	P0A9M5	Xanthine-guanine phosphoribosyltransferase (XGPRT) (EC 2.4.2.-) (EC 2.4.2.22) (Xanthine phosphoribosyltransferase)	None	Unclassified
+CHEMBL3988603	P26662	Genome polyprotein [Cleaved into: Core protein precursor (Capsid protein C) (p23); Mature core protein (p21); Envelope glycoprotein E1 (gp32) (gp35); Envelope glycoprotein E2 (NS1) (gp68) (gp70); Viroporin p7; Protease NS2 (p23) (EC 3.4.22.-) (Non-structural protein 2) (NS2); Serine protease/helicase NS3 (EC 3.4.21.98) (EC 3.6.1.15) (EC 3.6.4.13) (Hepacivirin) (NS3 helicase) (NS3 protease) (NS3P) (Viroporin p70); Non-structural protein 4A (NS4A) (p8); Non-structural protein 4B (NS4B) (p27); Non-structural protein 5A (NS5A) (p56/58); RNA-directed RNA polymerase (EC 2.7.7.48) (NS5B) (p68)]	None	Unclassified
+CHEMBL3991	P08709	Coagulation factor VII (EC 3.4.21.21) (Proconvertin) (Serum prothrombin conversion accelerator) (SPCA) (Eptacog alfa) [Cleaved into: Factor VII light chain; Factor VII heavy chain]	Coagulation factor VII	Enzyme
+CHEMBL4005	P42336	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform (PI3-kinase subunit alpha) (PI3K-alpha) (PI3Kalpha) (PtdIns-3-kinase subunit alpha) (EC 2.7.1.137) (EC 2.7.1.153) (Phosphatidylinositol 4,5-bisphosphate 3-kinase 110 kDa catalytic subunit alpha) (PtdIns-3-kinase subunit p110-alpha) (p110alpha) (Phosphoinositide 3-kinase alpha) (Phosphoinositide-3-kinase catalytic alpha polypeptide) (Serine/threonine protein kinase PIK3CA) (EC 2.7.11.1)	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform	Kinase
+CHEMBL4014	P42684	Tyrosine-protein kinase ABL2 (EC 2.7.10.2) (Abelson murine leukemia viral oncogene homolog 2) (Abelson tyrosine-protein kinase 2) (Abelson-related gene protein) (Tyrosine-protein kinase ARG)	Tyrosine-protein kinase ABL2	Kinase
+CHEMBL4015	P41597	C-C chemokine receptor type 2 (C-C CKR-2) (CC-CKR-2) (CCR-2) (CCR2) (Monocyte chemoattractant protein 1 receptor) (MCP-1-R) (CD antigen CD192)	C-C chemokine receptor type 2	GPCR
+CHEMBL402	P04035	3-hydroxy-3-methylglutaryl-coenzyme A reductase (HMG-CoA reductase) (EC 1.1.1.34)	3-hydroxy-3-methylglutaryl-coenzyme A reductase	Enzyme
+CHEMBL4036	Q00535	Cyclin-dependent-like kinase 5 (EC 2.7.11.1) (Cell division protein kinase 5) (Serine/threonine-protein kinase PSSALRE) (Tau protein kinase II catalytic subunit) (TPKII catalytic subunit)	Cyclin-dependent-like kinase 5	Kinase
+CHEMBL4037	P18886	Carnitine O-palmitoyltransferase 2, mitochondrial (EC 2.3.1.21) (Carnitine palmitoyltransferase II) (CPT II)	None	Unclassified
+CHEMBL4040	P28482	Mitogen-activated protein kinase 1 (MAP kinase 1) (MAPK 1) (EC 2.7.11.24) (ERT1) (Extracellular signal-regulated kinase 2) (ERK-2) (MAP kinase isoform p42) (p42-MAPK) (Mitogen-activated protein kinase 2) (MAP kinase 2) (MAPK 2)	Mitogen-activated protein kinase 1	Kinase
+CHEMBL4065	P09955	Carboxypeptidase B (EC 3.4.17.2)	None	Unclassified
+CHEMBL4068	P23946	Chymase (EC 3.4.21.39) (Alpha-chymase) (Mast cell protease I)	Chymase	Enzyme
+CHEMBL4070	P19784	Casein kinase II subunit alpha' (CK II alpha') (EC 2.7.11.1)	Casein kinase II subunit alpha'	Kinase
+CHEMBL4071	P08311	Cathepsin G (CG) (EC 3.4.21.20)	Cathepsin G	Enzyme
+CHEMBL4072	P07858	Cathepsin B (EC 3.4.22.1) (APP secretase) (APPS) (Cathepsin B1) [Cleaved into: Cathepsin B light chain; Cathepsin B heavy chain]	Cathepsin B	Enzyme
+CHEMBL4073	P09237	Matrilysin (EC 3.4.24.23) (Matrin) (Matrix metalloproteinase-7) (MMP-7) (Pump-1 protease) (Uterine metalloproteinase)	Matrilysin	Enzyme
+CHEMBL4079	P25098	Beta-adrenergic receptor kinase 1 (Beta-ARK-1) (EC 2.7.11.15) (G-protein coupled receptor kinase 2)	Beta-adrenergic receptor kinase 1	Kinase
+CHEMBL4081	P13726	Tissue factor (TF) (Coagulation factor III) (Thromboplastin) (CD antigen CD142)	Tissue factor	Other
+CHEMBL4083	P0A6L2	4-hydroxy-tetrahydrodipicolinate synthase (HTPA synthase) (EC 4.3.3.7)	None	Unclassified
+CHEMBL4091	P45568	1-deoxy-D-xylulose 5-phosphate reductoisomerase (DXP reductoisomerase) (EC 1.1.1.267) (1-deoxyxylulose-5-phosphate reductoisomerase) (2-C-methyl-D-erythritol 4-phosphate synthase)	None	Unclassified
+CHEMBL4093	P55055	Oxysterols receptor LXR-beta (Liver X receptor beta) (Nuclear receptor NER) (Nuclear receptor subfamily 1 group H member 2) (Ubiquitously-expressed nuclear receptor)	Oxysterols receptor LXR-beta	Nuclear Receptor
+CHEMBL4096	P04637	Cellular tumor antigen p53 (Antigen NY-CO-13) (Phosphoprotein p53) (Tumor suppressor p53)	Cellular tumor antigen p53	Transcription Factor
+CHEMBL4098	O70370	Cathepsin S (EC 3.4.22.27)	None	Unclassified
+CHEMBL4101	P17612	cAMP-dependent protein kinase catalytic subunit alpha (PKA C-alpha) (EC 2.7.11.11)	cAMP-dependent protein kinase catalytic subunit alpha	Kinase
+CHEMBL4105728	Q8N884	Cyclic GMP-AMP synthase (cGAMP synthase) (cGAS) (h-cGAS) (EC 2.7.7.86) (2'3'-cGAMP synthase) (Mab-21 domain-containing protein 1)	Cyclic GMP-AMP synthase	Enzyme
+CHEMBL4105763	Q9NPD8	Ubiquitin-conjugating enzyme E2 T (EC 2.3.2.23) (Cell proliferation-inducing gene 50 protein) (E2 ubiquitin-conjugating enzyme T) (Ubiquitin carrier protein T) (Ubiquitin-protein ligase T)	Ubiquitin-conjugating enzyme E2 T	Other
+CHEMBL4105786	P41182	B-cell lymphoma 6 protein (BCL-6) (B-cell lymphoma 5 protein) (BCL-5) (Protein LAZ-3) (Zinc finger and BTB domain-containing protein 27) (Zinc finger protein 51)	B-cell lymphoma 6 protein	Transcription Factor
+CHEMBL4105798	Q0P9D1	UDP-N-acetylbacillosamine N-acetyltransferase (EC 2.3.1.203) (Protein glycosylation D) (UDP-4-amino-4,6-dideoxy-N-acetyl-alpha-D-glucosamine N-acetyltransferase)	None	Unclassified
+CHEMBL4105809	Q92905	COP9 signalosome complex subunit 5 (SGN5) (Signalosome subunit 5) (EC 3.4.-.-) (Jun activation domain-binding protein 1)	COP9 signalosome complex subunit 5	Other
+CHEMBL4105829	Q05320	Envelope glycoprotein (GP1,2) (GP) [Cleaved into: Shed GP (GP1,2-delta); GP1; GP2]	None	Unclassified
+CHEMBL4105838	Q96GG9	DCN1-like protein 1 (DCNL1) (DCUN1 domain-containing protein 1) (Defective in cullin neddylation protein 1-like protein 1) (Squamous cell carcinoma-related oncogene)	DCN1-like protein 1	Other
+CHEMBL4105839	P62575	Sialidase A (EC 3.2.1.18) (Neuraminidase A)	None	Unclassified
+CHEMBL4105939	I6X8D2	Polyketide synthase Pks13 (EC 2.3.1.-)	None	Unclassified
+CHEMBL4105972	O75643	U5 small nuclear ribonucleoprotein 200 kDa helicase (EC 3.6.4.13) (Activating signal cointegrator 1 complex subunit 3-like 1) (BRR2 homolog) (U5 snRNP-specific 200 kDa protein) (U5-200KD)	U5 small nuclear ribonucleoprotein 200 kDa helicase	Enzyme
+CHEMBL4106150	P05106	Integrin beta-3 (Platelet membrane glycoprotein IIIa) (GPIIIa) (CD antigen CD61)	Integrin beta-3	Other
+CHEMBL4106153	P30274	Cyclin-A2 (Cyclin-A)	None	Unclassified
+CHEMBL4106169	O75909	Cyclin-K	Cyclin-K	Other
+CHEMBL4117	O96935	M1 family aminopeptidase (EC 3.4.11.-) (Pfa-M1)	None	Unclassified
+CHEMBL4128	Q02763	Angiopoietin-1 receptor (EC 2.7.10.1) (Endothelial tyrosine kinase) (Tunica interna endothelial cell kinase) (Tyrosine kinase with Ig and EGF homology domains-2) (Tyrosine-protein kinase receptor TEK) (Tyrosine-protein kinase receptor TIE-2) (hTIE2) (p140 TEK) (CD antigen CD202b)	Angiopoietin-1 receptor	Kinase
+CHEMBL4140	P34914	Bifunctional epoxide hydrolase 2 [Includes: Cytosolic epoxide hydrolase 2 (CEH) (EC 3.3.2.10) (Epoxide hydratase) (Soluble epoxide hydrolase) (SEH); Lipid-phosphate phosphatase (EC 3.1.3.76)]	None	Unclassified
+CHEMBL4142	P21802	Fibroblast growth factor receptor 2 (FGFR-2) (EC 2.7.10.1) (K-sam) (KGFR) (Keratinocyte growth factor receptor) (CD antigen CD332)	Fibroblast growth factor receptor 2	Kinase
+CHEMBL4179	P45984	Mitogen-activated protein kinase 9 (MAP kinase 9) (MAPK 9) (EC 2.7.11.24) (JNK-55) (Stress-activated protein kinase 1a) (SAPK1a) (Stress-activated protein kinase JNK2) (c-Jun N-terminal kinase 2)	Mitogen-activated protein kinase 9	Kinase
+CHEMBL4181	P17707	S-adenosylmethionine decarboxylase proenzyme (AdoMetDC) (SAMDC) (EC 4.1.1.50) [Cleaved into: S-adenosylmethionine decarboxylase alpha chain; S-adenosylmethionine decarboxylase beta chain]	S-adenosylmethionine decarboxylase proenzyme	Enzyme
+CHEMBL4191	Q99685	Monoglyceride lipase (MGL) (EC 3.1.1.23) (HU-K5) (Lysophospholipase homolog) (Lysophospholipase-like) (Monoacylglycerol lipase) (MAGL)	Monoglyceride lipase	Enzyme
+CHEMBL4198	P98170	E3 ubiquitin-protein ligase XIAP (EC 2.3.2.27) (Baculoviral IAP repeat-containing protein 4) (IAP-like protein) (ILP) (hILP) (Inhibitor of apoptosis protein 3) (IAP-3) (hIAP-3) (hIAP3) (RING-type E3 ubiquitin transferase XIAP) (X-linked inhibitor of apoptosis protein) (X-linked IAP)	E3 ubiquitin-protein ligase XIAP	Enzyme
+CHEMBL4204	Q9HBH9	MAP kinase-interacting serine/threonine-protein kinase 2 (EC 2.7.11.1) (MAP kinase signal-integrating kinase 2) (MAPK signal-integrating kinase 2) (Mnk2)	MAP kinase-interacting serine/threonine-protein kinase 2	Kinase
+CHEMBL4222	Q8II92	Deoxyuridine 5'-triphosphate nucleotidohydrolase (dUTPase) (EC 3.6.1.23) (dUTP pyrophosphatase)	None	Unclassified
+CHEMBL4224	P49759	Dual specificity protein kinase CLK1 (EC 2.7.12.1) (CDC-like kinase 1)	Dual specificity protein kinase CLK1	Kinase
+CHEMBL4225	P49760	Dual specificity protein kinase CLK2 (EC 2.7.12.1) (CDC-like kinase 2)	Dual specificity protein kinase CLK2	Kinase
+CHEMBL4226	P49761	Dual specificity protein kinase CLK3 (EC 2.7.12.1) (CDC-like kinase 3)	Dual specificity protein kinase CLK3	Kinase
+CHEMBL4245	P62508	Estrogen-related receptor gamma (ERR gamma-2) (Estrogen receptor-related protein 3) (Nuclear receptor subfamily 3 group B member 3)	Estrogen-related receptor gamma	Nuclear Receptor
+CHEMBL4247	Q9UM73	ALK tyrosine kinase receptor (EC 2.7.10.1) (Anaplastic lymphoma kinase) (CD antigen CD246)	ALK tyrosine kinase receptor	Kinase
+CHEMBL4253	P06026	Rhizopuspepsin (EC 3.4.23.21)	None	Unclassified
+CHEMBL4254	P00798	Penicillopepsin-1 (EC 3.4.23.20) (Aspartic protease) (Peptidase A)	None	Unclassified
+CHEMBL4267	P37173	TGF-beta receptor type-2 (TGFR-2) (EC 2.7.11.30) (TGF-beta type II receptor) (Transforming growth factor-beta receptor type II) (TGF-beta receptor type II) (TbetaR-II)	TGF-beta receptor type-2	Kinase
+CHEMBL4282	P31749	RAC-alpha serine/threonine-protein kinase (EC 2.7.11.1) (Protein kinase B) (PKB) (Protein kinase B alpha) (PKB alpha) (Proto-oncogene c-Akt) (RAC-PK-alpha)	RAC-alpha serine/threonine-protein kinase	Kinase
+CHEMBL4295575	P22262	Listeriolysin regulatory protein	None	Unclassified
+CHEMBL4295577	P25043	Proteasome subunit beta type-2 (EC 3.4.25.1) (Macropain subunit PUP1) (Multicatalytic endopeptidase complex subunit PUP1) (Proteasome component PUP1) (Proteinase YSCE subunit PUP1)	None	Unclassified
+CHEMBL4295578	P38624	Proteasome subunit beta type-1 (EC 3.4.25.1) (Macropain subunit PRE3) (Multicatalytic endopeptidase complex subunit PRE3) (Proteasome component PRE3) (Proteinase YSCE subunit PRE3)	None	Unclassified
+CHEMBL4295585	P9WI83	Serine/threonine-protein kinase PknA (EC 2.7.11.1)	None	Unclassified
+CHEMBL4295594	Q26710	Alternative oxidase, mitochondrial (EC 1.-.-.-)	None	Unclassified
+CHEMBL4295631	A2RI47	Thiamine transporter ThiT (Thiamine ECF transporter S component ThiT)	None	Unclassified
+CHEMBL4295695	P04190	Metallo-beta-lactamase type 2 (EC 3.5.2.6) (B2 metallo-beta-lactamase) (Beta-lactamase II) (Cephalosporinase) (Metallo-beta-lactamase type II) (Metallothioprotein beta-lactamase II) (Penicillinase) (Zinc-requiring beta-lactamase II)	None	Unclassified
+CHEMBL4295801	Q03111	Protein ENL (YEATS domain-containing protein 1)	Protein ENL	Other
+CHEMBL4295831	Q15843	NEDD8 (Neddylin) (Neural precursor cell expressed developmentally down-regulated protein 8) (NEDD-8) (Ubiquitin-like protein Nedd8)	NEDD8	Other
+CHEMBL4295910	Q91VE3	Kallikrein-7 (EC 3.4.21.117) (Serine protease 6) (Stratum corneum chymotryptic enzyme) (Thymopsin)	None	Unclassified
+CHEMBL4295984	Q9VWX8	FI18190p1 (Frequenin 2, isoform A) (Frequenin 2, isoform B) (Frequenin 2, isoform C) (Frequenin 2, isoform D)	None	Unclassified
+CHEMBL4296067	O75909	Cyclin-K	Cyclin-K	Other
+CHEMBL4296117	Q15369	Elongin-C (EloC) (Elongin 15 kDa subunit) (RNA polymerase II transcription factor SIII subunit C) (SIII p15) (Transcription elongation factor B polypeptide 1)	Elongin-C	Other
+CHEMBL4296117	Q15370	Elongin-B (EloB) (Elongin 18 kDa subunit) (RNA polymerase II transcription factor SIII subunit B) (SIII p18) (Transcription elongation factor B polypeptide 2)	Elongin-B	Other
+CHEMBL4296287	A5K1A2	Glycylpeptide N-tetradecanoyltransferase (EC 2.3.1.97)	None	Unclassified
+CHEMBL4296290	Q2HRB6	Capsid scaffolding protein (Capsid protein P40) (Protease precursor) (pPR) [Cleaved into: Assemblin (EC 3.4.21.97) (Protease); Assembly protein (Capsid assembly protein)]	None	Unclassified
+CHEMBL4296293	Q8AAK6	Beta-mannosidase	None	Unclassified
+CHEMBL4296295	O59010	Glutamate transporter homolog (Glt(Ph)) (Sodium-aspartate symporter Glt(Ph)) (Sodium-dependent aspartate transporter)	None	Unclassified
+CHEMBL4296	Q15858	Sodium channel protein type 9 subunit alpha (Neuroendocrine sodium channel) (hNE-Na) (Peripheral sodium channel 1) (PN1) (Sodium channel protein type IX subunit alpha) (Voltage-gated sodium channel subunit alpha Nav1.7)	Sodium channel protein type 9 subunit alpha	Ion Channel
+CHEMBL4303	P08238	Heat shock protein HSP 90-beta (HSP 90) (Heat shock 84 kDa) (HSP 84) (HSP84)	Heat shock protein HSP 90-beta	Other
+CHEMBL4315	P47900	P2Y purinoceptor 1 (P2Y1) (ADP receptor) (Purinergic receptor)	P2Y purinoceptor 1	GPCR
+CHEMBL4319	Q8DNV6	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase (EC 6.3.2.10) (D-alanyl-D-alanine-adding enzyme)	None	Unclassified
+CHEMBL4321	Q05769	Prostaglandin G/H synthase 2 (EC 1.14.99.1) (Cyclooxygenase-2) (COX-2) (Glucocorticoid-regulated inflammatory cyclooxygenase) (Gripghs) (Macrophage activation-associated marker protein P71/73) (PES-2) (PHS II) (Prostaglandin H2 synthase 2) (PGH synthase 2) (PGHS-2) (Prostaglandin-endoperoxide synthase 2) (TIS10 protein)	None	Unclassified
+CHEMBL4328	Q93088	Betaine--homocysteine S-methyltransferase 1 (EC 2.1.1.5)	Betaine--homocysteine S-methyltransferase 1	Enzyme
+CHEMBL4333	P21453	Sphingosine 1-phosphate receptor 1 (S1P receptor 1) (S1P1) (Endothelial differentiation G-protein coupled receptor 1) (Sphingosine 1-phosphate receptor Edg-1) (S1P receptor Edg-1) (CD antigen CD363)	Sphingosine 1-phosphate receptor 1	GPCR
+CHEMBL4338	P00491	Purine nucleoside phosphorylase (PNP) (EC 2.4.2.1) (Inosine phosphorylase) (Inosine-guanosine phosphorylase)	Purine nucleoside phosphorylase	Enzyme
+CHEMBL4341	P45352	Thymidylate synthase (TS) (TSase) (EC 2.1.1.45)	None	Unclassified
+CHEMBL4342	O15496	Group 10 secretory phospholipase A2 (EC 3.1.1.4) (Group X secretory phospholipase A2) (GX sPLA2) (sPLA2-X) (Phosphatidylcholine 2-acylhydrolase 10)	Group 10 secretory phospholipase A2	Enzyme
+CHEMBL4355	O14976	Cyclin-G-associated kinase (EC 2.7.11.1)	Cyclin-G-associated kinase	Kinase
+CHEMBL4361	Q07820	Induced myeloid leukemia cell differentiation protein Mcl-1 (Bcl-2-like protein 3) (Bcl2-L-3) (Bcl-2-related protein EAT/mcl1) (mcl1/EAT)	Induced myeloid leukemia cell differentiation protein Mcl-1	Other
+CHEMBL4372	P15917	Lethal factor (LF) (EC 3.4.24.83) (Anthrax lethal toxin endopeptidase component)	None	Unclassified
+CHEMBL4375	Q96SB4	SRSF protein kinase 1 (EC 2.7.11.1) (SFRS protein kinase 1) (Serine/arginine-rich protein-specific kinase 1) (SR-protein-specific kinase 1)	SRSF protein kinase 1	Kinase
+CHEMBL4393	P39900	Macrophage metalloelastase (MME) (EC 3.4.24.65) (Macrophage elastase) (ME) (hME) (Matrix metalloproteinase-12) (MMP-12)	Macrophage metalloelastase	Enzyme
+CHEMBL4394	Q9NYA1	Sphingosine kinase 1 (SK 1) (SPK 1) (EC 2.7.1.91) (Acetyltransferase SPHK1) (EC 2.3.1.-)	Sphingosine kinase 1	Kinase
+CHEMBL4409	Q9Y233	cAMP and cAMP-inhibited cGMP 3',5'-cyclic phosphodiesterase 10A (EC 3.1.4.17)	cAMP and cAMP-inhibited cGMP 3',5'-cyclic phosphodiesterase 10A	Enzyme
+CHEMBL4414	P46925	Plasmepsin-2 (EC 3.4.23.39) (Aspartic hemoglobinase II) (PFAPD)	None	Unclassified
+CHEMBL4418	O15826	Putative deoxyuridine triphosphatase (dUTPase) (EC 3.6.1.23)	None	Unclassified
+CHEMBL4422	O14842	Free fatty acid receptor 1 (G-protein coupled receptor 40)	Free fatty acid receptor 1	GPCR
+CHEMBL4425	Q01064	Calcium/calmodulin-dependent 3',5'-cyclic nucleotide phosphodiesterase 1B (Cam-PDE 1B) (EC 3.1.4.17) (63 kDa Cam-PDE)	Calcium/calmodulin-dependent 3',5'-cyclic nucleotide phosphodiesterase 1B	Enzyme
+CHEMBL4438	P36873	Serine/threonine-protein phosphatase PP1-gamma catalytic subunit (PP-1G) (EC 3.1.3.16) (Protein phosphatase 1C catalytic subunit)	Serine/threonine-protein phosphatase PP1-gamma catalytic subunit	Enzyme
+CHEMBL4439	P36897	TGF-beta receptor type-1 (TGFR-1) (EC 2.7.11.30) (Activin A receptor type II-like protein kinase of 53kD) (Activin receptor-like kinase 5) (ALK-5) (ALK5) (Serine/threonine-protein kinase receptor R4) (SKR4) (TGF-beta type I receptor) (Transforming growth factor-beta receptor type I) (TGF-beta receptor type I) (TbetaR-I)	TGF-beta receptor type-1	Kinase
+CHEMBL4451	P07267	Saccharopepsin (EC 3.4.23.25) (Aspartate protease) (PrA) (Proteinase A) (Carboxypeptidase Y-deficient protein 4) (Proteinase YSCA)	None	Unclassified
+CHEMBL4461	Q9NTG7	NAD-dependent protein deacetylase sirtuin-3, mitochondrial (hSIRT3) (EC 2.3.1.286) (Regulatory protein SIR2 homolog 3) (SIR2-like protein 3)	NAD-dependent protein deacetylase sirtuin-3, mitochondrial	Epigenetic
+CHEMBL4462	Q8IXJ6	NAD-dependent protein deacetylase sirtuin-2 (EC 2.3.1.286) (Regulatory protein SIR2 homolog 2) (SIR2-like protein 2)	NAD-dependent protein deacetylase sirtuin-2	Epigenetic
+CHEMBL4471	P00735	Prothrombin (EC 3.4.21.5) (Coagulation factor II) [Cleaved into: Activation peptide fragment 1; Activation peptide fragment 2; Thrombin light chain; Thrombin heavy chain]	None	Unclassified
+CHEMBL4482	O96013	Serine/threonine-protein kinase PAK 4 (EC 2.7.11.1) (p21-activated kinase 4) (PAK-4)	Serine/threonine-protein kinase PAK 4	Kinase
+CHEMBL4508	Q16769	Glutaminyl-peptide cyclotransferase (EC 2.3.2.5) (Glutaminyl cyclase) (QC) (sQC) (Glutaminyl-tRNA cyclotransferase) (Glutamyl cyclase) (EC)	Glutaminyl-peptide cyclotransferase	Enzyme
+CHEMBL4514	P28523	Casein kinase II subunit alpha (EC 2.7.11.1) (CK II) (CK2-alpha)	None	Unclassified
+CHEMBL4523	Q9P1W9	Serine/threonine-protein kinase pim-2 (EC 2.7.11.1) (Pim-2h)	Serine/threonine-protein kinase pim-2	Kinase
+CHEMBL4527	Q9UKE5	TRAF2 and NCK-interacting protein kinase (EC 2.7.11.1)	TRAF2 and NCK-interacting protein kinase	Kinase
+CHEMBL4531	P17931	Galectin-3 (Gal-3) (35 kDa lectin) (Carbohydrate-binding protein 35) (CBP 35) (Galactose-specific lectin 3) (Galactoside-binding protein) (GALBP) (IgE-binding protein) (L-31) (Laminin-binding protein) (Lectin L-29) (Mac-2 antigen)	Galectin-3	Other
+CHEMBL4533	P54645	5'-AMP-activated protein kinase catalytic subunit alpha-1 (AMPK subunit alpha-1) (EC 2.7.11.1) (Acetyl-CoA carboxylase kinase) (ACACA kinase) (EC 2.7.11.27) (Hydroxymethylglutaryl-CoA reductase kinase) (HMGCR kinase) (EC 2.7.11.31) (Tau-protein kinase PRKAA1) (EC 2.7.11.26)	None	Unclassified
+CHEMBL4540	P96830	TYR_PHOSPHATASE_2 domain-containing protein	None	Unclassified
+CHEMBL4550	P20292	Arachidonate 5-lipoxygenase-activating protein (FLAP) (MK-886-binding protein)	Arachidonate 5-lipoxygenase-activating protein	Enzyme
+CHEMBL4575	O43781	Dual specificity tyrosine-phosphorylation-regulated kinase 3 (EC 2.7.12.1) (Regulatory erythroid kinase) (REDK)	Dual specificity tyrosine-phosphorylation-regulated kinase 3	Kinase
+CHEMBL4578	Q14680	Maternal embryonic leucine zipper kinase (hMELK) (EC 2.7.11.1) (Protein kinase Eg3) (pEg3 kinase) (Protein kinase PK38) (hPK38) (Tyrosine-protein kinase MELK) (EC 2.7.10.2)	Maternal embryonic leucine zipper kinase	Kinase
+CHEMBL4581	P52732	Kinesin-like protein KIF11 (Kinesin-like protein 1) (Kinesin-like spindle protein HKSP) (Kinesin-related motor protein Eg5) (Thyroid receptor-interacting protein 5) (TR-interacting protein 5) (TRIP-5)	Kinesin-like protein KIF11	Other
+CHEMBL4588	P22894	Neutrophil collagenase (EC 3.4.24.34) (Matrix metalloproteinase-8) (MMP-8) (PMNL collagenase) (PMNL-CL)	Neutrophil collagenase	Enzyme
+CHEMBL4599	Q07912	Activated CDC42 kinase 1 (ACK-1) (EC 2.7.10.2) (EC 2.7.11.1) (Tyrosine kinase non-receptor protein 2)	Activated CDC42 kinase 1	Kinase
+CHEMBL4600	Q13153	Serine/threonine-protein kinase PAK 1 (EC 2.7.11.1) (Alpha-PAK) (p21-activated kinase 1) (PAK-1) (p65-PAK)	Serine/threonine-protein kinase PAK 1	Kinase
+CHEMBL4601	Q13882	Protein-tyrosine kinase 6 (EC 2.7.10.2) (Breast tumor kinase) (Tyrosine-protein kinase BRK)	Protein-tyrosine kinase 6	Kinase
+CHEMBL4607	P50052	Type-2 angiotensin II receptor (Angiotensin II type-2 receptor) (AT2)	Type-2 angiotensin II receptor	GPCR
+CHEMBL4617	P11086	Phenylethanolamine N-methyltransferase (PNMTase) (EC 2.1.1.28) (Noradrenaline N-methyltransferase)	Phenylethanolamine N-methyltransferase	Enzyme
+CHEMBL4618	P09960	Leukotriene A-4 hydrolase (LTA-4 hydrolase) (EC 3.3.2.6) (Leukotriene A(4) hydrolase) (Tripeptide aminopeptidase LTA4H) (EC 3.4.11.4)	Leukotriene A-4 hydrolase	Enzyme
+CHEMBL4620	P26664	Genome polyprotein [Cleaved into: Core protein precursor (Capsid protein C) (p23); Mature core protein (p21); Envelope glycoprotein E1 (gp32) (gp35); Envelope glycoprotein E2 (NS1) (gp68) (gp70); Viroporin p7; Protease NS2 (p23) (EC 3.4.22.-) (Non-structural protein 2) (NS2); Serine protease/helicase NS3 (EC 3.4.21.98) (EC 3.6.1.15) (EC 3.6.4.13) (Hepacivirin) (NS3 helicase) (NS3 protease) (NS3P) (Viroporin p70); Non-structural protein 4A (NS4A) (p8); Non-structural protein 4B (NS4B) (p27); Non-structural protein 5A (NS5A) (p56/58); RNA-directed RNA polymerase (EC 2.7.7.48) (NS5B) (p68)]	None	Unclassified
+CHEMBL4625	Q07817	Bcl-2-like protein 1 (Bcl2-L-1) (Apoptosis regulator Bcl-X)	Bcl-2-like protein 1	Other
+CHEMBL4630	O14757	Serine/threonine-protein kinase Chk1 (EC 2.7.11.1) (CHK1 checkpoint homolog) (Cell cycle checkpoint kinase) (Checkpoint kinase-1)	Serine/threonine-protein kinase Chk1	Kinase
+CHEMBL4638	Q873X9	Endochitinase B1 (EC 3.2.1.14) (Chitinase B1)	None	Unclassified
+CHEMBL4640	O60658	High affinity cAMP-specific and IBMX-insensitive 3',5'-cyclic phosphodiesterase 8A (EC 3.1.4.53)	High affinity cAMP-specific and IBMX-insensitive 3',5'-cyclic phosphodiesterase 8A	Enzyme
+CHEMBL4647	Q9HBH1	Peptide deformylase, mitochondrial (EC 3.5.1.88) (Polypeptide deformylase)	Peptide deformylase, mitochondrial	Enzyme
+CHEMBL4653	P14740	Dipeptidyl peptidase 4 (EC 3.4.14.5) (Bile canaliculus domain-specific membrane glycoprotein) (Dipeptidyl peptidase IV) (DPP IV) (GP110 glycoprotein) (T-cell activation antigen CD26) (CD antigen CD26) [Cleaved into: Dipeptidyl peptidase 4 membrane form (Dipeptidyl peptidase IV membrane form); Dipeptidyl peptidase 4 soluble form (Dipeptidyl peptidase IV soluble form); Dipeptidyl peptidase 4 60 kDa soluble form (Dipeptidyl peptidase IV 60 kDa soluble form)]	None	Unclassified
+CHEMBL4659	P30656	Proteasome subunit beta type-5 (EC 3.4.25.1) (Macropain subunit PRE2) (Multicatalytic endopeptidase complex subunit PRE2) (Proteasome component PRE2) (Proteinase YSCE subunit PRE2)	None	Unclassified
+CHEMBL4660	P28907	ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1 (EC 3.2.2.6) (2'-phospho-ADP-ribosyl cyclase) (2'-phospho-ADP-ribosyl cyclase/2'-phospho-cyclic-ADP-ribose transferase) (EC 2.4.99.20) (2'-phospho-cyclic-ADP-ribose transferase) (ADP-ribosyl cyclase 1) (ADPRC 1) (Cyclic ADP-ribose hydrolase 1) (cADPr hydrolase 1) (T10) (CD antigen CD38)	ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1	Enzyme
+CHEMBL4670	Q16644	MAP kinase-activated protein kinase 3 (MAPK-activated protein kinase 3) (MAPKAP kinase 3) (MAPKAP-K3) (MAPKAPK-3) (MK-3) (EC 2.7.11.1) (Chromosome 3p kinase) (3pK)	MAP kinase-activated protein kinase 3	Kinase
+CHEMBL4680	Q48255	3-dehydroquinate dehydratase (3-dehydroquinase) (EC 4.2.1.10) (Type II DHQase)	None	Unclassified
+CHEMBL4687	P39898	Plasmepsin-1 (EC 3.4.23.38) (Aspartic hemoglobinase I) (PfAPG)	None	Unclassified
+CHEMBL4693	P04191	Sarcoplasmic/endoplasmic reticulum calcium ATPase 1 (SERCA1) (SR Ca(2+)-ATPase 1) (EC 7.2.2.10) (Calcium pump 1) (Calcium-transporting ATPase sarcoplasmic reticulum type, fast twitch skeletal muscle isoform) (Endoplasmic reticulum class 1/2 Ca(2+) ATPase)	None	Unclassified
+CHEMBL4695	P00883	Fructose-bisphosphate aldolase A (EC 4.1.2.13) (Muscle-type aldolase)	None	Unclassified
+CHEMBL4696	P00489	Glycogen phosphorylase, muscle form (EC 2.4.1.1) (Myophosphorylase)	None	Unclassified
+CHEMBL4703	P67775	Serine/threonine-protein phosphatase 2A catalytic subunit alpha isoform (PP2A-alpha) (EC 3.1.3.16) (Replication protein C) (RP-C)	Serine/threonine-protein phosphatase 2A catalytic subunit alpha isoform	Enzyme
+CHEMBL4722	O14965	Aurora kinase A (EC 2.7.11.1) (Aurora 2) (Aurora/IPL1-related kinase 1) (ARK-1) (Aurora-related kinase 1) (hARK1) (Breast tumor-amplified kinase) (Serine/threonine-protein kinase 15) (Serine/threonine-protein kinase 6) (Serine/threonine-protein kinase aurora-A)	Aurora kinase A	Kinase
+CHEMBL4732	P14900	UDP-N-acetylmuramoylalanine--D-glutamate ligase (EC 6.3.2.9) (D-glutamic acid-adding enzyme) (UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase)	None	Unclassified
+CHEMBL4739	P11444	Mandelate racemase (MR) (EC 5.1.2.2)	None	Unclassified
+CHEMBL4748	P41148	Endoplasmin (94 kDa glucose-regulated protein) (GRP-94) (Heat shock protein 90 kDa beta member 1)	None	Unclassified
+CHEMBL4756	P02879	Ricin [Cleaved into: Ricin A chain (EC 3.2.2.22) (rRNA N-glycosidase); Ricin B chain]	None	Unclassified
+CHEMBL4760	Q9XZT6	Deoxynucleoside kinase (EC 2.7.1.145) (Deoxyribonucleoside kinase) (Dm-dNK) (Multispecific deoxynucleoside kinase)	None	Unclassified
+CHEMBL4779	P00784	Papain (EC 3.4.22.2) (Papaya proteinase I) (PPI) (allergen Car p 1)	None	Unclassified
+CHEMBL4780	P04058	Acetylcholinesterase (AChE) (EC 3.1.1.7)	None	Unclassified
+CHEMBL4792	O43614	Orexin receptor type 2 (Ox-2-R) (Ox2-R) (Ox2R) (Hypocretin receptor type 2)	Orexin receptor type 2	GPCR
+CHEMBL4801	P29466	Caspase-1 (CASP-1) (EC 3.4.22.36) (Interleukin-1 beta convertase) (IL-1BC) (Interleukin-1 beta-converting enzyme) (ICE) (IL-1 beta-converting enzyme) (p45) [Cleaved into: Caspase-1 subunit p20; Caspase-1 subunit p10]	Caspase-1	Enzyme
+CHEMBL4802	P29473	Nitric oxide synthase, endothelial (EC 1.14.13.39) (Constitutive NOS) (cNOS) (EC-NOS) (Endothelial NOS) (eNOS) (NOS type III) (NOSIII)	None	Unclassified
+CHEMBL4822	P56817	Beta-secretase 1 (EC 3.4.23.46) (Aspartyl protease 2) (ASP2) (Asp 2) (Beta-site amyloid precursor protein cleaving enzyme 1) (Beta-site APP cleaving enzyme 1) (Memapsin-2) (Membrane-associated aspartic protease 2)	Beta-secretase 1	Enzyme
+CHEMBL4829	O00763	Acetyl-CoA carboxylase 2 (EC 6.4.1.2) (ACC-beta)	Acetyl-CoA carboxylase 2	Enzyme
+CHEMBL4835	P00338	L-lactate dehydrogenase A chain (LDH-A) (EC 1.1.1.27) (Cell proliferation-inducing gene 19 protein) (LDH muscle subunit) (LDH-M) (Renal carcinoma antigen NY-REN-59)	L-lactate dehydrogenase A chain	Enzyme
+CHEMBL4837	P08191	Type 1 fimbrin D-mannose specific adhesin (Protein FimH)	None	Unclassified
+CHEMBL4840	P25910	Metallo-beta-lactamase type 2 (EC 3.5.2.6) (B2 metallo-beta-lactamase) (Beta-lactamase II) (Carbapenem and cephamycin resistance) (CCRA) (Cephalosporinase) (Imipenem-cefoxitin hydrolyzing enzyme) (Metallo-beta-lactamase type II) (Penicillinase) (Zinc-requiring beta-lactamase)	None	Unclassified
+CHEMBL4848	P06730	Eukaryotic translation initiation factor 4E (eIF-4E) (eIF4E) (eIF-4F 25 kDa subunit) (mRNA cap-binding protein)	Eukaryotic translation initiation factor 4E	Other
+CHEMBL4855	P0A9J4	2-dehydropantoate 2-reductase (EC 1.1.1.169) (Ketopantoate reductase) (KPA reductase) (KPR)	None	Unclassified
+CHEMBL4858	P03962	Orotidine 5'-phosphate decarboxylase (EC 4.1.1.23) (OMP decarboxylase) (OMPDCase) (OMPdecase) (Uridine 5'-monophosphate synthase) (UMP synthase)	None	Unclassified
+CHEMBL4860	P10415	Apoptosis regulator Bcl-2	Apoptosis regulator Bcl-2	Other
+CHEMBL4884	P42575	Caspase-2 (CASP-2) (EC 3.4.22.55) (Neural precursor cell expressed developmentally down-regulated protein 2) (NEDD-2) (Protease ICH-1) [Cleaved into: Caspase-2 subunit p18; Caspase-2 subunit p13; Caspase-2 subunit p12]	Caspase-2	Enzyme
+CHEMBL4898	Q16620	BDNF/NT-3 growth factors receptor (EC 2.7.10.1) (GP145-TrkB) (Trk-B) (Neurotrophic tyrosine kinase receptor type 2) (TrkB tyrosine kinase) (Tropomyosin-related kinase B)	BDNF/NT-3 growth factors receptor	Kinase
+CHEMBL4899	P41279	Mitogen-activated protein kinase kinase kinase 8 (EC 2.7.11.25) (Cancer Osaka thyroid oncogene) (Proto-oncogene c-Cot) (Serine/threonine-protein kinase cot) (Tumor progression locus 2) (TPL-2)	Mitogen-activated protein kinase kinase kinase 8	Kinase
+CHEMBL4904	P23724	Proteasome subunit beta type-6 (Multicatalytic endopeptidase complex subunit C5) (Proteasome component C5)	None	Unclassified
+CHEMBL4905	P23470	Receptor-type tyrosine-protein phosphatase gamma (Protein-tyrosine phosphatase gamma) (R-PTP-gamma) (EC 3.1.3.48)	Receptor-type tyrosine-protein phosphatase gamma	Enzyme
+CHEMBL4912	P0AB71	Fructose-bisphosphate aldolase class 2 (FBP aldolase) (FBPA) (EC 4.1.2.13) (Fructose-1,6-bisphosphate aldolase) (Fructose-bisphosphate aldolase class II)	None	Unclassified
+CHEMBL4913	P0A953	3-oxoacyl-[acyl-carrier-protein] synthase 1 (EC 2.3.1.41) (3-oxoacyl-[acyl-carrier-protein] synthase I) (Beta-ketoacyl-ACP synthase I) (KAS I)	None	Unclassified
+CHEMBL4915	P09382	Galectin-1 (Gal-1) (14 kDa laminin-binding protein) (HLBP14) (14 kDa lectin) (Beta-galactoside-binding lectin L-14-I) (Galaptin) (HBL) (HPL) (Lactose-binding lectin 1) (Lectin galactoside-binding soluble 1) (Putative MAPK-activating protein PM12) (S-Lac lectin 1)	Galectin-1	Other
+CHEMBL4937	P49674	Casein kinase I isoform epsilon (CKI-epsilon) (CKIe) (EC 2.7.11.1)	Casein kinase I isoform epsilon	Kinase
+CHEMBL4941	Q13126	S-methyl-5'-thioadenosine phosphorylase (EC 2.4.2.28) (5'-methylthioadenosine phosphorylase) (MTA phosphorylase) (MTAP) (MTAPase)	S-methyl-5'-thioadenosine phosphorylase	Enzyme
+CHEMBL4954	P29320	Ephrin type-A receptor 3 (EC 2.7.10.1) (EPH-like kinase 4) (EK4) (hEK4) (HEK) (Human embryo kinase) (Tyrosine-protein kinase TYRO4) (Tyrosine-protein kinase receptor ETK1) (Eph-like tyrosine kinase 1)	Ephrin type-A receptor 3	Kinase
+CHEMBL5008	P47929	Galectin-7 (Gal-7) (HKL-14) (PI7) (p53-induced gene 1 protein)	Galectin-7	Other
+CHEMBL5014	O43353	Receptor-interacting serine/threonine-protein kinase 2 (EC 2.7.11.1) (CARD-containing interleukin-1 beta-converting enzyme-associated kinase) (CARD-containing IL-1 beta ICE-kinase) (RIP-like-interacting CLARP kinase) (Receptor-interacting protein 2) (RIP-2) (Tyrosine-protein kinase RIPK2) (EC 2.7.10.2)	Receptor-interacting serine/threonine-protein kinase 2	Kinase
+CHEMBL5023	Q00987	E3 ubiquitin-protein ligase Mdm2 (EC 2.3.2.27) (Double minute 2 protein) (Hdm2) (Oncoprotein Mdm2) (RING-type E3 ubiquitin transferase Mdm2) (p53-binding protein Mdm2)	E3 ubiquitin-protein ligase Mdm2	Enzyme
+CHEMBL5027	P39748	Flap endonuclease 1 (FEN-1) (EC 3.1.-.-) (DNase IV) (Flap structure-specific endonuclease 1) (Maturation factor 1) (MF1) (hFEN-1)	Flap endonuclease 1	Enzyme
+CHEMBL5033	P0A6D3	3-phosphoshikimate 1-carboxyvinyltransferase (EC 2.5.1.19) (5-enolpyruvylshikimate-3-phosphate synthase) (EPSP synthase) (EPSPS)	None	Unclassified
+CHEMBL5043	Q6P179	Endoplasmic reticulum aminopeptidase 2 (EC 3.4.11.-) (Leukocyte-derived arginine aminopeptidase) (L-RAP)	Endoplasmic reticulum aminopeptidase 2	Enzyme
+CHEMBL5064	P14207	Folate receptor beta (FR-beta) (Folate receptor 2) (Folate receptor, fetal/placental) (Placental folate-binding protein) (FBP)	Folate receptor beta	Other
+CHEMBL5070	Q820T1	3-oxoacyl-[acyl-carrier-protein] synthase 3 (EC 2.3.1.180) (3-oxoacyl-[acyl-carrier-protein] synthase III) (Beta-ketoacyl-ACP synthase III) (KAS III)	None	Unclassified
+CHEMBL5082	Q9Y6E0	Serine/threonine-protein kinase 24 (EC 2.7.11.1) (Mammalian STE20-like protein kinase 3) (MST-3) (STE20-like kinase MST3) [Cleaved into: Serine/threonine-protein kinase 24 36 kDa subunit (Mammalian STE20-like protein kinase 3 N-terminal) (MST3/N); Serine/threonine-protein kinase 24 12 kDa subunit (Mammalian STE20-like protein kinase 3 C-terminal) (MST3/C)]	Serine/threonine-protein kinase 24	Kinase
+CHEMBL5083	Q9Y6F1	Protein mono-ADP-ribosyltransferase PARP3 (EC 2.4.2.-) (ADP-ribosyltransferase diphtheria toxin-like 3) (ARTD3) (DNA ADP-ribosyltransferase PARP3) (EC 2.4.2.-) (IRT1) (NAD(+) ADP-ribosyltransferase 3) (ADPRT-3) (Poly [ADP-ribose] polymerase 3) (PARP-3) (hPARP-3) (Poly[ADP-ribose] synthase 3) (pADPRT-3)	Poly [ADP-ribose] polymerase 3	Enzyme
+CHEMBL5095	P0C1S8	Wee1-like protein kinase 2 (EC 2.7.10.2) (Wee1-like protein kinase 1B) (Wee1B kinase)	Wee1-like protein kinase 2	Kinase
+CHEMBL5113	O43613	Orexin receptor type 1 (Ox-1-R) (Ox1-R) (Ox1R) (Hypocretin receptor type 1)	Orexin receptor type 1	GPCR
+CHEMBL5118	P0C6X7	Replicase polyprotein 1ab (pp1ab) (ORF1ab polyprotein) [Cleaved into: Host translation inhibitor nsp1 (Leader protein) (Non-structural protein 1) (nsp1); Non-structural protein 2 (nsp2) (p65 homolog); Non-structural protein 3 (nsp3) (EC 3.4.19.12) (EC 3.4.22.69) (PL2-PRO) (Papain-like proteinase) (PL-PRO); Non-structural protein 4 (nsp4); 3C-like proteinase (3CL-PRO) (3CLp) (EC 3.4.22.-) (Main protease) (Mpro) (Non-structural protein 5) (nsp5) (SARS coronavirus main proteinase); Non-structural protein 6 (nsp6); Non-structural protein 7 (nsp7); Non-structural protein 8 (nsp8); Non-structural protein 9 (nsp9); Non-structural protein 10 (nsp10) (Growth factor-like peptide) (GFL); RNA-directed RNA polymerase (Pol) (RdRp) (EC 2.7.7.48) (Non-structural protein 12) (nsp12); Helicase (Hel) (EC 3.6.4.12) (EC 3.6.4.13) (Non-structural protein 13) (nsp13); Proofreading exoribonuclease (ExoN) (EC 2.1.1.-) (EC 3.1.13.-) (Guanine-N7 methyltransferase) (Non-structural protein 14) (nsp14); Uridylate-specific endoribonuclease (EC 3.1.-.-) (NendoU) (Non-structural protein 15) (nsp15); 2'-O-methyltransferase (EC 2.1.1.-) (Non-structural protein 16) (nsp16)]	None	Unclassified
+CHEMBL5120	P10153	Non-secretory ribonuclease (EC 4.6.1.18) (Eosinophil-derived neurotoxin) (RNase UpI-2) (Ribonuclease 2) (RNase 2) (Ribonuclease US)	Non-secretory ribonuclease	Enzyme
+CHEMBL5137	Q14416	Metabotropic glutamate receptor 2 (mGluR2)	Metabotropic glutamate receptor 2	GPCR
+CHEMBL5145	P15056	Serine/threonine-protein kinase B-raf (EC 2.7.11.1) (Proto-oncogene B-Raf) (p94) (v-Raf murine sarcoma viral oncogene homolog B1)	Serine/threonine-protein kinase B-raf	Kinase
+CHEMBL5147	P54760	Ephrin type-B receptor 4 (EC 2.7.10.1) (Hepatoma transmembrane kinase) (Tyrosine-protein kinase TYRO11)	Ephrin type-B receptor 4	Kinase
+CHEMBL5171	O34667	S-ribosylhomocysteine lyase (EC 4.4.1.21) (AI-2 synthesis protein) (Autoinducer-2 production protein LuxS)	None	Unclassified
+CHEMBL5173	Q8T6J6	Orotidine 5'-phosphate decarboxylase (EC 4.1.1.23) (Uridine 5'-monophosphate synthase)	None	Unclassified
+CHEMBL5174	O14786	Neuropilin-1 (Vascular endothelial cell growth factor 165 receptor) (CD antigen CD304)	Neuropilin-1	Other
+CHEMBL5185	Q9ZLT0	Glutamate racemase (EC 5.1.1.3)	None	Unclassified
+CHEMBL5192	P0DPI0	Botulinum neurotoxin type A (BoNT/A) (Bontoxilysin-A) (BOTOX) (Botulinum neurotoxin type A1) [Cleaved into: Botulinum neurotoxin A light chain (LC) (EC 3.4.24.69); Botulinum neurotoxin A heavy chain (HC)]	None	Unclassified
+CHEMBL5203	P33316	Deoxyuridine 5'-triphosphate nucleotidohydrolase, mitochondrial (dUTPase) (EC 3.6.1.23) (dUTP pyrophosphatase)	Deoxyuridine 5'-triphosphate nucleotidohydrolase, mitochondrial	Enzyme
+CHEMBL5206	P00720	Endolysin (EC 3.2.1.17) (Lysis protein) (Lysozyme) (Muramidase)	None	Unclassified
+CHEMBL5216	P11172	Uridine 5'-monophosphate synthase (UMP synthase) [Includes: Orotate phosphoribosyltransferase (OPRT) (OPRTase) (EC 2.4.2.10); Orotidine 5'-phosphate decarboxylase (ODC) (EC 4.1.1.23) (OMPdecase)]	Uridine 5'-monophosphate synthase	Enzyme
+CHEMBL5251	Q06187	Tyrosine-protein kinase BTK (EC 2.7.10.2) (Agammaglobulinemia tyrosine kinase) (ATK) (B-cell progenitor kinase) (BPK) (Bruton tyrosine kinase)	Tyrosine-protein kinase BTK	Kinase
+CHEMBL5260	Q59H18	Serine/threonine-protein kinase TNNI3K (EC 2.7.11.1) (Cardiac ankyrin repeat kinase) (Cardiac troponin I-interacting kinase) (TNNI3-interacting kinase)	Serine/threonine-protein kinase TNNI3K	Kinase
+CHEMBL5270	Q81R22	Dihydrofolate reductase (EC 1.5.1.3)	None	Unclassified
+CHEMBL5276	P15474	3-dehydroquinate dehydratase (3-dehydroquinase) (EC 4.2.1.10) (Type II DHQase)	None	Unclassified
+CHEMBL5284	Q96RR4	Calcium/calmodulin-dependent protein kinase kinase 2 (CaM-KK 2) (CaM-kinase kinase 2) (CaMKK 2) (EC 2.7.11.17) (Calcium/calmodulin-dependent protein kinase kinase beta) (CaM-KK beta) (CaM-kinase kinase beta) (CaMKK beta)	Calcium/calmodulin-dependent protein kinase kinase 2	Kinase
+CHEMBL5285	Q99683	Mitogen-activated protein kinase kinase kinase 5 (EC 2.7.11.25) (Apoptosis signal-regulating kinase 1) (ASK-1) (MAPK/ERK kinase kinase 5) (MEK kinase 5) (MEKK 5)	Mitogen-activated protein kinase kinase kinase 5	Kinase
+CHEMBL5298	Q836J0	Glutamate racemase (EC 5.1.1.3)	None	Unclassified
+CHEMBL5319	Q08345	Epithelial discoidin domain-containing receptor 1 (Epithelial discoidin domain receptor 1) (EC 2.7.10.1) (CD167 antigen-like family member A) (Cell adhesion kinase) (Discoidin receptor tyrosine kinase) (HGK2) (Mammary carcinoma kinase 10) (MCK-10) (Protein-tyrosine kinase 3A) (Protein-tyrosine kinase RTK-6) (TRK E) (Tyrosine kinase DDR) (Tyrosine-protein kinase CAK) (CD antigen CD167a)	Epithelial discoidin domain-containing receptor 1	Kinase
+CHEMBL5328	P00469	Thymidylate synthase (TS) (TSase) (EC 2.1.1.45)	None	Unclassified
+CHEMBL5331	Q12866	Tyrosine-protein kinase Mer (EC 2.7.10.1) (Proto-oncogene c-Mer) (Receptor tyrosine kinase MerTK)	Tyrosine-protein kinase Mer	Kinase
+CHEMBL5332	Q13164	Mitogen-activated protein kinase 7 (MAP kinase 7) (MAPK 7) (EC 2.7.11.24) (Big MAP kinase 1) (BMK-1) (Extracellular signal-regulated kinase 5) (ERK-5)	Mitogen-activated protein kinase 7	Kinase
+CHEMBL5348	P11797	Chitinase B (EC 3.2.1.14)	None	Unclassified
+CHEMBL5366	Q9UGN5	Poly [ADP-ribose] polymerase 2 (PARP-2) (hPARP-2) (EC 2.4.2.30) (ADP-ribosyltransferase diphtheria toxin-like 2) (ARTD2) (DNA ADP-ribosyltransferase PARP2) (EC 2.4.2.-) (NAD(+) ADP-ribosyltransferase 2) (ADPRT-2) (Poly[ADP-ribose] synthase 2) (pADPRT-2) (Protein poly-ADP-ribosyltransferase PARP2) (EC 2.4.2.-)	Poly [ADP-ribose] polymerase 2	Enzyme
+CHEMBL5396	P40136	Calmodulin-sensitive adenylate cyclase (EC 4.6.1.1) (ATP pyrophosphate-lyase) (Adenylyl cyclase) (Anthrax edema toxin adenylate cyclase component) (Edema factor) (EF)	None	Unclassified
+CHEMBL5406	Q86X55	Histone-arginine methyltransferase CARM1 (EC 2.1.1.319) (Coactivator-associated arginine methyltransferase 1) (Protein arginine N-methyltransferase 4)	Histone-arginine methyltransferase CARM1	Epigenetic
+CHEMBL5408	Q9UHD2	Serine/threonine-protein kinase TBK1 (EC 2.7.11.1) (NF-kappa-B-activating kinase) (T2K) (TANK-binding kinase 1)	Serine/threonine-protein kinase TBK1	Kinase
+CHEMBL5419	P06935	Genome polyprotein [Cleaved into: Peptide 2k; Capsid protein C (Core protein); Protein prM; Peptide pr; Small envelope protein M (Matrix protein); Envelope protein E; Non-structural protein 1 (NS1); Non-structural protein 2A (NS2A); Serine protease subunit NS2B (Flavivirin protease NS2B regulatory subunit) (Non-structural protein 2B); Serine protease NS3 (EC 3.4.21.91) (EC 3.6.1.15) (EC 3.6.4.13) (Flavivirin protease NS3 catalytic subunit) (Non-structural protein 3); Non-structural protein 4A (NS4A); Non-structural protein 4B (NS4B); RNA-directed RNA polymerase NS5 (EC 2.1.1.56) (EC 2.1.1.57) (EC 2.7.7.48) (NS5)]	None	Unclassified
+CHEMBL5421	P07148	Fatty acid-binding protein, liver (Fatty acid-binding protein 1) (Liver-type fatty acid-binding protein) (L-FABP)	Fatty acid-binding protein, liver	Other
+CHEMBL5440	A9JQL9	4,4'-diapophytoene synthase (DAP synthase) (EC 2.5.1.96) (C30 carotenoid synthase) (Dehydrosqualene synthase)	None	Unclassified
+CHEMBL5455	P07332	Tyrosine-protein kinase Fes/Fps (EC 2.7.10.2) (Feline sarcoma/Fujinami avian sarcoma oncogene homolog) (Proto-oncogene c-Fes) (Proto-oncogene c-Fps) (p93c-fes)	Tyrosine-protein kinase Fes/Fps	Kinase
+CHEMBL5460	P0DMV8	Heat shock 70 kDa protein 1A (Heat shock 70 kDa protein 1) (HSP70-1) (HSP70.1)	Heat shock 70 kDa protein 1A	Other
+CHEMBL5462	Q13490	Baculoviral IAP repeat-containing protein 2 (EC 2.3.2.27) (Cellular inhibitor of apoptosis 1) (C-IAP1) (IAP homolog B) (Inhibitor of apoptosis protein 2) (hIAP-2) (hIAP2) (RING finger protein 48) (RING-type E3 ubiquitin transferase BIRC2) (TNFR2-TRAF-signaling complex protein 2)	Baculoviral IAP repeat-containing protein 2	Other
+CHEMBL5464	Q13546	Receptor-interacting serine/threonine-protein kinase 1 (EC 2.7.11.1) (Cell death protein RIP) (Receptor-interacting protein 1) (RIP-1)	Receptor-interacting serine/threonine-protein kinase 1	Kinase
+CHEMBL5469	Q14289	Protein-tyrosine kinase 2-beta (EC 2.7.10.2) (Calcium-dependent tyrosine kinase) (CADTK) (Calcium-regulated non-receptor proline-rich tyrosine kinase) (Cell adhesion kinase beta) (CAK-beta) (CAKB) (Focal adhesion kinase 2) (FADK 2) (Proline-rich tyrosine kinase 2) (Related adhesion focal tyrosine kinase) (RAFTK)	Protein-tyrosine kinase 2-beta	Kinase
+CHEMBL5475	O00214	Galectin-8 (Gal-8) (Po66 carbohydrate-binding protein) (Po66-CBP) (Prostate carcinoma tumor antigen 1) (PCTA-1)	Galectin-8	Other
+CHEMBL5491	P30291	Wee1-like protein kinase (WEE1hu) (EC 2.7.10.2) (Wee1A kinase)	Wee1-like protein kinase	Kinase
+CHEMBL5500	Q92831	Histone acetyltransferase KAT2B (EC 2.3.1.48) (Histone acetyltransferase PCAF) (Histone acetylase PCAF) (Lysine acetyltransferase 2B) (P300/CBP-associated factor) (P/CAF) (Spermidine acetyltransferase KAT2B) (EC 2.3.1.57)	Histone acetyltransferase KAT2B	Epigenetic
+CHEMBL5523	Q8WTS6	Histone-lysine N-methyltransferase SETD7 (EC 2.1.1.364) (Histone H3-K4 methyltransferase SETD7) (H3-K4-HMTase SETD7) (Lysine N-methyltransferase 7) (SET domain-containing protein 7) (SET7/9)	Histone-lysine N-methyltransferase SETD7	Epigenetic
+CHEMBL5536	Q9WMX2	Genome polyprotein [Cleaved into: Core protein precursor (Capsid protein C) (p23); Mature core protein (p21); Envelope glycoprotein E1 (gp32) (gp35); Envelope glycoprotein E2 (NS1) (gp68) (gp70); Viroporin p7; Protease NS2 (p23) (EC 3.4.22.-); Serine protease/helicase NS3 (EC 3.4.21.98) (EC 3.6.1.15) (EC 3.6.4.13) (Hepacivirin) (NS3 helicase) (NS3 protease) (NS3P) (Viroporin p70); Non-structural protein 4A (NS4A) (p8); Non-structural protein 4B (NS4B) (p27); Non-structural protein 5A (NS5A) (p56/58); RNA-directed RNA polymerase (EC 2.7.7.48) (NS5B) (p68)]	None	Unclassified
+CHEMBL5567	P08659	Luciferin 4-monooxygenase (Luciferase) (EC 1.13.12.7)	None	Unclassified
+CHEMBL5568	P08922	Proto-oncogene tyrosine-protein kinase ROS (EC 2.7.10.1) (Proto-oncogene c-Ros) (Proto-oncogene c-Ros-1) (Receptor tyrosine kinase c-ros oncogene 1) (c-Ros receptor tyrosine kinase)	Proto-oncogene tyrosine-protein kinase ROS	Kinase
+CHEMBL5575	Q15046	Lysine--tRNA ligase (EC 2.7.7.-) (EC 6.1.1.6) (Lysyl-tRNA synthetase) (LysRS)	Lysine--tRNA ligase	Enzyme
+CHEMBL5608	Q16288	NT-3 growth factor receptor (EC 2.7.10.1) (GP145-TrkC) (Trk-C) (Neurotrophic tyrosine kinase receptor type 3) (TrkC tyrosine kinase)	NT-3 growth factor receptor	Kinase
+CHEMBL5610	Q16651	Prostasin (EC 3.4.21.-) (Channel-activating protease 1) (CAP1) (Serine protease 8) [Cleaved into: Prostasin light chain; Prostasin heavy chain]	Prostasin	Enzyme
+CHEMBL5630	P9WNS1	1-deoxy-D-xylulose 5-phosphate reductoisomerase (DXP reductoisomerase) (EC 1.1.1.267) (1-deoxyxylulose-5-phosphate reductoisomerase) (2-C-methyl-D-erythritol 4-phosphate synthase)	None	Unclassified
+CHEMBL5633	P00808	Beta-lactamase (EC 3.5.2.6) (Penicillinase) [Cleaved into: Large exopenicillinase; Small exopenicillinase]	None	Unclassified
+CHEMBL5658	O14684	Prostaglandin E synthase (EC 5.3.99.3) (Glutathione peroxidase PTGES) (EC 1.11.1.-) (Glutathione transferase PTGES) (EC 2.5.1.18) (Microsomal glutathione S-transferase 1-like 1) (MGST1-L1) (Microsomal prostaglandin E synthase 1) (MPGES-1) (p53-induced gene 12 protein)	Prostaglandin E synthase	Enzyme
+CHEMBL5683	O15075	Serine/threonine-protein kinase DCLK1 (EC 2.7.11.1) (Doublecortin domain-containing protein 3A) (Doublecortin-like and CAM kinase-like 1) (Doublecortin-like kinase 1)	Serine/threonine-protein kinase DCLK1	Kinase
+CHEMBL5688	O26232	Orotidine 5'-phosphate decarboxylase (EC 4.1.1.23) (OMP decarboxylase) (OMPDCase) (OMPdecase)	None	Unclassified
+CHEMBL5689	P17752	Tryptophan 5-hydroxylase 1 (EC 1.14.16.4) (Tryptophan 5-monooxygenase 1)	Tryptophan 5-hydroxylase 1	Enzyme
+CHEMBL5697	Q9GZT9	Egl nine homolog 1 (EC 1.14.11.29) (Hypoxia-inducible factor prolyl hydroxylase 2) (HIF-PH2) (HIF-prolyl hydroxylase 2) (HPH-2) (Prolyl hydroxylase domain-containing protein 2) (PHD2) (SM-20)	Egl nine homolog 1	Other
+CHEMBL5719	P49336	Cyclin-dependent kinase 8 (EC 2.7.11.22) (EC 2.7.11.23) (Cell division protein kinase 8) (Mediator complex subunit CDK8) (Mediator of RNA polymerase II transcription subunit CDK8) (Protein kinase K35)	Cyclin-dependent kinase 8	Kinase
+CHEMBL5738	P02692	Fatty acid-binding protein, liver (Fatty acid-binding protein 1) (Liver-type fatty acid-binding protein) (L-FABP) (Squalene- and sterol-carrier protein) (SCP) (Z-protein) (p14)	None	Unclassified
+CHEMBL5747	Q92793	CREB-binding protein (Histone lysine acetyltransferase CREBBP) (EC 2.3.1.48) (Protein-lysine acetyltransferase CREBBP) (EC 2.3.1.-)	CREB-binding protein	Epigenetic
+CHEMBL5765	P9WIJ3	Peptide deformylase (PDF) (EC 3.5.1.88) (Polypeptide deformylase)	None	Unclassified
+CHEMBL5768	P97287	Induced myeloid leukemia cell differentiation protein Mcl-1 homolog (Bcl-2-related protein EAT/mcl1)	None	Unclassified
+CHEMBL5776	O43318	Mitogen-activated protein kinase kinase kinase 7 (EC 2.7.11.25) (Transforming growth factor-beta-activated kinase 1) (TGF-beta-activated kinase 1)	Mitogen-activated protein kinase kinase kinase 7	Kinase
+CHEMBL5798	Q9K2N0	Beta-lactamase class B VIM-2 (BlaVIM-2) (Metallo beta-lactamase) (Metallo-beta-lactamase VIM-2) (Subclass B1 metallo-beta-lactamase VIM-2) (VIM-2) (VIM-2 beta-lactamase) (VIM-2 class B beta-lactamase) (VIM-2 class B metallo b-lactamase) (VIM-2 type metallo-beta-lactamase)	None	Unclassified
+CHEMBL5854	Q96PN6	Adenylate cyclase type 10 (EC 4.6.1.1) (AH-related protein) (Adenylate cyclase homolog) (Germ cell soluble adenylyl cyclase) (hsAC) (sAC) (Testicular soluble adenylyl cyclase)	Adenylate cyclase type 10	Enzyme
+CHEMBL5877	P07686	Beta-hexosaminidase subunit beta (EC 3.2.1.52) (Beta-N-acetylhexosaminidase subunit beta) (Hexosaminidase subunit B) (Cervical cancer proto-oncogene 7 protein) (HCC-7) (N-acetyl-beta-glucosaminidase subunit beta) [Cleaved into: Beta-hexosaminidase subunit beta chain B; Beta-hexosaminidase subunit beta chain A]	Beta-hexosaminidase subunit beta	Enzyme
+CHEMBL5878	P49773	Histidine triad nucleotide-binding protein 1 (EC 3.-.-.-) (Adenosine 5'-monophosphoramidase) (Protein kinase C inhibitor 1) (Protein kinase C-interacting protein 1) (PKCI-1)	Histidine triad nucleotide-binding protein 1	Other
+CHEMBL5879	O60760	Hematopoietic prostaglandin D synthase (H-PGDS) (EC 5.3.99.2) (GST class-sigma) (Glutathione S-transferase) (EC 2.5.1.18) (Glutathione-dependent PGD synthase) (Glutathione-requiring prostaglandin D synthase) (Prostaglandin-H2 D-isomerase)	Hematopoietic prostaglandin D synthase	Enzyme
+CHEMBL5880	P60568	Interleukin-2 (IL-2) (T-cell growth factor) (TCGF) (Aldesleukin)	Interleukin-2	Other
+CHEMBL5888	Q99558	Mitogen-activated protein kinase kinase kinase 14 (EC 2.7.11.25) (NF-kappa-beta-inducing kinase) (HsNIK) (Serine/threonine-protein kinase NIK)	Mitogen-activated protein kinase kinase kinase 14	Kinase
+CHEMBL5891	O60678	Protein arginine N-methyltransferase 3 (EC 2.1.1.-) (Heterogeneous nuclear ribonucleoprotein methyltransferase-like protein 3)	Protein arginine N-methyltransferase 3	Epigenetic
+CHEMBL5896	O75164	Lysine-specific demethylase 4A (EC 1.14.11.66) (EC 1.14.11.69) (JmjC domain-containing histone demethylation protein 3A) (Jumonji domain-containing protein 2A) ([histone H3]-trimethyl-L-lysine(36) demethylase 4A) ([histone H3]-trimethyl-L-lysine(9) demethylase 4A)	Lysine-specific demethylase 4A	Epigenetic
+CHEMBL5903	Q04771	Activin receptor type-1 (EC 2.7.11.30) (Activin receptor type I) (ACTR-I) (Activin receptor-like kinase 2) (ALK-2) (Serine/threonine-protein kinase receptor R1) (SKR1) (TGF-B superfamily receptor type I) (TSR-I)	Activin receptor type-1	Kinase
+CHEMBL5909	Q9NWT6	Hypoxia-inducible factor 1-alpha inhibitor (EC 1.14.11.30) (EC 1.14.11.n4) (Factor inhibiting HIF-1) (FIH-1) (Hypoxia-inducible factor asparagine hydroxylase)	Hypoxia-inducible factor 1-alpha inhibitor	Other
+CHEMBL5921	O60502	Protein O-GlcNAcase (OGA) (EC 3.2.1.169) (Beta-N-acetylglucosaminidase) (Beta-N-acetylhexosaminidase) (Beta-hexosaminidase) (Meningioma-expressed antigen 5) (N-acetyl-beta-D-glucosaminidase) (N-acetyl-beta-glucosaminidase) (Nuclear cytoplasmic O-GlcNAcase and acetyltransferase) (NCOAT)	Protein O-GlcNAcase	Enzyme
+CHEMBL5932	P53671	LIM domain kinase 2 (LIMK-2) (EC 2.7.11.1)	LIM domain kinase 2	Kinase
+CHEMBL5938	Q9NYY3	Serine/threonine-protein kinase PLK2 (EC 2.7.11.21) (Polo-like kinase 2) (PLK-2) (hPlk2) (Serine/threonine-protein kinase SNK) (hSNK) (Serum-inducible kinase)	Serine/threonine-protein kinase PLK2	Kinase
+CHEMBL5955	O15294	UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase 110 kDa subunit (EC 2.4.1.255) (O-GlcNAc transferase subunit p110) (O-linked N-acetylglucosamine transferase 110 kDa subunit) (OGT)	UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase 110 kDa subunit	Enzyme
+CHEMBL5963	P55085	Proteinase-activated receptor 2 (PAR-2) (Coagulation factor II receptor-like 1) (G-protein coupled receptor 11) (Thrombin receptor-like 1) [Cleaved into: Proteinase-activated receptor 2, alternate cleaved 1; Proteinase-activated receptor 2, alternate cleaved 2]	Proteinase-activated receptor 2	GPCR
+CHEMBL5990	P38398	Breast cancer type 1 susceptibility protein (EC 2.3.2.27) (RING finger protein 53) (RING-type E3 ubiquitin transferase BRCA1)	Breast cancer type 1 susceptibility protein	Other
+CHEMBL6006	O75385	Serine/threonine-protein kinase ULK1 (EC 2.7.11.1) (Autophagy-related protein 1 homolog) (ATG1) (hATG1) (Unc-51-like kinase 1)	Serine/threonine-protein kinase ULK1	Kinase
+CHEMBL6017	Q70I53	Histone deacetylase-like amidohydrolase (HDAC-like amidohydrolase) (HDAH) (EC 3.5.1.-)	None	Unclassified
+CHEMBL6030	Q9NZJ5	Eukaryotic translation initiation factor 2-alpha kinase 3 (EC 2.7.11.1) (PRKR-like endoplasmic reticulum kinase) (Pancreatic eIF2-alpha kinase) (HsPEK)	Eukaryotic translation initiation factor 2-alpha kinase 3	Kinase
+CHEMBL6031	Q9H9B1	Histone-lysine N-methyltransferase EHMT1 (EC 2.1.1.-) (Euchromatic histone-lysine N-methyltransferase 1) (Eu-HMTase1) (G9a-like protein 1) (GLP) (GLP1) (Histone H3-K9 methyltransferase 5) (H3-K9-HMTase 5) (Lysine N-methyltransferase 1D)	Histone-lysine N-methyltransferase EHMT1	Epigenetic
+CHEMBL6032	Q96KQ7	Histone-lysine N-methyltransferase EHMT2 (EC 2.1.1.-) (Euchromatic histone-lysine N-methyltransferase 2) (HLA-B-associated transcript 8) (Histone H3-K9 methyltransferase 3) (H3-K9-HMTase 3) (Lysine N-methyltransferase 1C) (Protein G9a)	Histone-lysine N-methyltransferase EHMT2	Epigenetic
+CHEMBL6036	O94760	N(G),N(G)-dimethylarginine dimethylaminohydrolase 1 (DDAH-1) (Dimethylarginine dimethylaminohydrolase 1) (EC 3.5.3.18) (DDAHI) (Dimethylargininase-1)	N(G),N(G)-dimethylarginine dimethylaminohydrolase 1	Enzyme
+CHEMBL6040	P26663	Genome polyprotein [Cleaved into: Core protein precursor (Capsid protp26663ein C) (p23); Mature core protein (p21); Envelope glycoprotein E1 (gp32) (gp35); Envelope glycoprotein E2 (NS1) (gp68) (gp70); Viroporin p7; Protease NS2 (p23) (EC 3.4.22.-); Serine protease/helicase NS3 (EC 3.4.21.98) (EC 3.6.1.15) (EC 3.6.4.13) (Hepacivirin) (NS3 helicase) (NS3 protease) (NS3P) (Viroporin p70); Non-structural protein 4A (NS4A) (p8); Non-structural protein 4B (NS4B) (p27); Non-structural protein 5A (NS5A) (p56/58); RNA-directed RNA polymerase (EC 2.7.7.48) (NS5B) (p68)]	None	Unclassified
+CHEMBL6069	P9WIL5	Pantothenate synthetase (PS) (EC 6.3.2.1) (Pantoate--beta-alanine ligase) (Pantoate-activating enzyme)	None	Unclassified
+CHEMBL6084	P58154	Acetylcholine-binding protein (ACh-binding protein) (AchBP)	None	Unclassified
+CHEMBL6088	P60953	Cell division control protein 42 homolog (EC 3.6.5.2) (G25K GTP-binding protein)	Cell division control protein 42 homolog	Enzyme
+CHEMBL6091	P61823	Ribonuclease pancreatic (EC 4.6.1.18) (RNase 1) (RNase A)	None	Unclassified
+CHEMBL6094	P63000	Ras-related C3 botulinum toxin substrate 1 (EC 3.6.5.2) (Cell migration-inducing gene 5 protein) (Ras-like protein TC25) (p21-Rac1)	Ras-related C3 botulinum toxin substrate 1	Enzyme
+CHEMBL6096	P0DM80	Virulence sensor histidine kinase PhoQ (EC 2.7.13.3) (EC 3.1.3.-) (Sensor histidine protein kinase/phosphatase PhoQ)	None	Unclassified
+CHEMBL6111	Q9UM07	Protein-arginine deiminase type-4 (EC 3.5.3.15) (HL-60 PAD) (Peptidylarginine deiminase IV) (Protein-arginine deiminase type IV)	Protein-arginine deiminase type-4	Enzyme
+CHEMBL6115	P10619	Lysosomal protective protein (EC 3.4.16.5) (Carboxypeptidase C) (Carboxypeptidase L) (Cathepsin A) (Protective protein cathepsin A) (PPCA) (Protective protein for beta-galactosidase) [Cleaved into: Lysosomal protective protein 32 kDa chain; Lysosomal protective protein 20 kDa chain]	Lysosomal protective protein	Enzyme
+CHEMBL6117	P43378	Tyrosine-protein phosphatase non-receptor type 9 (EC 3.1.3.48) (Protein-tyrosine phosphatase MEG2) (PTPase MEG2)	Tyrosine-protein phosphatase non-receptor type 9	Enzyme
+CHEMBL6136	O60341	Lysine-specific histone demethylase 1A (EC 1.14.99.66) (BRAF35-HDAC complex protein BHC110) (Flavin-containing amine oxidase domain-containing protein 2) ([histone H3]-dimethyl-L-lysine(4) FAD-dependent demethylase 1A)	Lysine-specific histone demethylase 1A	Epigenetic
+CHEMBL6140	Q9QYJ6	cAMP and cAMP-inhibited cGMP 3',5'-cyclic phosphodiesterase 10A (EC 3.1.4.17)	None	Unclassified
+CHEMBL6145	Q8T6T2	Inosine-5'-monophosphate dehydrogenase (IMP dehydrogenase) (IMPD) (IMPDH) (EC 1.1.1.205)	None	Unclassified
+CHEMBL6154	Q9H2K2	Poly [ADP-ribose] polymerase tankyrase-2 (EC 2.4.2.30) (ADP-ribosyltransferase diphtheria toxin-like 6) (ARTD6) (Poly [ADP-ribose] polymerase 5B) (Protein poly-ADP-ribosyltransferase tankyrase-2) (EC 2.4.2.-) (TNKS-2) (TRF1-interacting ankyrin-related ADP-ribose polymerase 2) (Tankyrase II) (Tankyrase-2) (TANK2) (Tankyrase-like protein) (Tankyrase-related protein)	Tankyrase-2	Enzyme
+CHEMBL6164	O95271	Poly [ADP-ribose] polymerase tankyrase-1 (EC 2.4.2.30) (ADP-ribosyltransferase diphtheria toxin-like 5) (ARTD5) (Poly [ADP-ribose] polymerase 5A) (Protein poly-ADP-ribosyltransferase tankyrase-1) (EC 2.4.2.-) (TNKS-1) (TRF1-interacting ankyrin-related ADP-ribose polymerase) (Tankyrase I) (Tankyrase-1) (TANK1)	Tankyrase-1	Enzyme
+CHEMBL6166	O95819	Mitogen-activated protein kinase kinase kinase kinase 4 (EC 2.7.11.1) (HPK/GCK-like kinase HGK) (MAPK/ERK kinase kinase kinase 4) (MEK kinase kinase 4) (MEKKK 4) (Nck-interacting kinase)	Mitogen-activated protein kinase kinase kinase kinase 4	Kinase
+CHEMBL6175	Q9H3R0	Lysine-specific demethylase 4C (EC 1.14.11.66) (Gene amplified in squamous cell carcinoma 1 protein) (GASC-1 protein) (JmjC domain-containing histone demethylation protein 3C) (Jumonji domain-containing protein 2C) ([histone H3]-trimethyl-L-lysine(9) demethylase 4C)	Lysine-specific demethylase 4C	Epigenetic

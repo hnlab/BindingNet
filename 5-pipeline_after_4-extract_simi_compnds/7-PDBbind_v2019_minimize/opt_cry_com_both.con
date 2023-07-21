@@ -1,0 +1,9 @@
+rand seed 1111111111
+logfile cry_com_opt_both.log
+datadir /home/soft/plop/6.0/data
+load pdb cry_com.pdb het yes opt yes ions yes
+energy calc
+minim res single 8:8888 &
+    mxitn 5
+energy calc
+write pdb cry_com_opt.pdb

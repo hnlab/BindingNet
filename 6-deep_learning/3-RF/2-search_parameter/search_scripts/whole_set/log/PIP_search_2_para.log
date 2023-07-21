@@ -1,0 +1,10 @@
+[2022-06-09 15:04:51] Start on k215.hn.org.
+tvt_data_dir: /pubhome/xli02/project/PLIM/deep_learning/FAST/fast_plim/PDBbind/pdbbind_v2019/minimized/dataset/PDBbind_minimized_intersected_Uw/complex_6A
+output_path: /pubhome/xli02/project/PLIM/deep_learning/RFscore/searched_bead_parameter/whole_set
+feature_version: VR1
+model: RF
+feature_file: /pubhome/xli02/project/PLIM/deep_learning/RFscore/featured_data/tow_datasets_features_6A.csv
+dataset_name: PDBbind_minimized_intersected_Uw
+For PDBbind_minimized_intersected_Uw(Ntrain_valid=5317) VR1, best max_features is 4.
+For PDBbind_minimized_intersected_Uw(Ntrain_valid=5317) VR1, best n_estimators is 300.
+[2022-06-09 15:11:14] End on k215.hn.org.

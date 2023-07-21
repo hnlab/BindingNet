@@ -1,0 +1,279 @@
+Traceback (most recent call last):
+  File "2-train/test_density.py", line 279, in <module>
+    main(args)
+  File "2-train/test_density.py", line 231, in main
+    test(args)
+  File "2-train/test_density.py", line 35, in test
+    model_train_dict = torch.load(args.checkpoint)
+  File "/pubhome/xli02/opt/miniconda/envs/fast/lib/python3.6/site-packages/torch/serialization.py", line 592, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/pubhome/xli02/opt/miniconda/envs/fast/lib/python3.6/site-packages/torch/serialization.py", line 851, in _load
+    result = unpickler.load()
+  File "/pubhome/xli02/opt/miniconda/envs/fast/lib/python3.6/site-packages/torch/serialization.py", line 843, in persistent_load
+    load_tensor(data_type, size, key, _maybe_decode_ascii(location))
+  File "/pubhome/xli02/opt/miniconda/envs/fast/lib/python3.6/site-packages/torch/serialization.py", line 832, in load_tensor
+    loaded_storages[key] = restore_location(storage, location)
+  File "/pubhome/xli02/opt/miniconda/envs/fast/lib/python3.6/site-packages/torch/serialization.py", line 175, in default_restore_location
+    result = fn(storage, location)
+  File "/pubhome/xli02/opt/miniconda/envs/fast/lib/python3.6/site-packages/torch/serialization.py", line 157, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/pubhome/xli02/opt/miniconda/envs/fast/lib/python3.6/site-packages/torch/_utils.py", line 80, in _cuda
+    return new_type(self.size()).copy_(self, non_blocking)
+  File "/pubhome/xli02/opt/miniconda/envs/fast/lib/python3.6/site-packages/torch/cuda/__init__.py", line 484, in _lazy_new
+    return super(_CudaBase, cls).__new__(cls, *args, **kwargs)
+RuntimeError: CUDA error: out of memory
+Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+) Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+)
+4725 complexes in dataset
+232648 total parameters.
+  0%|          | 0/4725 [00:00<?, ?it/s]  0%|          | 1/4725 [00:01<1:37:32,  1.24s/it]  0%|          | 17/4725 [00:01<04:33, 17.21it/s]   1%|          | 33/4725 [00:01<02:12, 35.45it/s]  1%|          | 49/4725 [00:01<01:25, 54.53it/s]  1%|▏         | 65/4725 [00:01<01:03, 73.01it/s]  2%|▏         | 81/4725 [00:01<00:51, 89.57it/s]  2%|▏         | 97/4725 [00:01<00:44, 104.83it/s]  2%|▏         | 113/4725 [00:01<00:39, 117.77it/s]  3%|▎         | 129/4725 [00:02<00:40, 113.09it/s]  3%|▎         | 146/4725 [00:02<00:36, 125.13it/s]  3%|▎         | 163/4725 [00:02<00:33, 134.31it/s]  4%|▍         | 180/4725 [00:02<00:32, 141.89it/s]  4%|▍         | 196/4725 [00:02<00:30, 146.54it/s]  4%|▍         | 212/4725 [00:02<00:30, 148.82it/s]  5%|▍         | 228/4725 [00:02<00:29, 151.01it/s]  5%|▌         | 244/4725 [00:02<00:29, 153.25it/s]  6%|▌         | 260/4725 [00:02<00:28, 154.11it/s]  6%|▌         | 277/4725 [00:03<00:28, 155.72it/s]  6%|▌         | 293/4725 [00:03<00:28, 156.13it/s]  7%|▋         | 310/4725 [00:03<00:27, 157.79it/s]  7%|▋         | 326/4725 [00:03<00:27, 157.33it/s]  7%|▋         | 342/4725 [00:03<00:27, 158.02it/s]  8%|▊         | 358/4725 [00:03<00:27, 158.00it/s]  8%|▊         | 374/4725 [00:03<00:27, 157.05it/s]  8%|▊         | 390/4725 [00:03<00:27, 157.58it/s]  9%|▊         | 407/4725 [00:03<00:27, 158.42it/s]  9%|▉         | 423/4725 [00:03<00:27, 158.49it/s]  9%|▉         | 440/4725 [00:04<00:26, 159.26it/s] 10%|▉         | 457/4725 [00:04<00:26, 159.80it/s] 10%|█         | 474/4725 [00:04<00:26, 161.04it/s] 10%|█         | 491/4725 [00:04<00:26, 160.25it/s] 11%|█         | 508/4725 [00:04<00:26, 159.41it/s] 11%|█         | 525/4725 [00:04<00:26, 160.14it/s] 11%|█▏        | 542/4725 [00:04<00:26, 160.87it/s] 12%|█▏        | 559/4725 [00:04<00:26, 157.90it/s] 12%|█▏        | 576/4725 [00:04<00:26, 158.97it/s] 13%|█▎        | 593/4725 [00:05<00:25, 159.71it/s] 13%|█▎        | 609/4725 [00:05<00:38, 107.74it/s] 13%|█▎        | 626/4725 [00:05<00:34, 119.83it/s] 14%|█▎        | 643/4725 [00:05<00:31, 130.09it/s] 14%|█▍        | 660/4725 [00:05<00:29, 138.13it/s] 14%|█▍        | 677/4725 [00:05<00:28, 144.39it/s] 15%|█▍        | 693/4725 [00:05<00:27, 148.37it/s] 15%|█▌        | 710/4725 [00:05<00:26, 151.89it/s] 15%|█▌        | 726/4725 [00:06<00:25, 153.93it/s] 16%|█▌        | 742/4725 [00:06<00:25, 155.64it/s] 16%|█▌        | 759/4725 [00:06<00:25, 157.38it/s] 16%|█▋        | 776/4725 [00:06<00:24, 158.57it/s] 17%|█▋        | 792/4725 [00:06<00:25, 153.49it/s] 17%|█▋        | 808/4725 [00:06<00:25, 155.23it/s] 17%|█▋        | 824/4725 [00:06<00:25, 155.74it/s] 18%|█▊        | 840/4725 [00:06<00:24, 155.60it/s] 18%|█▊        | 856/4725 [00:06<00:24, 156.04it/s] 18%|█▊        | 872/4725 [00:06<00:24, 156.61it/s] 19%|█▉        | 889/4725 [00:07<00:24, 157.62it/s] 19%|█▉        | 905/4725 [00:07<00:24, 157.42it/s] 19%|█▉        | 921/4725 [00:07<00:24, 157.72it/s] 20%|█▉        | 938/4725 [00:07<00:23, 158.62it/s] 20%|██        | 954/4725 [00:07<00:23, 158.62it/s] 21%|██        | 970/4725 [00:07<00:23, 158.53it/s] 21%|██        | 986/4725 [00:07<00:23, 158.93it/s] 21%|██        | 1002/4725 [00:07<00:23, 159.17it/s] 22%|██▏       | 1018/4725 [00:07<00:23, 159.29it/s] 22%|██▏       | 1035/4725 [00:07<00:23, 159.56it/s] 22%|██▏       | 1052/4725 [00:08<00:22, 159.75it/s] 23%|██▎       | 1068/4725 [00:08<00:22, 159.62it/s] 23%|██▎       | 1084/4725 [00:08<00:22, 159.29it/s] 23%|██▎       | 1101/4725 [00:08<00:22, 160.33it/s] 24%|██▎       | 1118/4725 [00:08<00:22, 160.25it/s] 24%|██▍       | 1135/4725 [00:08<00:22, 160.21it/s] 24%|██▍       | 1152/4725 [00:08<00:22, 160.12it/s] 25%|██▍       | 1169/4725 [00:08<00:22, 160.68it/s] 25%|██▌       | 1186/4725 [00:08<00:21, 160.90it/s] 25%|██▌       | 1203/4725 [00:09<00:21, 160.95it/s] 26%|██▌       | 1220/4725 [00:09<00:21, 161.25it/s] 26%|██▌       | 1237/4725 [00:09<00:21, 161.55it/s] 27%|██▋       | 1254/4725 [00:09<00:21, 161.08it/s] 27%|██▋       | 1271/4725 [00:09<00:21, 161.06it/s] 27%|██▋       | 1288/4725 [00:09<00:21, 161.33it/s] 28%|██▊       | 1305/4725 [00:09<00:21, 161.83it/s] 28%|██▊       | 1322/4725 [00:09<00:21, 161.61it/s] 28%|██▊       | 1339/4725 [00:09<00:20, 161.47it/s] 29%|██▊       | 1356/4725 [00:09<00:20, 161.62it/s] 29%|██▉       | 1373/4725 [00:10<00:20, 161.54it/s] 29%|██▉       | 1390/4725 [00:10<00:20, 161.66it/s] 30%|██▉       | 1407/4725 [00:10<00:20, 162.10it/s] 30%|███       | 1424/4725 [00:10<00:20, 162.25it/s] 30%|███       | 1441/4725 [00:10<00:20, 162.50it/s] 31%|███       | 1458/4725 [00:10<00:20, 161.52it/s] 31%|███       | 1475/4725 [00:10<00:20, 160.69it/s] 32%|███▏      | 1492/4725 [00:10<00:20, 161.23it/s] 32%|███▏      | 1509/4725 [00:10<00:19, 161.61it/s] 32%|███▏      | 1526/4725 [00:11<00:19, 161.52it/s] 33%|███▎      | 1543/4725 [00:11<00:19, 161.76it/s] 33%|███▎      | 1560/4725 [00:11<00:20, 155.37it/s] 33%|███▎      | 1577/4725 [00:11<00:20, 156.85it/s] 34%|███▎      | 1593/4725 [00:11<00:19, 157.49it/s] 34%|███▍      | 1609/4725 [00:11<00:19, 158.01it/s] 34%|███▍      | 1626/4725 [00:11<00:19, 158.57it/s] 35%|███▍      | 1642/4725 [00:11<00:19, 158.94it/s] 35%|███▌      | 1658/4725 [00:11<00:19, 159.19it/s] 35%|███▌      | 1674/4725 [00:11<00:19, 159.25it/s] 36%|███▌      | 1690/4725 [00:12<00:19, 159.45it/s] 36%|███▌      | 1706/4725 [00:12<00:18, 159.22it/s] 36%|███▋      | 1722/4725 [00:12<00:18, 158.61it/s] 37%|███▋      | 1738/4725 [00:12<00:18, 158.50it/s] 37%|███▋      | 1754/4725 [00:12<00:18, 158.14it/s] 37%|███▋      | 1771/4725 [00:12<00:18, 158.63it/s] 38%|███▊      | 1788/4725 [00:12<00:18, 159.21it/s] 38%|███▊      | 1804/4725 [00:12<00:18, 159.32it/s] 39%|███▊      | 1820/4725 [00:12<00:18, 158.94it/s] 39%|███▉      | 1836/4725 [00:12<00:18, 159.07it/s] 39%|███▉      | 1853/4725 [00:13<00:17, 159.95it/s] 40%|███▉      | 1869/4725 [00:13<00:17, 159.78it/s] 40%|███▉      | 1886/4725 [00:13<00:17, 159.85it/s] 40%|████      | 1902/4725 [00:13<00:17, 159.56it/s] 41%|████      | 1918/4725 [00:13<00:17, 159.32it/s] 41%|████      | 1934/4725 [00:13<00:17, 159.24it/s] 41%|████▏     | 1951/4725 [00:13<00:17, 159.84it/s] 42%|████▏     | 1968/4725 [00:13<00:17, 160.24it/s] 42%|████▏     | 1985/4725 [00:13<00:17, 159.98it/s] 42%|████▏     | 2001/4725 [00:14<00:17, 159.34it/s] 43%|████▎     | 2017/4725 [00:14<00:16, 159.47it/s] 43%|████▎     | 2033/4725 [00:14<00:16, 158.85it/s] 43%|████▎     | 2050/4725 [00:14<00:16, 159.47it/s] 44%|████▎     | 2066/4725 [00:14<00:16, 159.23it/s] 44%|████▍     | 2083/4725 [00:14<00:16, 160.00it/s] 44%|████▍     | 2100/4725 [00:14<00:16, 160.11it/s] 45%|████▍     | 2117/4725 [00:14<00:16, 160.21it/s] 45%|████▌     | 2134/4725 [00:14<00:16, 160.63it/s] 46%|████▌     | 2151/4725 [00:14<00:16, 160.49it/s] 46%|████▌     | 2168/4725 [00:15<00:15, 160.28it/s] 46%|████▌     | 2185/4725 [00:15<00:15, 159.52it/s] 47%|████▋     | 2202/4725 [00:15<00:15, 159.87it/s] 47%|████▋     | 2218/4725 [00:15<00:15, 159.65it/s] 47%|████▋     | 2235/4725 [00:15<00:15, 159.89it/s] 48%|████▊     | 2251/4725 [00:15<00:15, 159.75it/s] 48%|████▊     | 2267/4725 [00:15<00:15, 159.34it/s] 48%|████▊     | 2284/4725 [00:15<00:15, 159.62it/s] 49%|████▊     | 2301/4725 [00:15<00:15, 159.94it/s] 49%|████▉     | 2317/4725 [00:16<00:15, 154.04it/s] 49%|████▉     | 2333/4725 [00:16<00:15, 155.43it/s] 50%|████▉     | 2350/4725 [00:16<00:15, 157.36it/s] 50%|█████     | 2366/4725 [00:16<00:14, 157.93it/s] 50%|█████     | 2383/4725 [00:16<00:14, 158.66it/s] 51%|█████     | 2399/4725 [00:16<00:14, 158.60it/s] 51%|█████     | 2416/4725 [00:16<00:14, 159.41it/s] 51%|█████▏    | 2433/4725 [00:16<00:14, 159.78it/s] 52%|█████▏    | 2449/4725 [00:16<00:14, 159.63it/s] 52%|█████▏    | 2465/4725 [00:16<00:14, 159.61it/s] 53%|█████▎    | 2481/4725 [00:17<00:14, 159.35it/s] 53%|█████▎    | 2497/4725 [00:17<00:13, 159.37it/s] 53%|█████▎    | 2513/4725 [00:17<00:13, 158.88it/s] 54%|█████▎    | 2529/4725 [00:17<00:13, 159.21it/s] 54%|█████▍    | 2545/4725 [00:17<00:13, 159.43it/s] 54%|█████▍    | 2562/4725 [00:17<00:13, 162.17it/s] 55%|█████▍    | 2579/4725 [00:17<00:13, 161.31it/s] 55%|█████▍    | 2596/4725 [00:17<00:13, 160.64it/s] 55%|█████▌    | 2613/4725 [00:17<00:13, 160.66it/s] 56%|█████▌    | 2630/4725 [00:17<00:13, 160.40it/s] 56%|█████▌    | 2647/4725 [00:18<00:12, 160.38it/s] 56%|█████▋    | 2664/4725 [00:18<00:12, 160.39it/s] 57%|█████▋    | 2681/4725 [00:18<00:12, 161.03it/s] 57%|█████▋    | 2698/4725 [00:18<00:12, 160.59it/s] 57%|█████▋    | 2715/4725 [00:18<00:12, 160.71it/s] 58%|█████▊    | 2732/4725 [00:18<00:12, 160.71it/s] 58%|█████▊    | 2749/4725 [00:18<00:12, 159.99it/s] 59%|█████▊    | 2766/4725 [00:18<00:12, 159.14it/s] 59%|█████▉    | 2782/4725 [00:18<00:12, 158.90it/s] 59%|█████▉    | 2798/4725 [00:19<00:12, 158.84it/s] 60%|█████▉    | 2814/4725 [00:19<00:12, 159.04it/s] 60%|█████▉    | 2830/4725 [00:19<00:11, 159.27it/s] 60%|██████    | 2847/4725 [00:19<00:11, 159.78it/s] 61%|██████    | 2864/4725 [00:19<00:11, 160.03it/s] 61%|██████    | 2881/4725 [00:19<00:11, 160.29it/s] 61%|██████▏   | 2898/4725 [00:19<00:11, 160.46it/s] 62%|██████▏   | 2915/4725 [00:19<00:11, 160.72it/s] 62%|██████▏   | 2932/4725 [00:19<00:11, 160.59it/s] 62%|██████▏   | 2949/4725 [00:19<00:11, 160.20it/s] 63%|██████▎   | 2966/4725 [00:20<00:11, 159.64it/s] 63%|██████▎   | 2983/4725 [00:20<00:10, 160.12it/s] 63%|██████▎   | 3000/4725 [00:20<00:10, 159.80it/s] 64%|██████▍   | 3016/4725 [00:20<00:10, 159.76it/s] 64%|██████▍   | 3032/4725 [00:20<00:10, 159.40it/s] 65%|██████▍   | 3049/4725 [00:20<00:10, 159.56it/s] 65%|██████▍   | 3065/4725 [00:20<00:10, 159.48it/s] 65%|██████▌   | 3081/4725 [00:20<00:10, 153.19it/s] 66%|██████▌   | 3097/4725 [00:20<00:10, 154.76it/s] 66%|██████▌   | 3113/4725 [00:20<00:10, 155.74it/s] 66%|██████▌   | 3129/4725 [00:21<00:10, 156.62it/s] 67%|██████▋   | 3145/4725 [00:21<00:10, 157.43it/s] 67%|██████▋   | 3161/4725 [00:21<00:09, 157.21it/s] 67%|██████▋   | 3177/4725 [00:21<00:09, 157.74it/s] 68%|██████▊   | 3193/4725 [00:21<00:09, 158.04it/s] 68%|██████▊   | 3209/4725 [00:21<00:09, 157.64it/s] 68%|██████▊   | 3225/4725 [00:21<00:09, 157.86it/s] 69%|██████▊   | 3241/4725 [00:21<00:09, 158.38it/s] 69%|██████▉   | 3257/4725 [00:21<00:09, 157.89it/s] 69%|██████▉   | 3273/4725 [00:22<00:09, 157.74it/s] 70%|██████▉   | 3289/4725 [00:22<00:09, 157.94it/s] 70%|██████▉   | 3305/4725 [00:22<00:08, 157.83it/s] 70%|███████   | 3321/4725 [00:22<00:08, 157.85it/s] 71%|███████   | 3337/4725 [00:22<00:08, 157.71it/s] 71%|███████   | 3353/4725 [00:22<00:08, 157.71it/s] 71%|███████▏  | 3369/4725 [00:22<00:08, 158.16it/s] 72%|███████▏  | 3385/4725 [00:22<00:08, 158.07it/s] 72%|███████▏  | 3401/4725 [00:22<00:08, 158.07it/s] 72%|███████▏  | 3417/4725 [00:22<00:08, 158.25it/s] 73%|███████▎  | 3433/4725 [00:23<00:08, 158.16it/s] 73%|███████▎  | 3449/4725 [00:23<00:08, 158.36it/s] 73%|███████▎  | 3465/4725 [00:23<00:07, 158.55it/s] 74%|███████▎  | 3482/4725 [00:23<00:07, 159.02it/s] 74%|███████▍  | 3499/4725 [00:23<00:07, 159.55it/s] 74%|███████▍  | 3515/4725 [00:23<00:07, 159.52it/s] 75%|███████▍  | 3532/4725 [00:23<00:07, 159.83it/s] 75%|███████▌  | 3548/4725 [00:23<00:07, 159.47it/s] 75%|███████▌  | 3564/4725 [00:23<00:07, 159.60it/s] 76%|███████▌  | 3581/4725 [00:23<00:07, 159.84it/s] 76%|███████▌  | 3597/4725 [00:24<00:07, 159.34it/s] 76%|███████▋  | 3614/4725 [00:24<00:06, 159.67it/s] 77%|███████▋  | 3630/4725 [00:24<00:06, 159.42it/s] 77%|███████▋  | 3646/4725 [00:24<00:06, 159.17it/s] 78%|███████▊  | 3662/4725 [00:24<00:06, 158.86it/s] 78%|███████▊  | 3678/4725 [00:24<00:06, 158.49it/s] 78%|███████▊  | 3694/4725 [00:24<00:06, 158.60it/s] 79%|███████▊  | 3710/4725 [00:24<00:06, 158.60it/s] 79%|███████▉  | 3726/4725 [00:24<00:06, 158.58it/s] 79%|███████▉  | 3742/4725 [00:24<00:06, 158.96it/s] 80%|███████▉  | 3759/4725 [00:25<00:06, 159.32it/s] 80%|███████▉  | 3775/4725 [00:25<00:05, 159.39it/s] 80%|████████  | 3791/4725 [00:25<00:05, 159.21it/s] 81%|████████  | 3807/4725 [00:25<00:05, 158.68it/s] 81%|████████  | 3823/4725 [00:25<00:05, 152.81it/s] 81%|████████  | 3839/4725 [00:25<00:05, 154.27it/s] 82%|████████▏ | 3855/4725 [00:25<00:05, 155.35it/s] 82%|████████▏ | 3871/4725 [00:25<00:05, 156.19it/s] 82%|████████▏ | 3887/4725 [00:25<00:05, 157.03it/s] 83%|████████▎ | 3903/4725 [00:25<00:05, 157.81it/s] 83%|████████▎ | 3919/4725 [00:26<00:05, 158.16it/s] 83%|████████▎ | 3935/4725 [00:26<00:04, 158.36it/s] 84%|████████▎ | 3951/4725 [00:26<00:04, 157.89it/s] 84%|████████▍ | 3967/4725 [00:26<00:04, 158.44it/s] 84%|████████▍ | 3983/4725 [00:26<00:04, 158.35it/s] 85%|████████▍ | 3999/4725 [00:26<00:04, 157.89it/s] 85%|████████▍ | 4015/4725 [00:26<00:04, 158.33it/s] 85%|████████▌ | 4031/4725 [00:26<00:04, 158.74it/s] 86%|████████▌ | 4047/4725 [00:26<00:04, 158.92it/s] 86%|████████▌ | 4063/4725 [00:27<00:04, 158.56it/s] 86%|████████▋ | 4079/4725 [00:27<00:04, 158.62it/s] 87%|████████▋ | 4095/4725 [00:27<00:03, 158.44it/s] 87%|████████▋ | 4111/4725 [00:27<00:03, 158.83it/s] 87%|████████▋ | 4127/4725 [00:27<00:03, 158.91it/s] 88%|████████▊ | 4144/4725 [00:27<00:03, 159.23it/s] 88%|████████▊ | 4160/4725 [00:27<00:03, 159.31it/s] 88%|████████▊ | 4176/4725 [00:27<00:03, 158.56it/s] 89%|████████▊ | 4192/4725 [00:27<00:03, 158.48it/s] 89%|████████▉ | 4208/4725 [00:27<00:03, 158.40it/s] 89%|████████▉ | 4224/4725 [00:28<00:03, 158.38it/s] 90%|████████▉ | 4240/4725 [00:28<00:03, 158.34it/s] 90%|█████████ | 4256/4725 [00:28<00:02, 158.38it/s] 90%|█████████ | 4272/4725 [00:28<00:02, 158.62it/s] 91%|█████████ | 4288/4725 [00:28<00:02, 158.04it/s] 91%|█████████ | 4304/4725 [00:28<00:02, 158.14it/s] 91%|█████████▏| 4320/4725 [00:28<00:02, 158.19it/s] 92%|█████████▏| 4336/4725 [00:28<00:02, 158.38it/s] 92%|█████████▏| 4352/4725 [00:28<00:02, 157.90it/s] 92%|█████████▏| 4368/4725 [00:28<00:02, 157.58it/s] 93%|█████████▎| 4384/4725 [00:29<00:02, 157.61it/s] 93%|█████████▎| 4400/4725 [00:29<00:02, 157.84it/s] 93%|█████████▎| 4416/4725 [00:29<00:01, 157.86it/s] 94%|█████████▍| 4432/4725 [00:29<00:01, 158.33it/s] 94%|█████████▍| 4448/4725 [00:29<00:01, 158.18it/s] 94%|█████████▍| 4464/4725 [00:29<00:01, 158.22it/s] 95%|█████████▍| 4480/4725 [00:29<00:01, 158.64it/s] 95%|█████████▌| 4497/4725 [00:29<00:01, 161.34it/s] 96%|█████████▌| 4514/4725 [00:29<00:01, 160.75it/s] 96%|█████████▌| 4531/4725 [00:29<00:01, 159.79it/s] 96%|█████████▋| 4548/4725 [00:30<00:01, 162.69it/s] 97%|█████████▋| 4566/4725 [00:30<00:00, 167.36it/s] 97%|█████████▋| 4583/4725 [00:30<00:00, 159.36it/s] 97%|█████████▋| 4600/4725 [00:30<00:00, 159.63it/s] 98%|█████████▊| 4617/4725 [00:30<00:00, 158.93it/s] 98%|█████████▊| 4633/4725 [00:30<00:00, 155.81it/s] 98%|█████████▊| 4649/4725 [00:30<00:00, 154.37it/s] 99%|█████████▊| 4665/4725 [00:30<00:00, 155.04it/s] 99%|█████████▉| 4681/4725 [00:30<00:00, 155.64it/s] 99%|█████████▉| 4697/4725 [00:31<00:00, 156.87it/s]100%|█████████▉| 4713/4725 [00:31<00:00, 157.13it/s]100%|██████████| 4725/4725 [00:31<00:00, 151.55it/s]
+4ehr
+6b30
+6ceh
+6d1l
+6d1m
+Performance on train set: r2: 0.5274844718364597, mae: 0.8821182250976562, mse: 1.2683775424957275, pearsonr: (0.7298246982157031, 0.0), spearmanr: SpearmanrResult(correlation=0.6745416698279275, pvalue=0.0)
+Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+) Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+)
+591 complexes in dataset
+232648 total parameters.
+  0%|          | 0/591 [00:00<?, ?it/s]  0%|          | 1/591 [00:00<01:03,  9.24it/s]  3%|▎         | 18/591 [00:00<00:05, 99.23it/s]  6%|▌         | 35/591 [00:00<00:04, 128.20it/s]  9%|▉         | 52/591 [00:00<00:03, 142.15it/s] 12%|█▏        | 69/591 [00:00<00:03, 150.05it/s] 15%|█▍        | 86/591 [00:00<00:03, 154.62it/s] 17%|█▋        | 103/591 [00:00<00:03, 158.03it/s] 20%|██        | 120/591 [00:00<00:02, 159.86it/s] 23%|██▎       | 137/591 [00:00<00:02, 161.20it/s] 26%|██▌       | 154/591 [00:01<00:02, 161.55it/s] 29%|██▉       | 171/591 [00:01<00:02, 162.25it/s] 32%|███▏      | 188/591 [00:01<00:02, 163.21it/s] 35%|███▍      | 205/591 [00:01<00:02, 163.15it/s] 38%|███▊      | 222/591 [00:01<00:02, 163.37it/s] 40%|████      | 239/591 [00:01<00:02, 163.19it/s] 43%|████▎     | 256/591 [00:01<00:02, 162.88it/s] 46%|████▌     | 273/591 [00:01<00:01, 163.59it/s] 49%|████▉     | 290/591 [00:01<00:01, 162.87it/s] 52%|█████▏    | 307/591 [00:01<00:01, 163.35it/s] 55%|█████▍    | 324/591 [00:02<00:01, 163.33it/s] 58%|█████▊    | 341/591 [00:02<00:01, 163.01it/s] 61%|██████    | 358/591 [00:02<00:01, 163.19it/s] 63%|██████▎   | 375/591 [00:02<00:01, 163.40it/s] 66%|██████▋   | 392/591 [00:02<00:01, 163.01it/s] 69%|██████▉   | 409/591 [00:02<00:01, 162.73it/s] 72%|███████▏  | 426/591 [00:02<00:01, 162.70it/s] 75%|███████▍  | 443/591 [00:02<00:00, 162.86it/s] 78%|███████▊  | 460/591 [00:02<00:00, 163.39it/s] 81%|████████  | 477/591 [00:03<00:00, 163.58it/s] 84%|████████▎ | 494/591 [00:03<00:00, 163.47it/s] 86%|████████▋ | 511/591 [00:03<00:00, 163.45it/s] 89%|████████▉ | 528/591 [00:03<00:00, 163.31it/s] 92%|█████████▏| 545/591 [00:03<00:00, 163.18it/s] 95%|█████████▌| 562/591 [00:03<00:00, 163.79it/s] 98%|█████████▊| 579/591 [00:03<00:00, 163.83it/s]100%|██████████| 591/591 [00:03<00:00, 159.07it/s]
+Performance on test set: r2: 0.3761642583169049, mae: 1.0213431119918823, mse: 1.7295116186141968, pearsonr: (0.6153072222414596, 7.475291097042368e-63), spearmanr: SpearmanrResult(correlation=0.5386215492786658, pvalue=9.095558683992686e-46)

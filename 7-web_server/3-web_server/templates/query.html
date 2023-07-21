@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <title>PLANet dataset query result page</title>
+</head>
+
+<body>
+  <h1 align="center">PLANet dataset</h1>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="http://192.168.54.19:1282/">Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/hnlab/Chembl-Scaffold-database">GitHub</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.huanglab.org.cn/">Niu Huang's Lab Homepage</a>
+          </li>
+        </ul>
+      </div>
+      
+      <!-- <form method="POST">
+        <select name="query_type">
+        <option value="target_chembl_id">Target ChEMBL ID</option>
+        <option value="target_uniprot_id">Target Uniprot ID</option>
+        <option value="pdbid">PDB ID</option>
+        </select>
+        <input type="text" name="query_txt">
+        <input type="submit">
+      </form> -->
+    </div>
+  </nav>
+
+  <br>
+  <div>
+    <p>Query Condition: {{query_type}} = {{query_txt}}</p>
+  </div>
+
+  <div>
+    <!-- <form method="POST">
+      <fieldset>
+        <legend>Personal information:</legend>
+        First name:<br>
+        <input type="text" name="firstname" value="Mickey">
+        <br>
+        Last name:<br>
+        <input type="text" name="lastname" value="Mouse">
+        <br><br>
+        <input type="submit" value="Submit">
+      </fieldset>
+    </form> -->
+  </div>
+
+  <div class="col-md-12" style="float: top">
+    <div class="table-wrap">
+      {{ table_html | safe }}
+    </div>
+    <div class="row1">
+      <div class="dropdown">
+        <button class="dropbtn">{{size}} per page</button>
+        <div class="dropdown-content">
+          <a href="{{current_path}}&size=10">10</a>
+          <a href="{{current_path}}&size=20">20</a>
+          <a href="{{current_path}}&size=50">50</a>
+        </div>
+      </div>
+      <label style="margin-top: 10px"> {{size}} / {{nrow}} results</label>
+      <ul class="pagination">
+        {{ phtml|safe }}
+      </ul>
+    </div>
+  </div>
+
+  <!-- <script src="/static/js/jquery.min.js"></script>
+  <script src="/static/js/popper.js"></script>
+  <script src="/static/js/bootstrap.min.js"></script>
+  <script src="/static/js/main.js"></script> -->
+
+</body>
+</html>

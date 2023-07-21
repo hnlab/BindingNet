@@ -1,0 +1,1947 @@
+/pubhome/xli02/opt/miniconda/envs/fast/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+NVIDIA GeForce RTX 3090 with CUDA capability sm_86 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the NVIDIA GeForce RTX 3090 GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+Start predicting with model PDBbind_minimized_v18_subset_cmx
+
+Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+) Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+)
+485 complexes in dataset
+232648 total parameters.
+  0%|          | 0/485 [00:00<?, ?it/s]  0%|          | 1/485 [02:03<16:33:53, 123.21s/it]  2%|▏         | 8/485 [02:03<1:29:09, 11.22s/it]    3%|▎         | 15/485 [02:03<38:16,  4.89s/it]   5%|▍         | 22/485 [02:03<20:55,  2.71s/it]  6%|▌         | 29/485 [02:03<12:39,  1.67s/it]  8%|▊         | 38/485 [02:03<07:16,  1.03it/s] 10%|▉         | 47/485 [02:03<04:29,  1.62it/s] 12%|█▏        | 56/485 [02:04<02:54,  2.46it/s] 14%|█▎        | 66/485 [02:04<01:51,  3.77it/s] 16%|█▌        | 76/485 [02:04<01:13,  5.56it/s] 18%|█▊        | 85/485 [02:04<00:51,  7.76it/s] 19%|█▉        | 94/485 [02:04<00:36, 10.65it/s] 21%|██        | 103/485 [02:04<00:26, 14.50it/s] 23%|██▎       | 112/485 [02:04<00:19, 19.28it/s] 25%|██▍       | 121/485 [02:04<00:14, 25.13it/s] 27%|██▋       | 131/485 [02:04<00:10, 32.74it/s] 29%|██▉       | 140/485 [02:05<00:08, 38.37it/s] 31%|███       | 148/485 [02:05<00:07, 44.22it/s] 32%|███▏      | 157/485 [02:05<00:06, 51.44it/s] 34%|███▍      | 166/485 [02:05<00:05, 58.67it/s] 36%|███▌      | 175/485 [02:05<00:04, 63.99it/s] 38%|███▊      | 184/485 [02:05<00:04, 70.01it/s] 40%|████      | 194/485 [02:05<00:03, 75.45it/s] 42%|████▏     | 204/485 [02:05<00:03, 81.12it/s] 44%|████▍     | 213/485 [02:05<00:03, 82.37it/s] 46%|████▌     | 222/485 [02:06<00:03, 84.12it/s] 48%|████▊     | 231/485 [02:06<00:03, 83.60it/s] 49%|████▉     | 240/485 [02:06<00:02, 81.73it/s] 51%|█████▏    | 249/485 [02:06<00:02, 82.82it/s] 53%|█████▎    | 259/485 [02:06<00:02, 87.00it/s] 55%|█████▌    | 269/485 [02:06<00:02, 90.03it/s] 58%|█████▊    | 279/485 [02:06<00:02, 89.31it/s] 60%|█████▉    | 290/485 [02:06<00:02, 94.31it/s] 62%|██████▏   | 300/485 [02:06<00:02, 90.94it/s] 64%|██████▍   | 310/485 [02:06<00:01, 89.27it/s] 66%|██████▌   | 319/485 [02:07<00:01, 88.85it/s] 68%|██████▊   | 329/485 [02:07<00:01, 89.69it/s] 70%|██████▉   | 338/485 [02:07<00:01, 88.82it/s] 72%|███████▏  | 348/485 [02:07<00:01, 89.35it/s] 74%|███████▎  | 357/485 [02:07<00:01, 89.08it/s] 75%|███████▌  | 366/485 [02:07<00:01, 88.90it/s] 77%|███████▋  | 375/485 [02:07<00:01, 87.56it/s] 79%|███████▉  | 385/485 [02:07<00:01, 88.96it/s] 81%|████████▏ | 395/485 [02:07<00:01, 89.30it/s] 83%|████████▎ | 404/485 [02:08<00:00, 88.92it/s] 85%|████████▌ | 414/485 [02:08<00:00, 89.04it/s] 87%|████████▋ | 423/485 [02:08<00:00, 88.19it/s] 89%|████████▉ | 433/485 [02:08<00:00, 89.67it/s] 91%|█████████ | 442/485 [02:08<00:00, 89.07it/s] 93%|█████████▎| 451/485 [02:08<00:00, 89.32it/s] 95%|█████████▍| 460/485 [02:08<00:00, 86.51it/s] 97%|█████████▋| 470/485 [02:08<00:00, 88.72it/s] 99%|█████████▉| 480/485 [02:08<00:00, 89.46it/s]100%|██████████| 485/485 [02:08<00:00,  3.76it/s]
+6b30
+6ceh
+6d1l
+6d1m
+Performance on test set: r2: 0.2184502090946131, mae: 1.1346043348312378, mse: 2.1078121662139893, pearsonr: (0.5211705535822562, 7.535295081646838e-35), spearmanr: SpearmanrResult(correlation=0.4638560677780522, pvalue=4.916820883525558e-27)
+Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+) Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+)
+485 complexes in dataset
+232648 total parameters.
+  0%|          | 0/485 [00:00<?, ?it/s]  2%|▏         | 9/485 [00:00<00:05, 88.13it/s]  4%|▎         | 18/485 [00:00<00:05, 87.18it/s]  6%|▌         | 27/485 [00:00<00:05, 85.46it/s]  8%|▊         | 37/485 [00:00<00:05, 87.30it/s]  9%|▉         | 46/485 [00:00<00:05, 86.60it/s] 11%|█▏        | 55/485 [00:00<00:04, 87.36it/s] 13%|█▎        | 65/485 [00:00<00:04, 91.20it/s] 15%|█▌        | 75/485 [00:00<00:04, 90.50it/s] 18%|█▊        | 85/485 [00:00<00:04, 90.44it/s] 20%|█▉        | 95/485 [00:01<00:04, 90.40it/s] 22%|██▏       | 105/485 [00:01<00:04, 88.76it/s] 24%|██▎       | 114/485 [00:01<00:04, 88.30it/s] 25%|██▌       | 123/485 [00:01<00:04, 88.06it/s] 27%|██▋       | 132/485 [00:01<00:03, 88.56it/s] 29%|██▉       | 141/485 [00:01<00:03, 88.63it/s] 31%|███       | 150/485 [00:01<00:03, 86.98it/s] 33%|███▎      | 159/485 [00:01<00:03, 86.72it/s] 35%|███▍      | 168/485 [00:01<00:03, 86.47it/s] 36%|███▋      | 177/485 [00:02<00:03, 85.83it/s] 38%|███▊      | 186/485 [00:02<00:03, 86.83it/s] 40%|████      | 196/485 [00:02<00:03, 89.08it/s] 42%|████▏     | 206/485 [00:02<00:03, 90.01it/s] 44%|████▍     | 215/485 [00:02<00:03, 89.39it/s] 46%|████▌     | 224/485 [00:02<00:02, 88.70it/s] 48%|████▊     | 233/485 [00:02<00:02, 87.09it/s] 50%|████▉     | 242/485 [00:02<00:02, 84.15it/s] 52%|█████▏    | 251/485 [00:02<00:02, 85.09it/s] 54%|█████▍    | 262/485 [00:02<00:02, 89.85it/s] 56%|█████▌    | 272/485 [00:03<00:02, 90.78it/s] 58%|█████▊    | 283/485 [00:03<00:02, 94.39it/s] 60%|██████    | 293/485 [00:03<00:02, 92.58it/s] 62%|██████▏   | 303/485 [00:03<00:02, 89.83it/s] 65%|██████▍   | 313/485 [00:03<00:01, 88.88it/s] 67%|██████▋   | 323/485 [00:03<00:01, 89.60it/s] 69%|██████▊   | 333/485 [00:03<00:01, 89.86it/s] 71%|███████   | 342/485 [00:03<00:01, 88.21it/s] 73%|███████▎  | 352/485 [00:03<00:01, 89.14it/s] 74%|███████▍  | 361/485 [00:04<00:01, 89.31it/s] 76%|███████▋  | 371/485 [00:04<00:01, 89.48it/s] 78%|███████▊  | 380/485 [00:04<00:01, 89.42it/s] 80%|████████  | 390/485 [00:04<00:01, 90.31it/s] 82%|████████▏ | 400/485 [00:04<00:00, 90.59it/s] 85%|████████▍ | 410/485 [00:04<00:00, 90.91it/s] 87%|████████▋ | 420/485 [00:04<00:00, 89.62it/s] 89%|████████▊ | 430/485 [00:04<00:00, 90.83it/s] 91%|█████████ | 440/485 [00:04<00:00, 90.67it/s] 93%|█████████▎| 450/485 [00:05<00:00, 90.83it/s] 95%|█████████▍| 460/485 [00:05<00:00, 87.84it/s] 97%|█████████▋| 470/485 [00:05<00:00, 89.31it/s] 99%|█████████▉| 480/485 [00:05<00:00, 89.81it/s]100%|██████████| 485/485 [00:05<00:00, 88.97it/s]
+6b30
+6ceh
+6d1l
+6d1m
+Performance on test set: r2: 0.21369870843342498, mae: 1.1624575853347778, mse: 2.120626926422119, pearsonr: (0.5277293274951911, 7.667988250830697e-36), spearmanr: SpearmanrResult(correlation=0.4748573291657815, pvalue=2.0136197283554202e-28)
+Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+) Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+)
+485 complexes in dataset
+232648 total parameters.
+  0%|          | 0/485 [00:00<?, ?it/s]  2%|▏         | 9/485 [00:00<00:05, 84.38it/s]  4%|▎         | 18/485 [00:00<00:05, 84.35it/s]  6%|▌         | 27/485 [00:00<00:05, 83.56it/s]  8%|▊         | 37/485 [00:00<00:05, 85.32it/s]  9%|▉         | 46/485 [00:00<00:05, 84.61it/s] 11%|█▏        | 55/485 [00:00<00:05, 85.21it/s] 13%|█▎        | 65/485 [00:00<00:04, 89.08it/s] 15%|█▌        | 74/485 [00:00<00:04, 88.65it/s] 17%|█▋        | 84/485 [00:00<00:04, 89.24it/s] 19%|█▉        | 94/485 [00:01<00:04, 90.04it/s] 21%|██▏       | 104/485 [00:01<00:04, 89.47it/s] 23%|██▎       | 113/485 [00:01<00:04, 87.91it/s] 25%|██▌       | 122/485 [00:01<00:04, 87.50it/s] 27%|██▋       | 132/485 [00:01<00:04, 88.22it/s] 29%|██▉       | 142/485 [00:01<00:03, 88.84it/s] 31%|███       | 151/485 [00:01<00:03, 87.04it/s] 33%|███▎      | 160/485 [00:01<00:03, 87.14it/s] 35%|███▍      | 169/485 [00:01<00:03, 86.55it/s] 37%|███▋      | 178/485 [00:02<00:03, 86.26it/s] 39%|███▉      | 188/485 [00:02<00:03, 88.00it/s] 41%|████      | 199/485 [00:02<00:03, 90.56it/s] 43%|████▎     | 209/485 [00:02<00:03, 89.57it/s] 45%|████▍     | 218/485 [00:02<00:02, 89.13it/s] 47%|████▋     | 227/485 [00:02<00:02, 88.15it/s] 49%|████▊     | 236/485 [00:02<00:02, 87.45it/s] 51%|█████     | 245/485 [00:02<00:02, 86.12it/s] 53%|█████▎    | 255/485 [00:02<00:02, 88.14it/s] 55%|█████▍    | 266/485 [00:03<00:02, 92.95it/s] 57%|█████▋    | 276/485 [00:03<00:02, 91.51it/s] 59%|█████▉    | 288/485 [00:03<00:02, 96.77it/s] 61%|██████▏   | 298/485 [00:03<00:01, 94.50it/s] 64%|██████▎   | 308/485 [00:03<00:01, 92.19it/s] 66%|██████▌   | 318/485 [00:03<00:01, 91.54it/s] 68%|██████▊   | 328/485 [00:03<00:01, 91.74it/s] 70%|██████▉   | 338/485 [00:03<00:01, 90.07it/s] 72%|███████▏  | 348/485 [00:03<00:01, 90.53it/s] 74%|███████▍  | 358/485 [00:04<00:01, 89.80it/s] 76%|███████▌  | 368/485 [00:04<00:01, 89.88it/s] 78%|███████▊  | 377/485 [00:04<00:01, 89.29it/s] 80%|███████▉  | 387/485 [00:04<00:01, 90.43it/s] 82%|████████▏ | 397/485 [00:04<00:00, 91.07it/s] 84%|████████▍ | 407/485 [00:04<00:00, 90.37it/s] 86%|████████▌ | 417/485 [00:04<00:00, 89.43it/s] 88%|████████▊ | 426/485 [00:04<00:00, 89.55it/s] 90%|████████▉ | 436/485 [00:04<00:00, 90.57it/s] 92%|█████████▏| 446/485 [00:04<00:00, 89.70it/s] 94%|█████████▍| 455/485 [00:05<00:00, 88.71it/s] 96%|█████████▌| 464/485 [00:05<00:00, 87.21it/s] 98%|█████████▊| 474/485 [00:05<00:00, 88.90it/s]100%|█████████▉| 483/485 [00:05<00:00, 88.18it/s]100%|██████████| 485/485 [00:05<00:00, 89.08it/s]
+6b30
+6ceh
+6d1l
+6d1m
+Performance on test set: r2: 0.2376170063861499, mae: 1.1412553787231445, mse: 2.0561201572418213, pearsonr: (0.5293717525847815, 4.292926798486004e-36), spearmanr: SpearmanrResult(correlation=0.4849145053603429, pvalue=9.785560461234829e-30)
+Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+) Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+)
+485 complexes in dataset
+232648 total parameters.
+  0%|          | 0/485 [00:00<?, ?it/s]  2%|▏         | 9/485 [00:00<00:05, 87.28it/s]  4%|▎         | 18/485 [00:00<00:05, 86.96it/s]  6%|▌         | 27/485 [00:00<00:05, 85.26it/s]  8%|▊         | 37/485 [00:00<00:05, 86.93it/s]  9%|▉         | 46/485 [00:00<00:05, 85.97it/s] 11%|█▏        | 55/485 [00:00<00:04, 87.00it/s] 13%|█▎        | 65/485 [00:00<00:04, 90.77it/s] 15%|█▌        | 75/485 [00:00<00:04, 90.11it/s] 18%|█▊        | 85/485 [00:00<00:04, 90.29it/s] 20%|█▉        | 95/485 [00:01<00:04, 90.00it/s] 22%|██▏       | 105/485 [00:01<00:04, 88.81it/s] 24%|██▎       | 114/485 [00:01<00:04, 88.24it/s] 25%|██▌       | 123/485 [00:01<00:04, 87.91it/s] 27%|██▋       | 132/485 [00:01<00:03, 88.31it/s] 29%|██▉       | 141/485 [00:01<00:03, 88.59it/s] 31%|███       | 150/485 [00:01<00:03, 86.86it/s] 33%|███▎      | 159/485 [00:01<00:03, 86.54it/s] 35%|███▍      | 168/485 [00:01<00:03, 86.01it/s] 36%|███▋      | 177/485 [00:02<00:03, 85.91it/s] 38%|███▊      | 186/485 [00:02<00:03, 86.97it/s] 40%|████      | 196/485 [00:02<00:03, 89.06it/s] 42%|████▏     | 206/485 [00:02<00:03, 89.67it/s] 44%|████▍     | 215/485 [00:02<00:03, 89.00it/s] 46%|████▌     | 224/485 [00:02<00:02, 88.46it/s] 48%|████▊     | 233/485 [00:02<00:02, 87.04it/s] 50%|████▉     | 242/485 [00:02<00:02, 85.45it/s] 52%|█████▏    | 251/485 [00:02<00:02, 86.51it/s] 54%|█████▍    | 262/485 [00:02<00:02, 91.45it/s] 56%|█████▌    | 272/485 [00:03<00:02, 91.15it/s] 58%|█████▊    | 283/485 [00:03<00:02, 94.60it/s] 60%|██████    | 293/485 [00:03<00:02, 92.56it/s] 62%|██████▏   | 303/485 [00:03<00:02, 90.49it/s] 65%|██████▍   | 313/485 [00:03<00:01, 89.90it/s] 67%|██████▋   | 323/485 [00:03<00:01, 90.68it/s] 69%|██████▊   | 333/485 [00:03<00:01, 90.83it/s] 71%|███████   | 343/485 [00:03<00:01, 89.16it/s] 73%|███████▎  | 353/485 [00:03<00:01, 89.83it/s] 75%|███████▍  | 362/485 [00:04<00:01, 89.66it/s] 77%|███████▋  | 372/485 [00:04<00:01, 89.41it/s] 79%|███████▉  | 382/485 [00:04<00:01, 90.77it/s] 81%|████████  | 392/485 [00:04<00:01, 91.26it/s] 83%|████████▎ | 402/485 [00:04<00:00, 91.27it/s] 85%|████████▍ | 412/485 [00:04<00:00, 91.42it/s] 87%|████████▋ | 422/485 [00:04<00:00, 90.25it/s] 89%|████████▉ | 432/485 [00:04<00:00, 91.46it/s] 91%|█████████ | 442/485 [00:04<00:00, 91.15it/s] 93%|█████████▎| 452/485 [00:05<00:00, 90.87it/s] 95%|█████████▌| 462/485 [00:05<00:00, 89.40it/s] 97%|█████████▋| 472/485 [00:05<00:00, 90.69it/s] 99%|█████████▉| 482/485 [00:05<00:00, 90.33it/s]100%|██████████| 485/485 [00:05<00:00, 89.34it/s]
+6b30
+6ceh
+6d1l
+6d1m
+Performance on test set: r2: 0.29501420591138494, mae: 1.0881526470184326, mse: 1.9013218879699707, pearsonr: (0.559170806972483, 6.498699277041983e-41), spearmanr: SpearmanrResult(correlation=0.523348477767088, pvalue=3.5477435750853283e-35)
+Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+) Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+)
+485 complexes in dataset
+232648 total parameters.
+  0%|          | 0/485 [00:00<?, ?it/s]  2%|▏         | 9/485 [00:00<00:05, 88.70it/s]  4%|▎         | 18/485 [00:00<00:05, 87.56it/s]  6%|▌         | 27/485 [00:00<00:05, 86.66it/s]  8%|▊         | 37/485 [00:00<00:05, 88.08it/s]  9%|▉         | 46/485 [00:00<00:05, 87.26it/s] 11%|█▏        | 55/485 [00:00<00:04, 87.75it/s] 13%|█▎        | 65/485 [00:00<00:04, 91.48it/s] 15%|█▌        | 75/485 [00:00<00:04, 91.49it/s] 18%|█▊        | 85/485 [00:00<00:04, 91.27it/s] 20%|█▉        | 95/485 [00:01<00:04, 91.50it/s] 22%|██▏       | 105/485 [00:01<00:04, 90.28it/s] 24%|██▎       | 115/485 [00:01<00:04, 89.34it/s] 26%|██▌       | 124/485 [00:01<00:04, 89.19it/s] 28%|██▊       | 134/485 [00:01<00:03, 89.73it/s] 29%|██▉       | 143/485 [00:01<00:03, 89.62it/s] 31%|███▏      | 152/485 [00:01<00:03, 87.30it/s] 33%|███▎      | 161/485 [00:01<00:03, 87.80it/s] 35%|███▌      | 170/485 [00:01<00:03, 86.70it/s] 37%|███▋      | 179/485 [00:02<00:03, 86.74it/s] 39%|███▉      | 189/485 [00:02<00:03, 88.23it/s] 41%|████      | 199/485 [00:02<00:03, 90.65it/s] 43%|████▎     | 209/485 [00:02<00:03, 89.55it/s] 45%|████▍     | 218/485 [00:02<00:03, 88.84it/s] 47%|████▋     | 227/485 [00:02<00:02, 88.36it/s] 49%|████▊     | 236/485 [00:02<00:02, 87.54it/s] 51%|█████     | 245/485 [00:02<00:02, 86.05it/s] 53%|█████▎    | 255/485 [00:02<00:02, 87.95it/s] 55%|█████▍    | 266/485 [00:02<00:02, 92.84it/s] 57%|█████▋    | 276/485 [00:03<00:02, 91.53it/s] 59%|█████▉    | 287/485 [00:03<00:02, 96.24it/s] 61%|██████    | 297/485 [00:03<00:01, 94.60it/s] 63%|██████▎   | 307/485 [00:03<00:01, 91.21it/s] 65%|██████▌   | 317/485 [00:03<00:01, 90.19it/s] 67%|██████▋   | 327/485 [00:03<00:01, 90.76it/s] 69%|██████▉   | 337/485 [00:03<00:01, 88.87it/s] 72%|███████▏  | 347/485 [00:03<00:01, 89.53it/s] 73%|███████▎  | 356/485 [00:03<00:01, 89.01it/s] 75%|███████▌  | 366/485 [00:04<00:01, 89.57it/s] 77%|███████▋  | 375/485 [00:04<00:01, 88.39it/s] 79%|███████▉  | 385/485 [00:04<00:01, 89.40it/s] 81%|████████▏ | 395/485 [00:04<00:00, 90.89it/s] 84%|████████▎ | 405/485 [00:04<00:00, 89.68it/s] 86%|████████▌ | 415/485 [00:04<00:00, 90.05it/s] 88%|████████▊ | 425/485 [00:04<00:00, 89.45it/s] 90%|████████▉ | 435/485 [00:04<00:00, 91.01it/s] 92%|█████████▏| 445/485 [00:04<00:00, 90.09it/s] 94%|█████████▍| 455/485 [00:05<00:00, 89.53it/s] 96%|█████████▌| 464/485 [00:05<00:00, 87.25it/s] 98%|█████████▊| 474/485 [00:05<00:00, 89.04it/s]100%|█████████▉| 483/485 [00:05<00:00, 88.49it/s]100%|██████████| 485/485 [00:05<00:00, 89.48it/s]
+6b30
+6ceh
+6d1l
+6d1m
+Performance on test set: r2: 0.26310188630454723, mae: 1.1258704662322998, mse: 1.9873881340026855, pearsonr: (0.5612371288955672, 2.886062181234118e-41), spearmanr: SpearmanrResult(correlation=0.5099145390617954, pvalue=3.393969069527713e-33)
+Start predicting with model PLANet_v18_cmx
+
+Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+) Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+)
+485 complexes in dataset
+232648 total parameters.
+  0%|          | 0/485 [00:00<?, ?it/s]  2%|▏         | 9/485 [00:00<00:05, 87.18it/s]  4%|▎         | 18/485 [00:00<00:05, 86.47it/s]  6%|▌         | 27/485 [00:00<00:05, 84.23it/s]  8%|▊         | 37/485 [00:00<00:05, 85.34it/s]  9%|▉         | 46/485 [00:00<00:05, 84.44it/s] 11%|█▏        | 55/485 [00:00<00:05, 85.20it/s] 13%|█▎        | 65/485 [00:00<00:04, 89.47it/s] 15%|█▌        | 74/485 [00:00<00:04, 88.55it/s] 17%|█▋        | 84/485 [00:00<00:04, 88.58it/s] 19%|█▉        | 94/485 [00:01<00:04, 88.76it/s] 21%|██        | 103/485 [00:01<00:04, 89.10it/s] 23%|██▎       | 112/485 [00:01<00:04, 86.69it/s] 25%|██▍       | 121/485 [00:01<00:04, 86.97it/s] 27%|██▋       | 131/485 [00:01<00:04, 88.26it/s] 29%|██▉       | 140/485 [00:01<00:03, 88.73it/s] 31%|███       | 149/485 [00:01<00:03, 87.62it/s] 33%|███▎      | 158/485 [00:01<00:03, 86.43it/s] 34%|███▍      | 167/485 [00:01<00:04, 76.19it/s] 36%|███▋      | 176/485 [00:02<00:03, 78.52it/s] 38%|███▊      | 185/485 [00:02<00:03, 81.33it/s] 40%|████      | 195/485 [00:02<00:03, 84.72it/s] 42%|████▏     | 205/485 [00:02<00:03, 86.90it/s] 44%|████▍     | 214/485 [00:02<00:03, 87.00it/s] 46%|████▌     | 224/485 [00:02<00:03, 86.97it/s] 48%|████▊     | 233/485 [00:02<00:02, 85.49it/s] 50%|████▉     | 242/485 [00:02<00:02, 83.74it/s] 52%|█████▏    | 251/485 [00:02<00:02, 84.87it/s] 54%|█████▍    | 262/485 [00:03<00:02, 89.61it/s] 56%|█████▌    | 272/485 [00:03<00:02, 91.09it/s] 58%|█████▊    | 283/485 [00:03<00:02, 94.59it/s] 60%|██████    | 293/485 [00:03<00:02, 92.78it/s] 62%|██████▏   | 303/485 [00:03<00:02, 90.89it/s] 65%|██████▍   | 313/485 [00:03<00:01, 89.39it/s] 67%|██████▋   | 323/485 [00:03<00:01, 89.78it/s] 68%|██████▊   | 332/485 [00:03<00:01, 89.44it/s] 70%|███████   | 341/485 [00:03<00:01, 88.23it/s] 72%|███████▏  | 351/485 [00:04<00:01, 89.08it/s] 74%|███████▍  | 360/485 [00:04<00:01, 88.94it/s] 76%|███████▌  | 369/485 [00:04<00:01, 89.06it/s] 78%|███████▊  | 378/485 [00:04<00:01, 89.13it/s] 80%|████████  | 388/485 [00:04<00:01, 89.81it/s] 82%|████████▏ | 398/485 [00:04<00:00, 90.47it/s] 84%|████████▍ | 408/485 [00:04<00:00, 90.97it/s] 86%|████████▌ | 418/485 [00:04<00:00, 89.84it/s] 88%|████████▊ | 428/485 [00:04<00:00, 90.14it/s] 90%|█████████ | 438/485 [00:04<00:00, 90.84it/s] 92%|█████████▏| 448/485 [00:05<00:00, 90.86it/s] 94%|█████████▍| 458/485 [00:05<00:00, 90.09it/s] 96%|█████████▋| 468/485 [00:05<00:00, 89.11it/s] 99%|█████████▊| 478/485 [00:05<00:00, 90.03it/s]100%|██████████| 485/485 [00:05<00:00, 87.96it/s]
+6b30
+6ceh
+6d1l
+6d1m
+Performance on test set: r2: 0.1917838665066175, mae: 1.1846157312393188, mse: 2.1797306537628174, pearsonr: (0.5018060921532912, 4.834000205565718e-32), spearmanr: SpearmanrResult(correlation=0.4721149530846797, pvalue=4.514654093951012e-28)
+Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+) Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+)
+485 complexes in dataset
+232648 total parameters.
+  0%|          | 0/485 [00:00<?, ?it/s]  2%|▏         | 9/485 [00:00<00:05, 86.71it/s]  4%|▎         | 18/485 [00:00<00:05, 86.69it/s]  6%|▌         | 27/485 [00:00<00:05, 85.72it/s]  8%|▊         | 37/485 [00:00<00:05, 87.10it/s]  9%|▉         | 46/485 [00:00<00:05, 85.96it/s] 11%|█▏        | 55/485 [00:00<00:04, 86.69it/s] 13%|█▎        | 65/485 [00:00<00:04, 90.47it/s] 15%|█▌        | 75/485 [00:00<00:04, 89.57it/s] 17%|█▋        | 84/485 [00:00<00:04, 89.42it/s] 19%|█▉        | 94/485 [00:01<00:04, 89.55it/s] 21%|██        | 103/485 [00:01<00:04, 89.56it/s] 23%|██▎       | 112/485 [00:01<00:04, 85.82it/s] 25%|██▍       | 121/485 [00:01<00:04, 85.93it/s] 27%|██▋       | 131/485 [00:01<00:04, 87.22it/s] 29%|██▉       | 140/485 [00:01<00:03, 86.71it/s] 31%|███       | 149/485 [00:01<00:03, 86.17it/s] 33%|███▎      | 158/485 [00:01<00:03, 85.59it/s] 34%|███▍      | 167/485 [00:01<00:03, 85.73it/s] 36%|███▋      | 176/485 [00:02<00:03, 85.53it/s] 38%|███▊      | 185/485 [00:02<00:03, 86.11it/s] 40%|████      | 195/485 [00:02<00:03, 88.21it/s] 42%|████▏     | 205/485 [00:02<00:03, 89.18it/s] 44%|████▍     | 214/485 [00:02<00:03, 88.40it/s] 46%|████▌     | 224/485 [00:02<00:02, 87.93it/s] 48%|████▊     | 233/485 [00:02<00:02, 87.04it/s] 50%|████▉     | 242/485 [00:02<00:02, 85.63it/s] 52%|█████▏    | 251/485 [00:02<00:02, 86.68it/s] 54%|█████▍    | 262/485 [00:02<00:02, 91.60it/s] 56%|█████▌    | 272/485 [00:03<00:02, 92.46it/s] 58%|█████▊    | 283/485 [00:03<00:02, 96.25it/s] 60%|██████    | 293/485 [00:03<00:02, 94.30it/s] 62%|██████▏   | 303/485 [00:03<00:01, 92.06it/s] 65%|██████▍   | 313/485 [00:03<00:01, 90.60it/s] 67%|██████▋   | 323/485 [00:03<00:01, 91.08it/s] 69%|██████▊   | 333/485 [00:03<00:01, 91.24it/s] 71%|███████   | 343/485 [00:03<00:01, 89.31it/s] 73%|███████▎  | 353/485 [00:03<00:01, 89.80it/s] 75%|███████▍  | 362/485 [00:04<00:01, 89.45it/s] 76%|███████▋  | 371/485 [00:04<00:01, 89.48it/s] 79%|███████▊  | 381/485 [00:04<00:01, 89.85it/s] 81%|████████  | 391/485 [00:04<00:01, 90.63it/s] 83%|████████▎ | 401/485 [00:04<00:00, 90.51it/s] 85%|████████▍ | 411/485 [00:04<00:00, 91.01it/s] 87%|████████▋ | 421/485 [00:04<00:00, 89.39it/s] 89%|████████▉ | 431/485 [00:04<00:00, 90.63it/s] 91%|█████████ | 441/485 [00:04<00:00, 90.43it/s] 93%|█████████▎| 451/485 [00:05<00:00, 90.71it/s] 95%|█████████▌| 461/485 [00:05<00:00, 88.43it/s] 97%|█████████▋| 471/485 [00:05<00:00, 89.99it/s] 99%|█████████▉| 481/485 [00:05<00:00, 89.76it/s]100%|██████████| 485/485 [00:05<00:00, 89.03it/s]
+6b30
+6ceh
+6d1l
+6d1m
+Performance on test set: r2: 0.2056821608091286, mae: 1.1609930992126465, mse: 2.142247200012207, pearsonr: (0.5217448610474543, 6.181055980811032e-35), spearmanr: SpearmanrResult(correlation=0.4733430725895327, pvalue=3.147644891198404e-28)
+Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+) Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+)
+485 complexes in dataset
+232648 total parameters.
+  0%|          | 0/485 [00:00<?, ?it/s]  2%|▏         | 9/485 [00:00<00:05, 87.64it/s]  4%|▎         | 18/485 [00:00<00:05, 86.85it/s]  6%|▌         | 27/485 [00:00<00:05, 85.81it/s]  8%|▊         | 37/485 [00:00<00:05, 86.97it/s]  9%|▉         | 46/485 [00:00<00:05, 85.81it/s] 11%|█▏        | 55/485 [00:00<00:04, 86.39it/s] 13%|█▎        | 65/485 [00:00<00:04, 90.14it/s] 15%|█▌        | 75/485 [00:00<00:04, 89.27it/s] 17%|█▋        | 84/485 [00:00<00:04, 89.30it/s] 19%|█▉        | 93/485 [00:01<00:04, 89.26it/s] 21%|██        | 102/485 [00:01<00:04, 89.31it/s] 23%|██▎       | 111/485 [00:01<00:04, 86.38it/s] 25%|██▍       | 120/485 [00:01<00:04, 85.63it/s] 27%|██▋       | 130/485 [00:01<00:04, 87.02it/s] 29%|██▊       | 139/485 [00:01<00:03, 87.36it/s] 31%|███       | 148/485 [00:01<00:03, 86.85it/s] 32%|███▏      | 157/485 [00:01<00:03, 85.07it/s] 34%|███▍      | 166/485 [00:01<00:03, 85.82it/s] 36%|███▌      | 175/485 [00:02<00:03, 84.67it/s] 38%|███▊      | 184/485 [00:02<00:03, 85.93it/s] 40%|████      | 194/485 [00:02<00:03, 87.91it/s] 42%|████▏     | 204/485 [00:02<00:03, 90.00it/s] 44%|████▍     | 214/485 [00:02<00:03, 88.89it/s] 46%|████▌     | 224/485 [00:02<00:02, 88.39it/s] 48%|████▊     | 233/485 [00:02<00:02, 87.30it/s] 50%|████▉     | 242/485 [00:02<00:02, 85.71it/s] 52%|█████▏    | 251/485 [00:02<00:02, 86.58it/s] 54%|█████▍    | 262/485 [00:02<00:02, 91.36it/s] 56%|█████▌    | 272/485 [00:03<00:02, 92.40it/s] 58%|█████▊    | 283/485 [00:03<00:02, 96.27it/s] 60%|██████    | 293/485 [00:03<00:02, 94.46it/s] 62%|██████▏   | 303/485 [00:03<00:01, 92.18it/s] 65%|██████▍   | 313/485 [00:03<00:01, 90.68it/s] 67%|██████▋   | 323/485 [00:03<00:01, 91.05it/s] 69%|██████▊   | 333/485 [00:03<00:01, 91.05it/s] 71%|███████   | 343/485 [00:03<00:01, 89.27it/s] 73%|███████▎  | 353/485 [00:03<00:01, 89.86it/s] 75%|███████▍  | 362/485 [00:04<00:01, 89.52it/s] 77%|███████▋  | 372/485 [00:04<00:01, 89.20it/s] 79%|███████▉  | 382/485 [00:04<00:01, 90.29it/s] 81%|████████  | 392/485 [00:04<00:01, 90.70it/s] 83%|████████▎ | 402/485 [00:04<00:00, 90.67it/s] 85%|████████▍ | 412/485 [00:04<00:00, 90.95it/s] 87%|████████▋ | 422/485 [00:04<00:00, 89.70it/s] 89%|████████▉ | 432/485 [00:04<00:00, 91.10it/s] 91%|█████████ | 442/485 [00:04<00:00, 90.77it/s] 93%|█████████▎| 452/485 [00:05<00:00, 90.52it/s] 95%|█████████▌| 462/485 [00:05<00:00, 88.45it/s] 97%|█████████▋| 472/485 [00:05<00:00, 89.88it/s] 99%|█████████▉| 482/485 [00:05<00:00, 89.71it/s]100%|██████████| 485/485 [00:05<00:00, 89.06it/s]
+6b30
+6ceh
+6d1l
+6d1m
+Performance on test set: r2: 0.23347723995967928, mae: 1.1530957221984863, mse: 2.0672848224639893, pearsonr: (0.5293311022245896, 4.355172936388316e-36), spearmanr: SpearmanrResult(correlation=0.5112000800818239, pvalue=2.212864614524931e-33)
+Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+) Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+)
+485 complexes in dataset
+232648 total parameters.
+  0%|          | 0/485 [00:00<?, ?it/s]  2%|▏         | 8/485 [00:00<00:06, 75.37it/s]  3%|▎         | 16/485 [00:00<00:06, 75.83it/s]  5%|▍         | 24/485 [00:00<00:06, 75.52it/s]  7%|▋         | 32/485 [00:00<00:05, 75.81it/s]  8%|▊         | 40/485 [00:00<00:05, 76.47it/s] 10%|▉         | 48/485 [00:00<00:05, 75.12it/s] 12%|█▏        | 56/485 [00:00<00:05, 76.46it/s] 13%|█▎        | 65/485 [00:00<00:05, 79.06it/s] 15%|█▌        | 73/485 [00:00<00:05, 78.83it/s] 17%|█▋        | 82/485 [00:01<00:05, 79.36it/s] 19%|█▊        | 90/485 [00:01<00:05, 78.58it/s] 20%|██        | 98/485 [00:01<00:04, 78.59it/s] 22%|██▏       | 106/485 [00:01<00:04, 77.35it/s] 24%|██▎       | 114/485 [00:01<00:04, 77.00it/s] 25%|██▌       | 122/485 [00:01<00:04, 76.63it/s] 27%|██▋       | 130/485 [00:01<00:04, 77.43it/s] 28%|██▊       | 138/485 [00:01<00:04, 77.96it/s] 30%|███       | 146/485 [00:01<00:04, 77.45it/s] 32%|███▏      | 154/485 [00:02<00:04, 75.37it/s] 33%|███▎      | 162/485 [00:02<00:04, 76.00it/s] 35%|███▌      | 170/485 [00:02<00:04, 75.06it/s] 37%|███▋      | 178/485 [00:02<00:04, 74.86it/s] 38%|███▊      | 186/485 [00:02<00:03, 75.81it/s] 40%|████      | 195/485 [00:02<00:03, 77.23it/s] 42%|████▏     | 204/485 [00:02<00:03, 79.31it/s] 44%|████▎     | 212/485 [00:02<00:03, 77.36it/s] 45%|████▌     | 220/485 [00:02<00:03, 77.35it/s] 47%|████▋     | 228/485 [00:02<00:03, 76.23it/s] 49%|████▊     | 236/485 [00:03<00:03, 75.52it/s] 50%|█████     | 244/485 [00:03<00:03, 74.72it/s] 52%|█████▏    | 252/485 [00:03<00:03, 75.68it/s] 54%|█████▍    | 261/485 [00:03<00:02, 79.53it/s] 56%|█████▌    | 270/485 [00:03<00:02, 80.07it/s] 58%|█████▊    | 279/485 [00:03<00:02, 78.11it/s] 60%|█████▉    | 289/485 [00:03<00:02, 83.14it/s] 61%|██████▏   | 298/485 [00:03<00:02, 81.07it/s] 63%|██████▎   | 307/485 [00:03<00:02, 78.67it/s] 65%|██████▍   | 315/485 [00:04<00:02, 77.79it/s] 67%|██████▋   | 323/485 [00:04<00:02, 78.22it/s] 68%|██████▊   | 331/485 [00:04<00:01, 78.01it/s] 70%|██████▉   | 339/485 [00:04<00:01, 76.32it/s] 72%|███████▏  | 348/485 [00:04<00:01, 77.55it/s] 73%|███████▎  | 356/485 [00:04<00:01, 77.14it/s] 75%|███████▌  | 364/485 [00:04<00:01, 77.22it/s] 77%|███████▋  | 372/485 [00:04<00:01, 76.62it/s] 78%|███████▊  | 380/485 [00:04<00:01, 77.47it/s] 80%|████████  | 388/485 [00:05<00:01, 77.39it/s] 82%|████████▏ | 397/485 [00:05<00:01, 78.03it/s] 84%|████████▎ | 405/485 [00:05<00:01, 77.50it/s] 85%|████████▌ | 413/485 [00:05<00:00, 77.96it/s] 87%|████████▋ | 421/485 [00:05<00:00, 76.48it/s] 89%|████████▊ | 430/485 [00:05<00:00, 77.64it/s] 90%|█████████ | 438/485 [00:05<00:00, 77.53it/s] 92%|█████████▏| 446/485 [00:05<00:00, 77.79it/s] 94%|█████████▎| 454/485 [00:05<00:00, 77.11it/s] 95%|█████████▌| 462/485 [00:05<00:00, 75.77it/s] 97%|█████████▋| 471/485 [00:06<00:00, 77.37it/s] 99%|█████████▉| 479/485 [00:06<00:00, 77.52it/s]100%|██████████| 485/485 [00:06<00:00, 77.37it/s]
+6b30
+6ceh
+6d1l
+6d1m
+Performance on test set: r2: 0.18492122276721668, mae: 1.1947003602981567, mse: 2.1982386112213135, pearsonr: (0.49483930290885225, 4.478194153961958e-31), spearmanr: SpearmanrResult(correlation=0.4802549515922818, pvalue=4.0225437228183156e-29)
+Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+) Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+)
+485 complexes in dataset
+232648 total parameters.
+  0%|          | 0/485 [00:00<?, ?it/s]  2%|▏         | 8/485 [00:00<00:06, 75.33it/s]  3%|▎         | 16/485 [00:00<00:06, 75.73it/s]  5%|▍         | 24/485 [00:00<00:06, 75.47it/s]  7%|▋         | 32/485 [00:00<00:05, 75.58it/s]  8%|▊         | 40/485 [00:00<00:05, 76.25it/s] 10%|▉         | 48/485 [00:00<00:05, 74.98it/s] 12%|█▏        | 56/485 [00:00<00:05, 76.26it/s] 13%|█▎        | 65/485 [00:00<00:05, 78.87it/s] 15%|█▌        | 73/485 [00:00<00:05, 78.37it/s] 17%|█▋        | 82/485 [00:01<00:05, 79.04it/s] 19%|█▊        | 90/485 [00:01<00:05, 78.33it/s] 20%|██        | 98/485 [00:01<00:04, 78.48it/s] 22%|██▏       | 106/485 [00:01<00:04, 76.73it/s] 24%|██▎       | 114/485 [00:01<00:04, 76.51it/s] 25%|██▌       | 122/485 [00:01<00:04, 76.23it/s] 27%|██▋       | 130/485 [00:01<00:04, 77.14it/s] 28%|██▊       | 138/485 [00:01<00:04, 77.77it/s] 30%|███       | 146/485 [00:01<00:04, 77.25it/s] 32%|███▏      | 154/485 [00:02<00:04, 75.21it/s] 33%|███▎      | 162/485 [00:02<00:04, 75.86it/s] 35%|███▌      | 170/485 [00:02<00:04, 75.06it/s] 37%|███▋      | 178/485 [00:02<00:04, 74.91it/s] 38%|███▊      | 186/485 [00:02<00:03, 75.91it/s] 40%|████      | 195/485 [00:02<00:03, 77.37it/s] 42%|████▏     | 204/485 [00:02<00:03, 79.00it/s] 44%|████▎     | 212/485 [00:02<00:03, 77.83it/s] 45%|████▌     | 220/485 [00:02<00:03, 76.94it/s] 47%|████▋     | 228/485 [00:02<00:03, 75.57it/s] 49%|████▊     | 236/485 [00:03<00:03, 75.42it/s] 50%|█████     | 244/485 [00:03<00:03, 74.65it/s] 52%|█████▏    | 252/485 [00:03<00:03, 75.85it/s] 54%|█████▍    | 261/485 [00:03<00:02, 79.91it/s] 56%|█████▌    | 270/485 [00:03<00:02, 80.23it/s] 58%|█████▊    | 279/485 [00:03<00:02, 79.31it/s] 60%|█████▉    | 289/485 [00:03<00:02, 84.07it/s] 61%|██████▏   | 298/485 [00:03<00:02, 81.85it/s] 63%|██████▎   | 307/485 [00:03<00:02, 80.06it/s] 65%|██████▌   | 316/485 [00:04<00:02, 79.15it/s] 67%|██████▋   | 325/485 [00:04<00:02, 79.54it/s] 69%|██████▊   | 333/485 [00:04<00:01, 78.98it/s] 70%|███████   | 341/485 [00:04<00:01, 77.29it/s] 72%|███████▏  | 349/485 [00:04<00:01, 77.81it/s] 74%|███████▎  | 357/485 [00:04<00:01, 77.87it/s] 75%|███████▌  | 365/485 [00:04<00:01, 78.13it/s] 77%|███████▋  | 373/485 [00:04<00:01, 77.20it/s] 79%|███████▉  | 382/485 [00:04<00:01, 78.35it/s] 80%|████████  | 390/485 [00:05<00:01, 78.62it/s] 82%|████████▏ | 398/485 [00:05<00:01, 78.98it/s] 84%|████████▎ | 406/485 [00:05<00:01, 78.52it/s] 86%|████████▌ | 415/485 [00:05<00:00, 78.86it/s] 87%|████████▋ | 423/485 [00:05<00:00, 78.09it/s] 89%|████████▉ | 432/485 [00:05<00:00, 79.08it/s] 91%|█████████ | 440/485 [00:05<00:00, 78.33it/s] 92%|█████████▏| 448/485 [00:05<00:00, 78.55it/s] 94%|█████████▍| 456/485 [00:05<00:00, 78.19it/s] 96%|█████████▌| 464/485 [00:05<00:00, 76.86it/s] 98%|█████████▊| 473/485 [00:06<00:00, 77.96it/s] 99%|█████████▉| 481/485 [00:06<00:00, 77.46it/s]100%|██████████| 485/485 [00:06<00:00, 77.71it/s]
+6b30
+6ceh
+6d1l
+6d1m
+Performance on test set: r2: 0.06883303282687114, mae: 1.2299246788024902, mse: 2.511324405670166, pearsonr: (0.45672506973971927, 3.670063407915753e-26), spearmanr: SpearmanrResult(correlation=0.41971488201509977, pvalue=6.008433383797398e-22)
+Start predicting with model PDBbind_minimized_v18_subset_union_PLANet_v18_cmx
+
+Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+) Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+)
+485 complexes in dataset
+232648 total parameters.
+  0%|          | 0/485 [00:00<?, ?it/s]  2%|▏         | 8/485 [00:00<00:06, 75.75it/s]  3%|▎         | 16/485 [00:00<00:06, 75.74it/s]  5%|▍         | 24/485 [00:00<00:06, 74.91it/s]  7%|▋         | 32/485 [00:00<00:06, 75.15it/s]  8%|▊         | 40/485 [00:00<00:05, 75.99it/s] 10%|▉         | 48/485 [00:00<00:05, 74.84it/s] 12%|█▏        | 56/485 [00:00<00:07, 55.55it/s] 13%|█▎        | 65/485 [00:00<00:06, 62.96it/s] 15%|█▌        | 73/485 [00:01<00:06, 66.93it/s] 17%|█▋        | 82/485 [00:01<00:05, 70.90it/s] 19%|█▊        | 90/485 [00:01<00:05, 72.21it/s] 20%|██        | 98/485 [00:01<00:05, 73.42it/s] 22%|██▏       | 106/485 [00:01<00:05, 73.59it/s] 24%|██▎       | 114/485 [00:01<00:05, 74.19it/s] 25%|██▌       | 122/485 [00:01<00:04, 74.51it/s] 27%|██▋       | 130/485 [00:01<00:04, 75.55it/s] 28%|██▊       | 138/485 [00:01<00:04, 76.42it/s] 30%|███       | 146/485 [00:02<00:04, 75.98it/s] 32%|███▏      | 154/485 [00:02<00:04, 73.65it/s] 33%|███▎      | 162/485 [00:02<00:04, 74.67it/s] 35%|███▌      | 170/485 [00:02<00:04, 73.48it/s] 37%|███▋      | 178/485 [00:02<00:04, 73.00it/s] 38%|███▊      | 186/485 [00:02<00:04, 73.99it/s] 40%|████      | 194/485 [00:02<00:03, 75.69it/s] 42%|████▏     | 203/485 [00:02<00:03, 77.64it/s] 44%|████▎     | 211/485 [00:02<00:03, 76.19it/s] 45%|████▌     | 219/485 [00:02<00:03, 76.41it/s] 47%|████▋     | 227/485 [00:03<00:03, 75.36it/s] 48%|████▊     | 235/485 [00:03<00:03, 75.07it/s] 50%|█████     | 243/485 [00:03<00:03, 73.26it/s] 52%|█████▏    | 251/485 [00:03<00:03, 74.70it/s] 54%|█████▍    | 261/485 [00:03<00:02, 78.55it/s] 56%|█████▌    | 270/485 [00:03<00:02, 79.28it/s] 57%|█████▋    | 278/485 [00:03<00:02, 78.44it/s] 59%|█████▉    | 288/485 [00:03<00:02, 83.65it/s] 61%|██████    | 297/485 [00:03<00:02, 81.83it/s] 63%|██████▎   | 306/485 [00:04<00:02, 79.49it/s] 65%|██████▍   | 314/485 [00:04<00:02, 78.42it/s] 66%|██████▋   | 322/485 [00:04<00:02, 78.78it/s] 68%|██████▊   | 330/485 [00:04<00:01, 78.38it/s] 70%|██████▉   | 338/485 [00:04<00:01, 77.24it/s] 72%|███████▏  | 347/485 [00:04<00:01, 78.03it/s] 73%|███████▎  | 355/485 [00:04<00:01, 70.29it/s] 75%|███████▍  | 363/485 [00:04<00:01, 71.97it/s] 76%|███████▋  | 371/485 [00:04<00:01, 73.71it/s] 78%|███████▊  | 379/485 [00:05<00:01, 74.89it/s] 80%|███████▉  | 387/485 [00:05<00:01, 76.04it/s] 82%|████████▏ | 396/485 [00:05<00:01, 77.43it/s] 83%|████████▎ | 404/485 [00:05<00:01, 77.05it/s] 85%|████████▍ | 412/485 [00:05<00:00, 77.81it/s] 87%|████████▋ | 420/485 [00:05<00:00, 76.67it/s] 88%|████████▊ | 428/485 [00:05<00:00, 77.15it/s] 90%|████████▉ | 436/485 [00:05<00:00, 76.09it/s] 92%|█████████▏| 444/485 [00:05<00:00, 76.59it/s] 93%|█████████▎| 452/485 [00:06<00:00, 77.03it/s] 95%|█████████▍| 460/485 [00:06<00:00, 75.25it/s] 96%|█████████▋| 468/485 [00:06<00:00, 76.58it/s] 98%|█████████▊| 477/485 [00:06<00:00, 77.80it/s]100%|██████████| 485/485 [00:06<00:00, 77.28it/s]100%|██████████| 485/485 [00:06<00:00, 75.17it/s]
+6b30
+6ceh
+6d1l
+6d1m
+Performance on test set: r2: 0.23254184862126237, mae: 1.1282753944396973, mse: 2.069807529449463, pearsonr: (0.5366380657431062, 3.1730679841911515e-37), spearmanr: SpearmanrResult(correlation=0.5052806497455876, pvalue=1.5622844330466733e-32)
+Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+) Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+)
+485 complexes in dataset
+232648 total parameters.
+  0%|          | 0/485 [00:00<?, ?it/s]  2%|▏         | 8/485 [00:00<00:06, 75.41it/s]  3%|▎         | 16/485 [00:00<00:06, 75.61it/s]  5%|▍         | 24/485 [00:00<00:06, 74.97it/s]  7%|▋         | 32/485 [00:00<00:06, 75.40it/s]  8%|▊         | 40/485 [00:00<00:05, 76.29it/s] 10%|▉         | 48/485 [00:00<00:05, 75.12it/s] 12%|█▏        | 56/485 [00:00<00:05, 76.42it/s] 13%|█▎        | 65/485 [00:00<00:05, 79.00it/s] 15%|█▌        | 73/485 [00:00<00:05, 78.80it/s] 17%|█▋        | 82/485 [00:01<00:05, 79.49it/s] 19%|█▊        | 90/485 [00:01<00:05, 78.64it/s] 20%|██        | 98/485 [00:01<00:04, 78.57it/s] 22%|██▏       | 106/485 [00:01<00:04, 77.01it/s] 24%|██▎       | 114/485 [00:01<00:04, 76.78it/s] 25%|██▌       | 122/485 [00:01<00:04, 76.44it/s] 27%|██▋       | 130/485 [00:01<00:04, 77.33it/s] 28%|██▊       | 138/485 [00:01<00:04, 77.69it/s] 30%|███       | 146/485 [00:01<00:04, 77.30it/s] 32%|███▏      | 154/485 [00:02<00:04, 75.27it/s] 33%|███▎      | 162/485 [00:02<00:04, 75.93it/s] 35%|███▌      | 170/485 [00:02<00:04, 74.56it/s] 37%|███▋      | 178/485 [00:02<00:04, 74.52it/s] 38%|███▊      | 186/485 [00:02<00:03, 75.59it/s] 40%|████      | 195/485 [00:02<00:03, 77.11it/s] 42%|████▏     | 204/485 [00:02<00:03, 79.27it/s] 44%|████▎     | 212/485 [00:02<00:03, 77.82it/s] 45%|████▌     | 220/485 [00:02<00:03, 77.84it/s] 47%|████▋     | 228/485 [00:02<00:03, 76.64it/s] 49%|████▊     | 236/485 [00:03<00:03, 76.19it/s] 50%|█████     | 244/485 [00:03<00:03, 75.10it/s] 52%|█████▏    | 252/485 [00:03<00:03, 76.14it/s] 54%|█████▍    | 262/485 [00:03<00:02, 80.24it/s] 56%|█████▌    | 271/485 [00:03<00:02, 80.74it/s] 58%|█████▊    | 280/485 [00:03<00:02, 82.21it/s] 60%|█████▉    | 289/485 [00:03<00:02, 83.34it/s] 61%|██████▏   | 298/485 [00:03<00:02, 81.24it/s] 63%|██████▎   | 307/485 [00:03<00:02, 79.72it/s] 65%|██████▍   | 315/485 [00:04<00:02, 78.67it/s] 67%|██████▋   | 323/485 [00:04<00:02, 78.96it/s] 68%|██████▊   | 331/485 [00:04<00:01, 78.73it/s] 70%|██████▉   | 339/485 [00:04<00:01, 77.10it/s] 72%|███████▏  | 348/485 [00:04<00:01, 78.00it/s] 73%|███████▎  | 356/485 [00:04<00:01, 77.64it/s] 75%|███████▌  | 364/485 [00:04<00:01, 77.60it/s] 77%|███████▋  | 372/485 [00:04<00:01, 77.21it/s] 79%|███████▊  | 381/485 [00:04<00:01, 78.15it/s] 80%|████████  | 389/485 [00:05<00:01, 78.46it/s] 82%|████████▏ | 398/485 [00:05<00:01, 78.73it/s] 84%|████████▎ | 406/485 [00:05<00:01, 78.39it/s] 85%|████████▌ | 414/485 [00:05<00:00, 78.71it/s] 87%|████████▋ | 422/485 [00:05<00:00, 77.67it/s] 89%|████████▉ | 431/485 [00:05<00:00, 78.73it/s] 91%|█████████ | 439/485 [00:05<00:00, 78.09it/s] 92%|█████████▏| 447/485 [00:05<00:00, 78.54it/s] 94%|█████████▍| 455/485 [00:05<00:00, 78.18it/s] 95%|█████████▌| 463/485 [00:05<00:00, 76.55it/s] 97%|█████████▋| 472/485 [00:06<00:00, 77.94it/s] 99%|█████████▉| 480/485 [00:06<00:00, 78.03it/s]100%|██████████| 485/485 [00:06<00:00, 77.76it/s]
+6b30
+6ceh
+6d1l
+6d1m
+Performance on test set: r2: 0.1890827815131444, mae: 1.1802481412887573, mse: 2.1870152950286865, pearsonr: (0.5310321277712327, 2.380491658814609e-36), spearmanr: SpearmanrResult(correlation=0.5068800411316599, pvalue=9.24813574562827e-33)
+Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+) Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+)
+485 complexes in dataset
+232648 total parameters.
+  0%|          | 0/485 [00:00<?, ?it/s]  2%|▏         | 9/485 [00:00<00:05, 87.70it/s]  4%|▎         | 18/485 [00:00<00:05, 85.80it/s]  6%|▌         | 27/485 [00:00<00:05, 85.50it/s]  8%|▊         | 37/485 [00:00<00:05, 87.45it/s]  9%|▉         | 46/485 [00:00<00:05, 86.15it/s] 11%|█▏        | 55/485 [00:00<00:04, 87.08it/s] 13%|█▎        | 65/485 [00:00<00:04, 90.92it/s] 15%|█▌        | 75/485 [00:00<00:04, 90.31it/s] 18%|█▊        | 85/485 [00:00<00:04, 89.67it/s] 20%|█▉        | 95/485 [00:01<00:04, 90.06it/s] 22%|██▏       | 105/485 [00:01<00:04, 88.68it/s] 24%|██▎       | 114/485 [00:01<00:04, 87.32it/s] 25%|██▌       | 123/485 [00:01<00:04, 87.11it/s] 27%|██▋       | 132/485 [00:01<00:04, 87.46it/s] 29%|██▉       | 142/485 [00:01<00:03, 88.37it/s] 31%|███       | 151/485 [00:01<00:03, 86.71it/s] 33%|███▎      | 160/485 [00:01<00:03, 86.78it/s] 35%|███▍      | 169/485 [00:01<00:03, 85.87it/s] 37%|███▋      | 178/485 [00:02<00:03, 85.15it/s] 39%|███▉      | 188/485 [00:02<00:03, 86.88it/s] 41%|████      | 199/485 [00:02<00:03, 89.48it/s] 43%|████▎     | 208/485 [00:02<00:03, 88.62it/s] 45%|████▍     | 217/485 [00:02<00:03, 88.14it/s] 47%|████▋     | 226/485 [00:02<00:02, 88.39it/s] 48%|████▊     | 235/485 [00:02<00:02, 87.66it/s] 50%|█████     | 244/485 [00:02<00:02, 85.79it/s] 52%|█████▏    | 254/485 [00:02<00:02, 87.38it/s] 55%|█████▍    | 265/485 [00:03<00:02, 92.51it/s] 57%|█████▋    | 275/485 [00:03<00:02, 92.00it/s] 59%|█████▉    | 286/485 [00:03<00:02, 96.65it/s] 61%|██████    | 296/485 [00:03<00:01, 94.83it/s] 63%|██████▎   | 306/485 [00:03<00:01, 92.22it/s] 65%|██████▌   | 316/485 [00:03<00:01, 90.89it/s] 67%|██████▋   | 326/485 [00:03<00:01, 91.75it/s] 69%|██████▉   | 336/485 [00:03<00:01, 90.34it/s] 71%|███████▏  | 346/485 [00:03<00:01, 90.02it/s] 73%|███████▎  | 356/485 [00:03<00:01, 89.49it/s] 75%|███████▌  | 366/485 [00:04<00:01, 89.74it/s] 77%|███████▋  | 375/485 [00:04<00:01, 88.85it/s] 79%|███████▉  | 385/485 [00:04<00:01, 90.04it/s] 81%|████████▏ | 395/485 [00:04<00:00, 91.31it/s] 84%|████████▎ | 405/485 [00:04<00:00, 90.72it/s] 86%|████████▌ | 415/485 [00:04<00:00, 90.56it/s] 88%|████████▊ | 425/485 [00:04<00:00, 89.61it/s] 90%|████████▉ | 435/485 [00:04<00:00, 91.17it/s] 92%|█████████▏| 445/485 [00:04<00:00, 90.75it/s] 94%|█████████▍| 455/485 [00:05<00:00, 90.44it/s] 96%|█████████▌| 465/485 [00:05<00:00, 88.84it/s] 98%|█████████▊| 475/485 [00:05<00:00, 90.37it/s]100%|██████████| 485/485 [00:05<00:00, 89.72it/s]100%|██████████| 485/485 [00:05<00:00, 89.31it/s]
+6b30
+6ceh
+6d1l
+6d1m
+Performance on test set: r2: 0.18311498919036207, mae: 1.1954658031463623, mse: 2.2031097412109375, pearsonr: (0.5207572727292029, 8.687860282835595e-35), spearmanr: SpearmanrResult(correlation=0.4688486663341314, pvalue=1.169894280701824e-27)
+Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+) Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+)
+485 complexes in dataset
+232648 total parameters.
+  0%|          | 0/485 [00:00<?, ?it/s]  2%|▏         | 9/485 [00:00<00:05, 89.02it/s]  4%|▎         | 18/485 [00:00<00:05, 87.99it/s]  6%|▌         | 27/485 [00:00<00:05, 86.33it/s]  8%|▊         | 37/485 [00:00<00:05, 87.33it/s]  9%|▉         | 46/485 [00:00<00:05, 86.73it/s] 11%|█▏        | 55/485 [00:00<00:04, 87.57it/s] 13%|█▎        | 65/485 [00:00<00:04, 91.45it/s] 15%|█▌        | 75/485 [00:00<00:04, 91.57it/s] 18%|█▊        | 85/485 [00:00<00:04, 91.33it/s] 20%|█▉        | 95/485 [00:01<00:04, 91.35it/s] 22%|██▏       | 105/485 [00:01<00:04, 89.80it/s] 24%|██▎       | 114/485 [00:01<00:04, 89.12it/s] 25%|██▌       | 123/485 [00:01<00:04, 88.58it/s] 27%|██▋       | 133/485 [00:01<00:03, 89.25it/s] 29%|██▉       | 143/485 [00:01<00:03, 89.64it/s] 31%|███▏      | 152/485 [00:01<00:03, 87.33it/s] 33%|███▎      | 161/485 [00:01<00:03, 87.74it/s] 35%|███▌      | 170/485 [00:01<00:03, 86.71it/s] 37%|███▋      | 179/485 [00:02<00:03, 86.72it/s] 39%|███▉      | 189/485 [00:02<00:03, 88.18it/s] 41%|████      | 199/485 [00:02<00:03, 91.08it/s] 43%|████▎     | 209/485 [00:02<00:03, 90.01it/s] 45%|████▌     | 219/485 [00:02<00:02, 89.91it/s] 47%|████▋     | 228/485 [00:02<00:02, 88.07it/s] 49%|████▉     | 237/485 [00:02<00:02, 87.58it/s] 51%|█████     | 246/485 [00:02<00:02, 86.15it/s] 53%|█████▎    | 256/485 [00:02<00:02, 88.25it/s] 55%|█████▌    | 267/485 [00:02<00:02, 92.88it/s] 57%|█████▋    | 277/485 [00:03<00:02, 91.63it/s] 59%|█████▉    | 288/485 [00:03<00:02, 96.42it/s] 61%|██████▏   | 298/485 [00:03<00:01, 94.28it/s] 64%|██████▎   | 308/485 [00:03<00:01, 92.10it/s] 66%|██████▌   | 318/485 [00:03<00:01, 91.10it/s] 68%|██████▊   | 328/485 [00:03<00:01, 91.48it/s] 70%|██████▉   | 338/485 [00:03<00:01, 89.90it/s] 72%|███████▏  | 348/485 [00:03<00:01, 90.43it/s] 74%|███████▍  | 358/485 [00:03<00:01, 89.77it/s] 76%|███████▌  | 368/485 [00:04<00:01, 89.82it/s] 78%|███████▊  | 377/485 [00:04<00:01, 89.42it/s] 80%|███████▉  | 387/485 [00:04<00:01, 90.55it/s] 82%|████████▏ | 397/485 [00:04<00:00, 91.41it/s] 84%|████████▍ | 407/485 [00:04<00:00, 91.09it/s] 86%|████████▌ | 417/485 [00:04<00:00, 90.38it/s] 88%|████████▊ | 427/485 [00:04<00:00, 90.21it/s] 90%|█████████ | 437/485 [00:04<00:00, 91.16it/s] 92%|█████████▏| 447/485 [00:04<00:00, 90.97it/s] 94%|█████████▍| 457/485 [00:05<00:00, 90.43it/s] 96%|█████████▋| 467/485 [00:05<00:00, 89.56it/s] 98%|█████████▊| 477/485 [00:05<00:00, 90.77it/s]100%|██████████| 485/485 [00:05<00:00, 89.90it/s]
+6b30
+6ceh
+6d1l
+6d1m
+Performance on test set: r2: 0.19629577916924645, mae: 1.1370162963867188, mse: 2.1675620079040527, pearsonr: (0.5128839955809725, 1.2602020026085888e-33), spearmanr: SpearmanrResult(correlation=0.4739158319845654, pvalue=2.6589914290903248e-28)
+Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+) Module(
+  (module): PotentialNetParallel(
+    (covalent_neighbor_threshold): GraphThreshold()
+    (non_covalent_neighbor_threshold): GraphThreshold()
+    (covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=10, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=10, out_features=20, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(20, 20)
+      (gate): GatedGraphConv(20, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=40, out_features=20, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=20, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=20, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (non_covalent_propagation): PotentialNetPropagation(
+      (neighbor_threshold): GraphThreshold()
+      (edge_network_nn): Sequential(
+        (0): Linear(in_features=1, out_features=64, bias=True)
+        (1): Softsign()
+        (2): Linear(in_features=64, out_features=128, bias=True)
+        (3): Softsign()
+      )
+      (edge_network): NNConv(128, 128)
+      (gate): GatedGraphConv(128, num_layers=1)
+      (attention): PotentialNetAttention(
+        (net_i): Sequential(
+          (0): Linear(in_features=256, out_features=128, bias=True)
+          (1): Softsign()
+          (2): Linear(in_features=128, out_features=128, bias=True)
+          (3): Softsign()
+        )
+        (net_j): Sequential(
+          (0): Linear(in_features=128, out_features=128, bias=True)
+          (1): Softsign()
+        )
+      )
+    )
+    (output): PotentialNetFullyConnected(
+      (output): Sequential(
+        (0): Linear(in_features=128, out_features=85, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=85, out_features=64, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=64, out_features=1, bias=True)
+      )
+    )
+  )
+)
+485 complexes in dataset
+232648 total parameters.
+  0%|          | 0/485 [00:00<?, ?it/s]  2%|▏         | 9/485 [00:00<00:05, 88.84it/s]  4%|▎         | 18/485 [00:00<00:05, 87.55it/s]  6%|▌         | 27/485 [00:00<00:05, 86.58it/s]  8%|▊         | 37/485 [00:00<00:05, 87.92it/s]  9%|▉         | 46/485 [00:00<00:05, 87.07it/s] 11%|█▏        | 55/485 [00:00<00:04, 87.87it/s] 13%|█▎        | 65/485 [00:00<00:04, 91.39it/s] 15%|█▌        | 75/485 [00:00<00:04, 91.45it/s] 18%|█▊        | 85/485 [00:00<00:04, 91.20it/s] 20%|█▉        | 95/485 [00:01<00:04, 91.15it/s] 22%|██▏       | 105/485 [00:01<00:04, 90.00it/s] 24%|██▎       | 115/485 [00:01<00:04, 88.98it/s] 26%|██▌       | 124/485 [00:01<00:04, 88.74it/s] 28%|██▊       | 134/485 [00:01<00:03, 89.52it/s] 29%|██▉       | 143/485 [00:01<00:03, 89.51it/s] 31%|███▏      | 152/485 [00:01<00:03, 87.10it/s] 33%|███▎      | 161/485 [00:01<00:03, 87.66it/s] 35%|███▌      | 170/485 [00:01<00:03, 86.29it/s] 37%|███▋      | 179/485 [00:02<00:03, 86.53it/s] 39%|███▉      | 189/485 [00:02<00:03, 88.36it/s] 41%|████      | 199/485 [00:02<00:03, 91.32it/s] 43%|████▎     | 209/485 [00:02<00:03, 90.04it/s] 45%|████▌     | 219/485 [00:02<00:02, 89.81it/s] 47%|████▋     | 228/485 [00:02<00:02, 88.55it/s] 49%|████▉     | 237/485 [00:02<00:02, 87.94it/s] 51%|█████     | 246/485 [00:02<00:02, 86.21it/s] 53%|█████▎    | 256/485 [00:02<00:02, 88.47it/s] 55%|█████▌    | 267/485 [00:02<00:02, 93.13it/s] 57%|█████▋    | 277/485 [00:03<00:02, 91.69it/s] 59%|█████▉    | 288/485 [00:03<00:02, 96.85it/s] 61%|██████▏   | 298/485 [00:03<00:01, 94.41it/s] 64%|██████▎   | 308/485 [00:03<00:01, 92.33it/s] 66%|██████▌   | 318/485 [00:03<00:01, 91.27it/s] 68%|██████▊   | 328/485 [00:03<00:01, 91.33it/s] 70%|██████▉   | 338/485 [00:03<00:01, 89.81it/s] 72%|███████▏  | 348/485 [00:03<00:01, 90.66it/s] 74%|███████▍  | 358/485 [00:03<00:01, 90.05it/s] 76%|███████▌  | 368/485 [00:04<00:01, 89.98it/s] 78%|███████▊  | 378/485 [00:04<00:01, 89.16it/s] 80%|████████  | 388/485 [00:04<00:01, 89.66it/s] 82%|████████▏ | 398/485 [00:04<00:00, 90.42it/s] 84%|████████▍ | 408/485 [00:04<00:00, 90.33it/s] 86%|████████▌ | 418/485 [00:04<00:00, 89.06it/s] 88%|████████▊ | 427/485 [00:04<00:00, 89.09it/s] 90%|█████████ | 437/485 [00:04<00:00, 89.90it/s] 92%|█████████▏| 446/485 [00:04<00:00, 89.02it/s] 94%|█████████▍| 455/485 [00:05<00:00, 88.48it/s] 96%|█████████▌| 464/485 [00:05<00:00, 87.00it/s] 98%|█████████▊| 474/485 [00:05<00:00, 88.72it/s]100%|█████████▉| 483/485 [00:05<00:00, 88.62it/s]100%|██████████| 485/485 [00:05<00:00, 89.57it/s]
+6b30
+6ceh
+6d1l
+6d1m
+Performance on test set: r2: 0.17465703508869512, mae: 1.158128023147583, mse: 2.2259209156036377, pearsonr: (0.5135839876678979, 9.963116908083096e-34), spearmanr: SpearmanrResult(correlation=0.4884108555900029, pvalue=3.339627799450598e-30)

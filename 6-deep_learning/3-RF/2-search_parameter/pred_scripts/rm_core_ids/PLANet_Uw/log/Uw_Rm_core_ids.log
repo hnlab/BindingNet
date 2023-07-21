@@ -1,0 +1,137 @@
+[2022-04-11 20:13:52] Start on k210.hn.org.
+tvt_data_dir: /pubhome/xli02/project/PLIM/deep_learning/FAST/fast_plim/dataset/true_lig_alone/rm_core_ids/PLANet_Uw/complex_6A
+core_data: /pubhome/xli02/Downloads/dataset/PDBbind/PDBbind_v2019/CASF_v16_index_dealt.csv
+core_intersected_Uw: /pubhome/xli02/project/PLIM/deep_learning/FAST/fast_plim/test_on_core_set/2-core_intersected_Uw/core_intersected_Uw.csv
+rf_max_features: 8
+rf_n_estimator: 500
+xgb_max_depth: None
+xgb_n_estimators: None
+xgb_eta: None
+xgb_gamma: None
+xgb_alpha: None
+nn_hidden_size: 5
+sgdr_penalty: l2
+sgdr_alpha: 0.001
+sgdr_epsilon: 0.1
+sgdr_es: False
+output_path: /pubhome/xli02/project/PLIM/deep_learning/RFscore/test_res
+feature_version: VR1
+model: RF
+feature_file: /pubhome/xli02/project/PLIM/deep_learning/RFscore/featured_data/tow_datasets_features_6A.csv
+dataset_name: PLANet_Uw_Rm_core
+rep_num: 1
+                  name      r2      Rp     mae
+0                Train  0.8427  0.9431  0.4196
+1                Valid  0.5609  0.7633  0.7098
+2            Self_test  0.5370  0.7482  0.7341
+3                 Core  0.4757  0.7564  1.2524
+4  Core_intersected_Uw  0.5870  0.8699  1.0507
+tvt_data_dir: /pubhome/xli02/project/PLIM/deep_learning/FAST/fast_plim/dataset/true_lig_alone/rm_core_ids/PLANet_Uw/complex_6A
+core_data: /pubhome/xli02/Downloads/dataset/PDBbind/PDBbind_v2019/CASF_v16_index_dealt.csv
+core_intersected_Uw: /pubhome/xli02/project/PLIM/deep_learning/FAST/fast_plim/test_on_core_set/2-core_intersected_Uw/core_intersected_Uw.csv
+rf_max_features: 8
+rf_n_estimator: 500
+xgb_max_depth: None
+xgb_n_estimators: None
+xgb_eta: None
+xgb_gamma: None
+xgb_alpha: None
+nn_hidden_size: 5
+sgdr_penalty: l2
+sgdr_alpha: 0.001
+sgdr_epsilon: 0.1
+sgdr_es: False
+output_path: /pubhome/xli02/project/PLIM/deep_learning/RFscore/test_res
+feature_version: VR1
+model: RF
+feature_file: /pubhome/xli02/project/PLIM/deep_learning/RFscore/featured_data/tow_datasets_features_6A.csv
+dataset_name: PLANet_Uw_Rm_core
+rep_num: 2
+                  name      r2      Rp     mae
+0                Train  0.8426  0.9430  0.4198
+1                Valid  0.5605  0.7631  0.7108
+2            Self_test  0.5365  0.7476  0.7345
+3                 Core  0.4709  0.7507  1.2590
+4  Core_intersected_Uw  0.5830  0.8665  1.0517
+tvt_data_dir: /pubhome/xli02/project/PLIM/deep_learning/FAST/fast_plim/dataset/true_lig_alone/rm_core_ids/PLANet_Uw/complex_6A
+core_data: /pubhome/xli02/Downloads/dataset/PDBbind/PDBbind_v2019/CASF_v16_index_dealt.csv
+core_intersected_Uw: /pubhome/xli02/project/PLIM/deep_learning/FAST/fast_plim/test_on_core_set/2-core_intersected_Uw/core_intersected_Uw.csv
+rf_max_features: 8
+rf_n_estimator: 500
+xgb_max_depth: None
+xgb_n_estimators: None
+xgb_eta: None
+xgb_gamma: None
+xgb_alpha: None
+nn_hidden_size: 5
+sgdr_penalty: l2
+sgdr_alpha: 0.001
+sgdr_epsilon: 0.1
+sgdr_es: False
+output_path: /pubhome/xli02/project/PLIM/deep_learning/RFscore/test_res
+feature_version: VR1
+model: RF
+feature_file: /pubhome/xli02/project/PLIM/deep_learning/RFscore/featured_data/tow_datasets_features_6A.csv
+dataset_name: PLANet_Uw_Rm_core
+rep_num: 3
+                  name      r2      Rp     mae
+0                Train  0.8425  0.9430  0.4201
+1                Valid  0.5598  0.7624  0.7111
+2            Self_test  0.5358  0.7471  0.7349
+3                 Core  0.4680  0.7497  1.2614
+4  Core_intersected_Uw  0.5796  0.8644  1.0557
+tvt_data_dir: /pubhome/xli02/project/PLIM/deep_learning/FAST/fast_plim/dataset/true_lig_alone/rm_core_ids/PLANet_Uw/complex_6A
+core_data: /pubhome/xli02/Downloads/dataset/PDBbind/PDBbind_v2019/CASF_v16_index_dealt.csv
+core_intersected_Uw: /pubhome/xli02/project/PLIM/deep_learning/FAST/fast_plim/test_on_core_set/2-core_intersected_Uw/core_intersected_Uw.csv
+rf_max_features: 8
+rf_n_estimator: 500
+xgb_max_depth: None
+xgb_n_estimators: None
+xgb_eta: None
+xgb_gamma: None
+xgb_alpha: None
+nn_hidden_size: 5
+sgdr_penalty: l2
+sgdr_alpha: 0.001
+sgdr_epsilon: 0.1
+sgdr_es: False
+output_path: /pubhome/xli02/project/PLIM/deep_learning/RFscore/test_res
+feature_version: VR1
+model: RF
+feature_file: /pubhome/xli02/project/PLIM/deep_learning/RFscore/featured_data/tow_datasets_features_6A.csv
+dataset_name: PLANet_Uw_Rm_core
+rep_num: 4
+                  name      r2      Rp     mae
+0                Train  0.8424  0.9429  0.4202
+1                Valid  0.5605  0.7631  0.7104
+2            Self_test  0.5358  0.7472  0.7352
+3                 Core  0.4728  0.7545  1.2568
+4  Core_intersected_Uw  0.5788  0.8630  1.0584
+tvt_data_dir: /pubhome/xli02/project/PLIM/deep_learning/FAST/fast_plim/dataset/true_lig_alone/rm_core_ids/PLANet_Uw/complex_6A
+core_data: /pubhome/xli02/Downloads/dataset/PDBbind/PDBbind_v2019/CASF_v16_index_dealt.csv
+core_intersected_Uw: /pubhome/xli02/project/PLIM/deep_learning/FAST/fast_plim/test_on_core_set/2-core_intersected_Uw/core_intersected_Uw.csv
+rf_max_features: 8
+rf_n_estimator: 500
+xgb_max_depth: None
+xgb_n_estimators: None
+xgb_eta: None
+xgb_gamma: None
+xgb_alpha: None
+nn_hidden_size: 5
+sgdr_penalty: l2
+sgdr_alpha: 0.001
+sgdr_epsilon: 0.1
+sgdr_es: False
+output_path: /pubhome/xli02/project/PLIM/deep_learning/RFscore/test_res
+feature_version: VR1
+model: RF
+feature_file: /pubhome/xli02/project/PLIM/deep_learning/RFscore/featured_data/tow_datasets_features_6A.csv
+dataset_name: PLANet_Uw_Rm_core
+rep_num: 5
+                  name      r2      Rp     mae
+0                Train  0.8422  0.9428  0.4204
+1                Valid  0.5597  0.7624  0.7113
+2            Self_test  0.5358  0.7472  0.7356
+3                 Core  0.4655  0.7467  1.2638
+4  Core_intersected_Uw  0.5786  0.8641  1.0554
+[2022-04-11 20:21:13] Start on k210.hn.org.

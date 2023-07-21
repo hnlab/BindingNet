@@ -1,0 +1,137 @@
+[2022-04-11 20:16:23] Start on k219.hn.org.
+tvt_data_dir: /pubhome/xli02/project/PLIM/deep_learning/FAST/fast_plim/dataset/true_lig_alone/rm_core_ids/PDBbind_minimized_union_Uw/complex_6A
+core_data: /pubhome/xli02/Downloads/dataset/PDBbind/PDBbind_v2019/CASF_v16_index_dealt.csv
+core_intersected_Uw: /pubhome/xli02/project/PLIM/deep_learning/FAST/fast_plim/test_on_core_set/2-core_intersected_Uw/core_intersected_Uw.csv
+rf_max_features: 8
+rf_n_estimator: 500
+xgb_max_depth: None
+xgb_n_estimators: None
+xgb_eta: None
+xgb_gamma: None
+xgb_alpha: None
+nn_hidden_size: 5
+sgdr_penalty: l2
+sgdr_alpha: 0.001
+sgdr_epsilon: 0.1
+sgdr_es: False
+output_path: /pubhome/xli02/project/PLIM/deep_learning/RFscore/test_res
+feature_version: VR1
+model: RF
+feature_file: /pubhome/xli02/project/PLIM/deep_learning/RFscore/featured_data/tow_datasets_features_6A.csv
+dataset_name: PDBbind_minimized_union_Uw_Rm_core
+rep_num: 1
+                  name      r2      Rp     mae
+0                Train  0.8499  0.9428  0.4474
+1                Valid  0.5691  0.7658  0.7619
+2            Self_test  0.5727  0.7673  0.7603
+3                 Core  0.5747  0.8203  1.1328
+4  Core_intersected_Uw  0.6476  0.8959  0.9853
+tvt_data_dir: /pubhome/xli02/project/PLIM/deep_learning/FAST/fast_plim/dataset/true_lig_alone/rm_core_ids/PDBbind_minimized_union_Uw/complex_6A
+core_data: /pubhome/xli02/Downloads/dataset/PDBbind/PDBbind_v2019/CASF_v16_index_dealt.csv
+core_intersected_Uw: /pubhome/xli02/project/PLIM/deep_learning/FAST/fast_plim/test_on_core_set/2-core_intersected_Uw/core_intersected_Uw.csv
+rf_max_features: 8
+rf_n_estimator: 500
+xgb_max_depth: None
+xgb_n_estimators: None
+xgb_eta: None
+xgb_gamma: None
+xgb_alpha: None
+nn_hidden_size: 5
+sgdr_penalty: l2
+sgdr_alpha: 0.001
+sgdr_epsilon: 0.1
+sgdr_es: False
+output_path: /pubhome/xli02/project/PLIM/deep_learning/RFscore/test_res
+feature_version: VR1
+model: RF
+feature_file: /pubhome/xli02/project/PLIM/deep_learning/RFscore/featured_data/tow_datasets_features_6A.csv
+dataset_name: PDBbind_minimized_union_Uw_Rm_core
+rep_num: 2
+                  name      r2      Rp     mae
+0                Train  0.8498  0.9427  0.4474
+1                Valid  0.5698  0.7664  0.7615
+2            Self_test  0.5726  0.7671  0.7596
+3                 Core  0.5733  0.8188  1.1353
+4  Core_intersected_Uw  0.6452  0.8948  0.9887
+tvt_data_dir: /pubhome/xli02/project/PLIM/deep_learning/FAST/fast_plim/dataset/true_lig_alone/rm_core_ids/PDBbind_minimized_union_Uw/complex_6A
+core_data: /pubhome/xli02/Downloads/dataset/PDBbind/PDBbind_v2019/CASF_v16_index_dealt.csv
+core_intersected_Uw: /pubhome/xli02/project/PLIM/deep_learning/FAST/fast_plim/test_on_core_set/2-core_intersected_Uw/core_intersected_Uw.csv
+rf_max_features: 8
+rf_n_estimator: 500
+xgb_max_depth: None
+xgb_n_estimators: None
+xgb_eta: None
+xgb_gamma: None
+xgb_alpha: None
+nn_hidden_size: 5
+sgdr_penalty: l2
+sgdr_alpha: 0.001
+sgdr_epsilon: 0.1
+sgdr_es: False
+output_path: /pubhome/xli02/project/PLIM/deep_learning/RFscore/test_res
+feature_version: VR1
+model: RF
+feature_file: /pubhome/xli02/project/PLIM/deep_learning/RFscore/featured_data/tow_datasets_features_6A.csv
+dataset_name: PDBbind_minimized_union_Uw_Rm_core
+rep_num: 3
+                  name      r2      Rp     mae
+0                Train  0.8501  0.9429  0.4472
+1                Valid  0.5702  0.7666  0.7613
+2            Self_test  0.5719  0.7666  0.7600
+3                 Core  0.5754  0.8201  1.1324
+4  Core_intersected_Uw  0.6484  0.8960  0.9801
+tvt_data_dir: /pubhome/xli02/project/PLIM/deep_learning/FAST/fast_plim/dataset/true_lig_alone/rm_core_ids/PDBbind_minimized_union_Uw/complex_6A
+core_data: /pubhome/xli02/Downloads/dataset/PDBbind/PDBbind_v2019/CASF_v16_index_dealt.csv
+core_intersected_Uw: /pubhome/xli02/project/PLIM/deep_learning/FAST/fast_plim/test_on_core_set/2-core_intersected_Uw/core_intersected_Uw.csv
+rf_max_features: 8
+rf_n_estimator: 500
+xgb_max_depth: None
+xgb_n_estimators: None
+xgb_eta: None
+xgb_gamma: None
+xgb_alpha: None
+nn_hidden_size: 5
+sgdr_penalty: l2
+sgdr_alpha: 0.001
+sgdr_epsilon: 0.1
+sgdr_es: False
+output_path: /pubhome/xli02/project/PLIM/deep_learning/RFscore/test_res
+feature_version: VR1
+model: RF
+feature_file: /pubhome/xli02/project/PLIM/deep_learning/RFscore/featured_data/tow_datasets_features_6A.csv
+dataset_name: PDBbind_minimized_union_Uw_Rm_core
+rep_num: 4
+                  name      r2      Rp     mae
+0                Train  0.8500  0.9429  0.4474
+1                Valid  0.5701  0.7665  0.7610
+2            Self_test  0.5720  0.7667  0.7598
+3                 Core  0.5753  0.8215  1.1332
+4  Core_intersected_Uw  0.6460  0.8951  0.9860
+tvt_data_dir: /pubhome/xli02/project/PLIM/deep_learning/FAST/fast_plim/dataset/true_lig_alone/rm_core_ids/PDBbind_minimized_union_Uw/complex_6A
+core_data: /pubhome/xli02/Downloads/dataset/PDBbind/PDBbind_v2019/CASF_v16_index_dealt.csv
+core_intersected_Uw: /pubhome/xli02/project/PLIM/deep_learning/FAST/fast_plim/test_on_core_set/2-core_intersected_Uw/core_intersected_Uw.csv
+rf_max_features: 8
+rf_n_estimator: 500
+xgb_max_depth: None
+xgb_n_estimators: None
+xgb_eta: None
+xgb_gamma: None
+xgb_alpha: None
+nn_hidden_size: 5
+sgdr_penalty: l2
+sgdr_alpha: 0.001
+sgdr_epsilon: 0.1
+sgdr_es: False
+output_path: /pubhome/xli02/project/PLIM/deep_learning/RFscore/test_res
+feature_version: VR1
+model: RF
+feature_file: /pubhome/xli02/project/PLIM/deep_learning/RFscore/featured_data/tow_datasets_features_6A.csv
+dataset_name: PDBbind_minimized_union_Uw_Rm_core
+rep_num: 5
+                  name      r2      Rp     mae
+0                Train  0.8498  0.9428  0.4473
+1                Valid  0.5689  0.7656  0.7617
+2            Self_test  0.5732  0.7677  0.7592
+3                 Core  0.5754  0.8212  1.1323
+4  Core_intersected_Uw  0.6457  0.8954  0.9845
+[2022-04-11 20:26:43] Start on k219.hn.org.

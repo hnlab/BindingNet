@@ -1,0 +1,5 @@
+rand seed 1111111111
+logfile rec_h_opt.log
+datadir /home/soft/plop/6.0/data
+load pdb rec_h_opt.pdb het no opt no
+energy calc

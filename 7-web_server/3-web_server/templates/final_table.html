@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <title>PLANet dataset Final Table page</title>
+  <style>
+    .title_table{
+        border: none;
+        width: 50%;
+    }
+  </style>
+</head>
+<body>
+  <h1 align="center">PLANet dataset</h1>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="http://192.168.54.19:1282/">Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/hnlab/Chembl-Scaffold-database">GitHub</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.huanglab.org.cn/">Niu Huang's Lab Homepage</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <br>
+  <div>
+    <p>Qury Information:</p>
+  </div>
+
+  <div class="title_table">
+    {{ title_table_html | safe}}
+  </div>
+
+  <br>
+  <div>
+    <p>Results of: target_chembl_id = {{target_chembl_id}}; pdbid = {{pdbid}}</p>
+  </div>
+
+  <div class="col-md-12" style="float: top">
+    <div class="table-wrap">
+      {{ table_html | safe }}
+    </div>
+    <div class="row1">
+      <div class="dropdown">
+        <button class="dropbtn">{{size}} per page</button>
+        <div class="dropdown-content">
+          <a href="{{current_path}}&size=10">10</a>
+          <a href="{{current_path}}&size=20">20</a>
+          <a href="{{current_path}}&size=50">50</a>
+        </div>
+      </div>
+      <label style="margin-top: 10px"> {{size}} / {{nrow}} results</label>
+      <ul class="pagination">
+        {{ phtml|safe }}
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>

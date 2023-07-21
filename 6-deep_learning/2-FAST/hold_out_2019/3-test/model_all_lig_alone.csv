@@ -1,0 +1,4 @@
+model_dir,model_name
+../../PDBbind/pdbbind_v2019/minimized/train_result/diff_split/PDBbind_minimized_v18_subset/lig_alone,PDBbind_minimized_v18_subset_lig_alone
+../../train_results/true_lig_alone_modify_dists/epoch_500_shuffle_true/diff_split/whole_set/PLANet_v18/lig_alone,PLANet_v18_lig_alone
+../../train_results/true_lig_alone_modify_dists/epoch_500_shuffle_true/diff_split/whole_set/PDBbind_minimized_v18_subset_union_PLANet_v18/lig_alone,PDBbind_minimized_v18_subset_union_PLANet_v18_lig_alone

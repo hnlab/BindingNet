@@ -1,4 +1,7 @@
 # BindingNet Database
+
+![BindingNet](https://github.com/hnlab/BindingNet/blob/main/imgs/abstract_figure.png)
+
 The BindingNet aims at modeling high-quality binding poses for protein-ligand complexes with experimentally determined binding affinity data. BindingNet provides valuable insights into investigating protein-ligand interactions, allowing visual inspection and interpretation of structural analogs' structure-activity relationships (SARs). It can also be used for evaluating machine learning-based scoring functions and has the potential utilization for benchmarking the molecular docking methods and ligand binding free energy calculation approaches.
 
 By comparative complex stricture modeling, it now contains 69,816 modeled high-quality protein-ligand complex structures with experimental binding affinity data from ChEMBL_v28 and template structures from PDBbind_v2019.

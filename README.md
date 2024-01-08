@@ -8,6 +8,9 @@ By comparative complex stricture modeling, it now contains 69,816 modeled high-q
 
 BindingNet is available at http://bindingnet.huanglab.org.cn/ under a [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license.
 
+## Citation
+Li, X.; Shen, C.; Zhu, H.; Yang, Y.; Wang, Q.; Yang, J.; Huang, N. A High-Quality Data Set of Protein–Ligand Binding Interactions Via Comparative Complex Structure Modeling. J. Chem. Inf. Model. 2024. https://doi.org/10.1021/acs.jcim.3c01170 .
+
 # 1. Enviroment
 - build database: `conda env create -f bindingnet_generate.yml`
 ## 2. Workflow
